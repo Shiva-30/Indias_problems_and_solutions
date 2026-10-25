@@ -1,59 +1,49 @@
 [
   {
     "id": "cgwb",
-    "title": "Dynamic Ground Water Resources of India (annual assessment)",
-    "type": "report",
+    "title": "Central Ground Water Board",
+    "type": "website",
     "url": "https://cgwb.gov.in",
-    "source": "Central Ground Water Board",
-    "year": 2023
+    "source": "Government of India"
   },
   {
     "id": "wb_gw",
-    "title": "Groundwater governance and depletion in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=groundwater%20depletion%20India%20governance",
-    "source": "Google Scholar search",
-    "year": 2020
-  },
-  {
-    "id": "gw_vid",
-    "title": "Why India's groundwater is running out",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=India%20groundwater%20crisis%20explained",
-    "source": "YouTube search",
-    "year": 2022
+    "title": "World Bank approves $450 million to improve groundwater management in India",
+    "type": "article",
+    "url": "https://www.worldbank.org/en/news/press-release/2018/06/05/world-bank-board-approves-usd450-million-improve-groundwater-management-select-states-india",
+    "source": "World Bank",
+    "year": 2018
   },
   {
     "id": "pmksy",
-    "title": "Pradhan Mantri Krishi Sinchayee Yojana: Per Drop More Crop",
-    "type": "report",
+    "title": "Per Drop More Crop (micro-irrigation)",
+    "type": "website",
     "url": "https://pmksy.gov.in",
-    "source": "Government of India",
-    "year": 2023
+    "source": "Department of Agriculture and Farmers Welfare"
   },
   {
     "id": "drip_paper",
-    "title": "Impact of drip irrigation on water use and farm income in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=drip%20irrigation%20India%20water%20saving%20farm%20income",
-    "source": "Google Scholar search",
-    "year": 2019
+    "title": "Per Drop More Crop: coverage, subsidies and results",
+    "type": "article",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/per-drop-more-crop/print_manually",
+    "source": "Drishti IAS",
+    "year": 2026
   },
   {
     "id": "atal",
-    "title": "Atal Bhujal Yojana: community-led groundwater management",
+    "title": "Water levels up in 255 gram panchayats in Karnataka due to Atal Bhujal Yojana",
     "type": "article",
-    "url": "https://jalshakti-dowr.gov.in",
-    "source": "Ministry of Jal Shakti",
-    "year": 2022
+    "url": "https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fwater-levels-up-in-255-gram-panchayats-in-karnataka-due-to-atal-bhujal-yojana-implementation-3325356",
+    "source": "Deccan Herald",
+    "year": 2024
   },
   {
     "id": "iqair",
-    "title": "World Air Quality Report",
+    "title": "World Air Quality Report (latest edition)",
     "type": "report",
     "url": "https://www.iqair.com/world-air-quality-report",
     "source": "IQAir",
-    "year": 2024
+    "year": 2025
   },
   {
     "id": "who_aq",
@@ -65,74 +55,56 @@
   },
   {
     "id": "aq_paper",
-    "title": "Burden of disease attributable to air pollution in India's states",
+    "title": "Health and economic impact of air pollution in the states of India (GBD 2019)",
     "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=air%20pollution%20burden%20of%20disease%20India%20states%20Lancet%20Planetary%20Health",
-    "source": "Google Scholar search",
+    "url": "https://doaj.org/article/daf693fd3a3d444b9df48695cb72a342",
+    "source": "The Lancet Planetary Health",
     "year": 2021
   },
   {
-    "id": "aq_vid",
-    "title": "Stubble burning and Delhi's winter smog",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=stubble%20burning%20Delhi%20smog%20explained",
-    "source": "YouTube search",
-    "year": 2023
-  },
-  {
     "id": "ncap",
-    "title": "National Clean Air Programme",
-    "type": "report",
+    "title": "Ministry of Environment, Forest and Climate Change",
+    "type": "website",
     "url": "https://moef.gov.in",
-    "source": "Ministry of Environment, Forest and Climate Change",
-    "year": 2019
+    "source": "Government of India"
   },
   {
     "id": "ujjwala",
     "title": "Pradhan Mantri Ujjwala Yojana",
-    "type": "article",
+    "type": "website",
     "url": "https://pmuy.gov.in",
-    "source": "Ministry of Petroleum and Natural Gas",
-    "year": 2023
+    "source": "Ministry of Petroleum and Natural Gas"
   },
   {
     "id": "lpg_paper",
-    "title": "Sustained use of LPG among Ujjwala households",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Ujjwala%20LPG%20sustained%20use%20household%20air%20pollution",
-    "source": "Google Scholar search",
-    "year": 2020
-  },
-  {
-    "id": "nfhs",
-    "title": "National Family Health Survey (NFHS-5), 2019-21",
-    "type": "dataset",
-    "url": "https://rchiips.org/nfhs/",
-    "source": "Ministry of Health and Family Welfare / IIPS",
-    "year": 2021
+    "title": "LPG connections cross 10.5 crore under Ujjwala, but only 23% of rural households use it exclusively",
+    "type": "article",
+    "url": "https://www.businesstoday.in/india/story/lpg-connections-cross-10-5-crore-under-ujjwala-but-only-23-of-rural-households-use-it-exclusively-ceew-report-554405-2026-09-09",
+    "source": "Business Today, on a CEEW survey",
+    "year": 2026
   },
   {
     "id": "stunt_paper",
-    "title": "Determinants of child stunting in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=determinants%20child%20stunting%20India%20NFHS",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "Burden of child and maternal malnutrition in the states of India, 1990-2017",
+    "type": "article",
+    "url": "https://ennonline.net/fex/63/burdenmalnutritionindia",
+    "source": "Field Exchange (ENN), summarising The Lancet Child & Adolescent Health",
+    "year": 2019
   },
   {
     "id": "pmposhan",
-    "title": "PM POSHAN (school meals) scheme",
+    "title": "A critical review of the Mid-Day Meal Scheme (PM POSHAN) using UDISE+ 2024-25 data",
     "type": "article",
-    "url": "https://pmposhan.education.gov.in",
-    "source": "Ministry of Education",
-    "year": 2022
+    "url": "https://educationforallinindia.com/a-critical-review-of-mid-day-meal-scheme-pm-poshan-using-udise-2024-25-data/",
+    "source": "Education for All in India",
+    "year": 2025
   },
   {
     "id": "meal_paper",
-    "title": "School meals and child learning and nutrition outcomes in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=midday%20meal%20India%20impact%20nutrition%20learning",
-    "source": "Google Scholar search",
+    "title": "India's national school meal program linked to improved growth in children of beneficiaries",
+    "type": "article",
+    "url": "https://www.ifpri.org/news-release/new-study-finds-indias-national-school-meal-program-linked-improved-growth-children",
+    "source": "IFPRI",
     "year": 2021
   },
   {
@@ -144,28 +116,18 @@
     "year": 2023
   },
   {
-    "id": "edu_vid",
-    "title": "India's learning crisis, explained",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=India%20learning%20crisis%20ASER%20explained",
-    "source": "YouTube search",
-    "year": 2023
-  },
-  {
     "id": "tarl",
     "title": "Teaching at the Right Level",
-    "type": "article",
+    "type": "website",
     "url": "https://www.teachingattherightlevel.org",
-    "source": "TaRL Africa / Pratham",
-    "year": 2023
+    "source": "TaRL Africa"
   },
   {
     "id": "tarl_jpal",
-    "title": "Evaluations of Teaching at the Right Level in India",
-    "type": "paper",
-    "url": "https://www.povertyactionlab.org",
-    "source": "J-PAL",
-    "year": 2018
+    "title": "Teaching at the level of the child: evidence from India",
+    "type": "article",
+    "url": "https://poverty-action.org/impact/teaching-level-child",
+    "source": "Innovations for Poverty Action"
   },
   {
     "id": "plfs",
@@ -177,51 +139,26 @@
   },
   {
     "id": "flfp_paper",
-    "title": "Why is female labour force participation low in India?",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=female%20labour%20force%20participation%20India%20low%20reasons",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "Time Use Survey: women take on most of household and caregiving work",
+    "type": "article",
+    "url": "https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25",
+    "source": "Business Today",
+    "year": 2025
   },
   {
     "id": "kudumbashree",
-    "title": "Kudumbashree: Kerala's women's self-help network",
-    "type": "article",
+    "title": "Kudumbashree, Kerala's women's self-help network",
+    "type": "website",
     "url": "https://www.kudumbashree.org",
-    "source": "Kudumbashree Mission",
-    "year": 2023
-  },
-  {
-    "id": "shg_vid",
-    "title": "How self-help groups changed rural women's lives",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=self%20help%20groups%20India%20women%20NRLM%20documentary",
-    "source": "YouTube search",
-    "year": 2022
+    "source": "Government of Kerala"
   },
   {
     "id": "flood_paper",
-    "title": "Urban flooding in Indian cities: causes and planning failures",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=urban%20flooding%20India%20cities%20encroachment%20drainage",
-    "source": "Google Scholar search",
-    "year": 2022
-  },
-  {
-    "id": "flood_vid",
-    "title": "Why Indian cities flood every monsoon",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=why%20Indian%20cities%20flood%20every%20monsoon",
-    "source": "YouTube search",
-    "year": 2023
-  },
-  {
-    "id": "lakes_paper",
-    "title": "Lake restoration and urban flood resilience in Bengaluru",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Bengaluru%20lake%20restoration%20urban%20flood",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "Management of Urban Flooding: national guidelines",
+    "type": "report",
+    "url": "https://www.niti.gov.in/sites/default/files/2021-03/Annexure-NDMA-Guidelines-compressed.pdf",
+    "source": "National Disaster Management Authority",
+    "year": 2010
   },
   {
     "id": "ipcc-ar6",
@@ -233,131 +170,102 @@
   },
   {
     "id": "imd-climate",
-    "title": "Climate monitoring and annual climate statements",
-    "type": "dataset",
+    "title": "India Meteorological Department",
+    "type": "website",
     "url": "https://mausam.imd.gov.in",
-    "source": "India Meteorological Department",
-    "year": 2024
-  },
-  {
-    "id": "climate-india-video",
-    "title": "Climate change in India, explained",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=climate+change+India+explained+heatwaves+monsoon",
-    "source": "YouTube search",
-    "year": 2024
+    "source": "Government of India"
   },
   {
     "id": "cpcb",
-    "title": "Central Pollution Control Board: air, water and waste data",
-    "type": "dataset",
+    "title": "Central Pollution Control Board",
+    "type": "website",
     "url": "https://cpcb.nic.in",
-    "source": "Central Pollution Control Board",
-    "year": 2024
+    "source": "Government of India"
   },
   {
     "id": "river-pollution-paper",
-    "title": "Water pollution in Indian rivers",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=river+water+pollution+India+sewage+industrial+effluent",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "India's sewage treatment plants treat only a third of the sewage generated daily",
+    "type": "article",
+    "url": "https://www.downtoearth.org.in/news/waste/india-s-sewage-treatment-plants-treat-only-a-third-of-the-sewage-generated-daily-cpcb-79157",
+    "source": "Down To Earth",
+    "year": 2021
   },
   {
     "id": "walkable-cities-paper",
-    "title": "Walkability, green space and health in Indian cities",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=walkability+green+space+health+Indian+cities+urban+design",
-    "source": "Google Scholar search",
-    "year": 2022
-  },
-  {
-    "id": "ncrb",
-    "title": "Crime in India (annual report)",
-    "type": "report",
-    "url": "https://ncrb.gov.in",
-    "source": "National Crime Records Bureau",
-    "year": 2023
+    "title": "Indian cities no longer cooling down at night, finds CSE study",
+    "type": "article",
+    "url": "https://www.downtoearth.org.in/amp/story/urbanisation/indian-cities-no-longer-cooling-down-at-night-finds-cse-study",
+    "source": "Down To Earth",
+    "year": 2024
   },
   {
     "id": "vaw-paper",
-    "title": "Violence against women in India: prevalence and drivers",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=violence+against+women+India+NFHS+prevalence+determinants",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "More women own houses, but even more think domestic violence is justified (NFHS-5)",
+    "type": "article",
+    "url": "https://www.factchecker.in/data-dive/data-dive-more-women-own-houses-but-even-more-think-domestic-violence-is-justified-790140",
+    "source": "FactChecker",
+    "year": 2021
   },
   {
     "id": "awbi",
     "title": "Animal Welfare Board of India",
-    "type": "article",
+    "type": "website",
     "url": "https://awbi.gov.in",
-    "source": "Animal Welfare Board of India",
-    "year": 2024
+    "source": "Government of India"
   },
   {
     "id": "animal-welfare-paper",
-    "title": "Animal welfare law and enforcement in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=animal+welfare+law+enforcement+India+Prevention+of+Cruelty+to+Animals+Act",
-    "source": "Google Scholar search",
+    "title": "Despite a history of violence against animals, India does not have a formal record of this cruelty",
+    "type": "article",
+    "url": "https://scroll.in/article/987579/despite-a-history-of-violence-against-animals-india-does-not-have-a-formal-record-of-this-cruelty",
+    "source": "Scroll",
     "year": 2021
   },
   {
     "id": "swachh-bharat",
     "title": "Swachh Bharat Mission (Urban)",
-    "type": "article",
+    "type": "website",
     "url": "https://sbmurban.org",
-    "source": "Ministry of Housing and Urban Affairs",
-    "year": 2024
+    "source": "Ministry of Housing and Urban Affairs"
   },
   {
     "id": "waste-paper",
-    "title": "Municipal solid waste management in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=municipal+solid+waste+management+India+segregation+landfill",
-    "source": "Google Scholar search",
+    "title": "Does India really process 73% of its waste?",
+    "type": "article",
+    "url": "https://factchecker.in/context-check/does-india-really-process-73-of-its-waste-as-union-minister-claims-829905",
+    "source": "FactChecker",
     "year": 2022
-  },
-  {
-    "id": "waste-video",
-    "title": "Where does India's garbage go?",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=India+landfill+garbage+mountain+documentary",
-    "source": "YouTube search",
-    "year": 2023
   },
   {
     "id": "plastic-rules",
-    "title": "Plastic Waste Management Rules and single-use plastic ban",
-    "type": "report",
-    "url": "https://cpcb.nic.in",
-    "source": "Central Pollution Control Board",
-    "year": 2022
-  },
-  {
-    "id": "packaging-paper",
-    "title": "Plastic packaging waste and extended producer responsibility in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=plastic+packaging+extended+producer+responsibility+India",
-    "source": "Google Scholar search",
-    "year": 2023
-  },
-  {
-    "id": "unep-consumption",
-    "title": "Sustainable consumption and production",
+    "title": "India as the world's largest plastic polluter",
     "type": "article",
-    "url": "https://www.unep.org",
-    "source": "UN Environment Programme",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-as-the-world-largest-plastic-polluter/print_manually",
+    "source": "Drishti IAS",
     "year": 2024
   },
   {
+    "id": "packaging-paper",
+    "title": "Fake certificates and missing polluters: CSE on EPR for plastic packaging",
+    "type": "article",
+    "url": "https://www.downtoearth.org.in/amp/story/waste/70k-fake-certificates-major-polluters-missing-misuse-of-epr-legislation-worsening-indias-plastic-problem-shows-cse-report",
+    "source": "Down To Earth",
+    "year": 2024
+  },
+  {
+    "id": "unep-consumption",
+    "title": "UN Environment Programme",
+    "type": "website",
+    "url": "https://www.unep.org",
+    "source": "United Nations"
+  },
+  {
     "id": "consumption-paper",
-    "title": "Rising consumption and environmental footprint of Indian households",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=household+consumption+carbon+footprint+India+rising+middle+class",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "India's e-waste surges by 73% in 5 years",
+    "type": "article",
+    "url": "https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years",
+    "source": "Down To Earth",
+    "year": 2024
   },
   {
     "id": "who-obesity",
@@ -365,7 +273,7 @@
     "type": "article",
     "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
     "source": "World Health Organization",
-    "year": 2024
+    "year": 2026
   },
   {
     "id": "who-activity",
@@ -376,28 +284,19 @@
     "year": 2024
   },
   {
-    "id": "ncd-india-paper",
-    "title": "Diabetes and non-communicable diseases in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=ICMR+INDIAB+diabetes+prevalence+India",
-    "source": "Google Scholar search",
-    "year": 2023
-  },
-  {
     "id": "asci",
     "title": "Advertising Standards Council of India",
-    "type": "article",
+    "type": "website",
     "url": "https://www.ascionline.in",
-    "source": "ASCI",
-    "year": 2024
+    "source": "ASCI"
   },
   {
     "id": "surrogate-paper",
-    "title": "Surrogate advertising of alcohol and tobacco in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=surrogate+advertising+India+alcohol+tobacco",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "ICC Cricket World Cup 2023 had 41 per cent surrogate ads on smokeless tobacco: ICMR",
+    "type": "article",
+    "url": "https://www.thestatesman.com/lifestyle/health/icc-cricket-world-cup-2023-had-41-per-cent-surrogate-ads-on-smokeless-tobacco-icmr-1503305731.html",
+    "source": "The Statesman",
+    "year": 2024
   },
   {
     "id": "adr",
@@ -409,371 +308,303 @@
   },
   {
     "id": "myneta",
-    "title": "MyNeta: affidavits of election candidates",
-    "type": "dataset",
+    "title": "MyNeta: candidates' affidavits",
+    "type": "website",
     "url": "https://myneta.info",
-    "source": "Association for Democratic Reforms",
-    "year": 2024
+    "source": "Association for Democratic Reforms"
   },
   {
     "id": "nep-2020",
-    "title": "National Education Policy 2020",
-    "type": "report",
-    "url": "https://www.education.gov.in",
-    "source": "Ministry of Education",
-    "year": 2020
-  },
-  {
-    "id": "curiosity-video",
-    "title": "Rote learning vs. understanding in Indian schools",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=rote+learning+India+education+system+curiosity",
-    "source": "YouTube search",
-    "year": 2023
+    "title": "Aspects of school education in NEP 2020",
+    "type": "article",
+    "url": "https://www.theindiaforum.in/article/school-education-nep-2020",
+    "source": "The India Forum",
+    "year": 2022
   },
   {
     "id": "norms-paper",
-    "title": "Social norms and individual choices in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=social+norms+India+marriage+gender+career+choice",
-    "source": "Google Scholar search",
+    "title": "Key findings about religion in India",
+    "type": "report",
+    "url": "https://www.pewresearch.org/short-reads/2021/06/29/key-findings-about-religion-in-india/",
+    "source": "Pew Research Center",
     "year": 2021
   },
   {
     "id": "caste-paper",
-    "title": "Caste discrimination in contemporary India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=caste+discrimination+contemporary+India+labour+market",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "Just 5% of Indian marriages are inter-caste (India Human Development Survey)",
+    "type": "article",
+    "url": "https://www.ncaer.org/news/just-5-of-indian-marriages-are-inter-caste-survey",
+    "source": "NCAER",
+    "year": 2014
   },
   {
     "id": "ncsc",
     "title": "National Commission for Scheduled Castes",
-    "type": "article",
+    "type": "website",
     "url": "https://ncsc.nic.in",
-    "source": "Government of India",
-    "year": 2024
+    "source": "Government of India"
   },
   {
     "id": "iea",
-    "title": "Energy demand from data centres and AI",
-    "type": "report",
+    "title": "International Energy Agency",
+    "type": "website",
     "url": "https://www.iea.org",
-    "source": "International Energy Agency",
-    "year": 2025
+    "source": "IEA"
   },
   {
     "id": "ai-ethics-paper",
-    "title": "Ethical risks of artificial intelligence",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=ethical+risks+artificial+intelligence+bias+surveillance",
-    "source": "Google Scholar search",
-    "year": 2023
+    "title": "EU AI Act: first rules take effect on prohibited AI systems",
+    "type": "article",
+    "url": "https://www.jonesday.com/en/insights/2025/02/eu-ai-act-first-rules-take-effect-on-prohibited-ai-systems",
+    "source": "Jones Day",
+    "year": 2025
   },
   {
     "id": "unesco-ai",
-    "title": "Recommendation on the Ethics of Artificial Intelligence",
-    "type": "report",
-    "url": "https://www.unesco.org",
-    "source": "UNESCO",
+    "title": "UN countries adopt first global agreement on AI ethics",
+    "type": "article",
+    "url": "https://www.jurist.org/news/2021/11/un-countries-adopt-first-global-agreement-on-ai-ethics/",
+    "source": "JURIST",
     "year": 2021
   },
   {
     "id": "unfpa-india",
-    "title": "Population and development in India",
-    "type": "article",
+    "title": "UNFPA India",
+    "type": "website",
     "url": "https://india.unfpa.org",
-    "source": "UNFPA India",
-    "year": 2024
-  },
-  {
-    "id": "census",
-    "title": "Census of India",
-    "type": "dataset",
-    "url": "https://censusindia.gov.in",
-    "source": "Office of the Registrar General",
-    "year": 2011
+    "source": "United Nations Population Fund"
   },
   {
     "id": "fssai",
     "title": "Food Safety and Standards Authority of India",
-    "type": "article",
+    "type": "website",
     "url": "https://www.fssai.gov.in",
-    "source": "FSSAI",
-    "year": 2024
+    "source": "FSSAI"
   },
   {
     "id": "upf-paper",
-    "title": "Ultra-processed food consumption and health",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=ultra-processed+food+consumption+health+outcomes+India",
-    "source": "Google Scholar search",
+    "title": "India's ultra-processed food sector growing: WHO calls for nutrient-based tax model",
+    "type": "article",
+    "url": "https://www.downtoearth.org.in/news/health/india-s-ultra-food-processing-sector-growing-who-calls-for-nutrient-based-tax-model-91336",
+    "source": "Down To Earth",
     "year": 2023
   },
   {
     "id": "brsr-paper",
-    "title": "Corporate social responsibility and sustainability reporting in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=CSR+mandate+India+sustainability+reporting+BRSR",
-    "source": "Google Scholar search",
-    "year": 2023
+    "title": "CSR spending imbalance",
+    "type": "article",
+    "url": "https://www.insightsonindia.com/2025/08/09/csr-spending-imbalance/",
+    "source": "InsightsIAS",
+    "year": 2025
   },
   {
     "id": "media-paper",
-    "title": "Media content, screen time and mental health of young people",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=screen+time+media+content+adolescent+mental+health+India",
-    "source": "Google Scholar search",
-    "year": 2023
+    "title": "Economic Survey 2024-25 flags rising mental health crisis among youth",
+    "type": "article",
+    "url": "https://businesstoday.in/union-budget/story/economic-survey-2024-25-flags-rising-mental-health-crisis-among-youth-462793-2025-01-31",
+    "source": "Business Today",
+    "year": 2025
   },
   {
     "id": "pm-surya-ghar",
-    "title": "PM Surya Ghar: Muft Bijli Yojana (rooftop solar)",
+    "title": "PM Surya Ghar: Muft Bijli Yojana",
     "type": "article",
-    "url": "https://pmsuryaghar.gov.in",
-    "source": "Ministry of New and Renewable Energy",
-    "year": 2024
+    "url": "https://www.drishtiias.com/important-government-schemes/ministry-of-new-and-renewable-energy/pm-surya-ghar-muft-bijli-yojana-1/print_manually",
+    "source": "Drishti IAS",
+    "year": 2025
   },
   {
     "id": "rooftop-solar-paper",
-    "title": "Rooftop solar adoption in Indian households",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=rooftop+solar+adoption+India+households",
-    "source": "Google Scholar search",
-    "year": 2023
+    "title": "Rooftop solar installations under PM Surya Ghar cross 10 lakh",
+    "type": "article",
+    "url": "https://www.energetica-india.net/news/rooftop-solar-installations-under-pm-surya-ghar-yojana-crosses-10-lakh-milestone",
+    "source": "Energetica India",
+    "year": 2025
   },
   {
     "id": "heat-action-paper",
-    "title": "Ahmedabad Heat Action Plan and heat-related deaths",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Ahmedabad+heat+action+plan+mortality+evaluation",
-    "source": "Google Scholar search",
-    "year": 2018
-  },
-  {
-    "id": "heat-action-video",
-    "title": "How Indian cities prepare for heatwaves",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=heat+action+plan+India+city+heatwave",
-    "source": "YouTube search",
-    "year": 2024
+    "title": "New evidence shows pioneering heat action plan helps millions avoid killer heat",
+    "type": "article",
+    "url": "https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat",
+    "source": "NRDC",
+    "year": 2019
   },
   {
     "id": "namami-gange",
-    "title": "Namami Gange programme",
+    "title": "Audit of Namami Gange (CAG performance audit summary)",
     "type": "article",
-    "url": "https://nmcg.nic.in",
-    "source": "National Mission for Clean Ganga",
-    "year": 2024
+    "url": "https://prsindia.org/policy/report-summaries/audit-namami-gange",
+    "source": "PRS Legislative Research",
+    "year": 2017
   },
   {
     "id": "natural-farming-paper",
-    "title": "Community-managed natural farming in Andhra Pradesh",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Andhra+Pradesh+community+managed+natural+farming+APCNF+evaluation",
-    "source": "Google Scholar search",
-    "year": 2022
-  },
-  {
-    "id": "streets-for-people",
-    "title": "Streets for People Challenge",
+    "title": "State-wide Indian study shows agroecology improves yields, livelihoods and health",
     "type": "article",
-    "url": "https://smartcities.gov.in",
-    "source": "Smart Cities Mission",
-    "year": 2021
-  },
-  {
-    "id": "complete-streets-paper",
-    "title": "Complete streets and non-motorised transport in Indian cities",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=complete+streets+non-motorised+transport+India+pedestrian+safety",
-    "source": "Google Scholar search",
-    "year": 2022
-  },
-  {
-    "id": "one-stop-centres",
-    "title": "Sakhi One Stop Centres for women affected by violence",
-    "type": "article",
-    "url": "https://wcd.gov.in",
-    "source": "Ministry of Women and Child Development",
-    "year": 2024
-  },
-  {
-    "id": "taaron-ki-toli",
-    "title": "Reshaping adolescents' gender attitudes: evidence from a school-based experiment in India",
-    "type": "paper",
-    "url": "https://www.povertyactionlab.org",
-    "source": "J-PAL (Dhar, Jain and Jayachandran)",
-    "year": 2022
-  },
-  {
-    "id": "abc-paper",
-    "title": "Animal birth control programmes and street dog populations in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=animal+birth+control+programme+street+dogs+India+rabies",
-    "source": "Google Scholar search",
-    "year": 2021
-  },
-  {
-    "id": "indore-video",
-    "title": "How Indore became India's cleanest city",
-    "type": "video",
-    "url": "https://www.youtube.com/results?search_query=Indore+cleanest+city+waste+segregation",
-    "source": "YouTube search",
+    "url": "https://8point9.com/state-wide-indian-study-shows-agroecology-improves-yields-livelihoods-and-health/",
+    "source": "8point9",
     "year": 2023
   },
   {
+    "id": "complete-streets-paper",
+    "title": "40 Indian cities initiated work towards 3,900 km of cycle-friendly roads in 2020",
+    "type": "article",
+    "url": "https://www.wionews.com/india-news/40-indian-cities-initiated-work-towards-3900-km-of-cycle-friendly-roads-in-2020-report-390326/amp",
+    "source": "WION",
+    "year": 2021
+  },
+  {
+    "id": "one-stop-centres",
+    "title": "Background note on schemes for women's safety, including One Stop Centres",
+    "type": "report",
+    "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc202521494501.pdf",
+    "source": "Press Information Bureau",
+    "year": 2025
+  },
+  {
+    "id": "taaron-ki-toli",
+    "title": "India scales up program to combat gender inequality",
+    "type": "article",
+    "url": "https://www.ipr.northwestern.edu/news/2021/india-scales-up-program-to-combat-gender-inequality.html",
+    "source": "Institute for Policy Research, Northwestern University",
+    "year": 2021
+  },
+  {
+    "id": "abc-paper",
+    "title": "Street dogs in the spotlight as rabies eradication deadline comes closer",
+    "type": "article",
+    "url": "http://india.mongabay.com/2025/09/street-dogs-in-the-spotlight-as-rabies-eradication-deadline-comes-closer/",
+    "source": "Mongabay India",
+    "year": 2025
+  },
+  {
     "id": "indore-paper",
-    "title": "Source segregation and decentralised composting: the Indore model",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Indore+solid+waste+management+segregation+model",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "From waste to wonder: what's Indore's secret for Swachh Survekshan triumphs",
+    "type": "article",
+    "url": "https://www.tribuneindia.com/news/india/from-waste-to-wonder-whats-indores-secret-for-swachh-survekshan-triumphs",
+    "source": "The Tribune",
+    "year": 2025
   },
   {
     "id": "swach-paper",
-    "title": "Integrating waste pickers into city waste systems: SWaCH, Pune",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=SWaCH+Pune+waste+pickers+cooperative",
-    "source": "Google Scholar search",
-    "year": 2020
+    "title": "Urban transformations: in Pune, India, waste pickers go from trash to treasure",
+    "type": "article",
+    "url": "https://www.wri.org/insights/urban-transformations-pune-india-waste-pickers-go-trash-treasure",
+    "source": "World Resources Institute",
+    "year": 2019
   },
   {
     "id": "epr-portal",
-    "title": "Centralised EPR portal for plastic packaging",
-    "type": "dataset",
-    "url": "https://cpcb.nic.in",
-    "source": "Central Pollution Control Board",
+    "title": "NGT notice on 6 lakh fake EPR certificates",
+    "type": "article",
+    "url": "https://www.scconline.com/blog/post/2024/07/31/ngt-issues-notice-cpcb-moefcc-recovery-of-6-lakh-fake-epr-certificates-from-plastic-recycling-companies/",
+    "source": "SCC Online",
     "year": 2024
   },
   {
     "id": "right-to-repair",
     "title": "Right to Repair portal",
-    "type": "article",
+    "type": "website",
     "url": "https://righttorepairindia.gov.in",
-    "source": "Department of Consumer Affairs",
-    "year": 2023
+    "source": "Department of Consumer Affairs"
   },
   {
     "id": "circular-economy-paper",
-    "title": "Repair, reuse and the circular economy in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=circular+economy+India+repair+reuse+informal+sector",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "Govt launches Right to Repair portal to promote circular economy, reduce e-waste",
+    "type": "article",
+    "url": "https://theprint.in/india/govt-launches-right-to-repair-portal-to-promote-circular-economy-reduce-e-waste/1993903/",
+    "source": "ThePrint",
+    "year": 2024
   },
   {
     "id": "fit-india",
     "title": "Fit India Movement",
-    "type": "article",
+    "type": "website",
     "url": "https://fitindia.gov.in",
-    "source": "Ministry of Youth Affairs and Sports",
-    "year": 2024
+    "source": "Ministry of Youth Affairs and Sports"
   },
   {
     "id": "eat-right",
     "title": "Eat Right India",
-    "type": "article",
+    "type": "website",
     "url": "https://eatrightindia.gov.in",
-    "source": "FSSAI",
-    "year": 2024
+    "source": "FSSAI"
   },
   {
     "id": "ccpa-ads",
-    "title": "Guidelines for Prevention of Misleading Advertisements and Endorsements, 2022",
-    "type": "report",
-    "url": "https://consumeraffairs.nic.in",
-    "source": "Central Consumer Protection Authority",
+    "title": "Summary: India's guidelines on misleading ads, including surrogate ads",
+    "type": "article",
+    "url": "https://www.medianama.com/2022/06/223-summary-india-guidelines-misleading-ads/",
+    "source": "MediaNama",
     "year": 2022
   },
   {
-    "id": "eci",
-    "title": "Election Commission of India: candidate affidavits and the Know Your Candidate app",
-    "type": "article",
-    "url": "https://www.eci.gov.in",
-    "source": "Election Commission of India",
-    "year": 2024
-  },
-  {
     "id": "atal-tinkering",
-    "title": "Atal Tinkering Labs",
-    "type": "article",
+    "title": "Atal Innovation Mission",
+    "type": "website",
     "url": "https://aim.gov.in",
-    "source": "Atal Innovation Mission, NITI Aayog",
-    "year": 2024
+    "source": "NITI Aayog"
   },
   {
     "id": "happiness-curriculum",
-    "title": "Happiness Curriculum in Delhi government schools",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Delhi+happiness+curriculum+evaluation",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "How do you measure happiness? Exploring the happiness curriculum in Delhi schools",
+    "type": "article",
+    "url": "https://www.brookings.edu/articles/how-do-you-measure-happiness-exploring-the-happiness-curriculum-in-delhi-schools/",
+    "source": "Brookings",
+    "year": 2019
   },
   {
     "id": "poa-act",
-    "title": "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act",
-    "type": "article",
-    "url": "https://socialjustice.gov.in",
-    "source": "Ministry of Social Justice and Empowerment",
-    "year": 2024
+    "title": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989, as amended",
+    "type": "report",
+    "url": "https://www.indiacode.nic.in/bitstream/123456789/1920/1/aA1989-33.pdf",
+    "source": "India Code"
   },
   {
     "id": "rao-classroom",
     "title": "Familiarity does not breed contempt: generosity, discrimination and diversity in Delhi schools",
     "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Rao+familiarity+does+not+breed+contempt+Delhi+schools",
-    "source": "American Economic Review (Gautam Rao)",
+    "url": "https://www.aeaweb.org/doi/10.1257/aer.20180044",
+    "source": "American Economic Review",
     "year": 2019
   },
   {
     "id": "eu-ai-act",
     "title": "EU Artificial Intelligence Act explorer",
-    "type": "article",
+    "type": "website",
     "url": "https://artificialintelligenceact.eu",
-    "source": "Future of Life Institute",
-    "year": 2024
+    "source": "Future of Life Institute"
   },
   {
     "id": "green-ai-paper",
-    "title": "Energy use and carbon footprint of training and running AI models",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=carbon+footprint+energy+consumption+AI+models+data+centres",
-    "source": "Google Scholar search",
-    "year": 2023
-  },
-  {
-    "id": "family-planning-paper",
-    "title": "Girls' education, women's autonomy and fertility in India",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=female+education+fertility+decline+India",
-    "source": "Google Scholar search",
-    "year": 2021
+    "title": "Energy and AI",
+    "type": "report",
+    "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+    "source": "International Energy Agency",
+    "year": 2025
   },
   {
     "id": "fop-labels-paper",
-    "title": "Front-of-pack warning labels: evidence from Chile",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=Chile+front-of-package+warning+labels+food+law+evaluation",
-    "source": "Google Scholar search",
+    "title": "Sugary drink purchases plunge following Chile's new food law",
+    "type": "article",
+    "url": "https://www.globalfoodresearchprogram.org/ssb-purchases-drop-chile/",
+    "source": "Global Food Research Program, UNC",
     "year": 2020
   },
   {
     "id": "sebi-brsr",
-    "title": "Business Responsibility and Sustainability Reporting (BRSR)",
-    "type": "report",
+    "title": "Securities and Exchange Board of India",
+    "type": "website",
     "url": "https://www.sebi.gov.in",
-    "source": "Securities and Exchange Board of India",
-    "year": 2023
+    "source": "SEBI"
   },
   {
     "id": "media-literacy-paper",
-    "title": "Media literacy education and misinformation",
-    "type": "paper",
-    "url": "https://scholar.google.com/scholar?q=media+literacy+intervention+misinformation+India+WhatsApp",
-    "source": "Google Scholar search",
-    "year": 2022
+    "title": "Countering misinformation in the classroom",
+    "type": "article",
+    "url": "https://voxdev.org/topic/education/countering-misinformation-classroom",
+    "source": "VoxDev",
+    "year": 2026
   },
   {
     "id": "nfhs5-pib",

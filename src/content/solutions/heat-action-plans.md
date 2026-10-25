@@ -1,24 +1,27 @@
 ---
 title: "City heat action plans"
-summary: "Cities issue early heat warnings and organise cool shelters, drinking water, changed work hours and hospital preparedness before and during heatwaves."
+summary: "Heat action plans warn people before heatwaves and prepare hospitals and city services. Ahmedabad's plan, South Asia's first in 2013, was linked to more than 1,100 deaths avoided each year."
+summarySources:
+  - { source: "NRDC, June 2019", url: "https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat" }
 categories: ["environment", "health", "urban"]
 regions: ["in"]
 sdgs: [3, 11, 13]
 approach: "Policy + community"
-whoIsDoingIt: "City corporations, state disaster authorities, public health institutes"
+whoIsDoingIt: "Ahmedabad and other cities, National Disaster Management Authority"
 problems: ["climate-change", "unhealthy-infrastructure"]
-resources: ["heat-action-paper", "heat-action-video"]
+resources: ["heat-action-paper"]
 updated: 2026-10-25
 ---
 
 ## How it works
 
-1. Forecasts trigger colour-coded alerts
-2. Public messages on staying safe in the heat
-3. Hospitals, schools and employers adjust plans
-4. Cool roofs and shade added over the longer term
+1. Forecasts from the India Meteorological Department trigger early heat warnings, shown on LED boards and in the media.[^nrdc]
+2. Agencies coordinate to alert residents, and the public is taught how to stay safe.[^nrdc]
+3. Health workers are trained, and areas where people are most at risk are mapped.[^nrdc]
 
 ## Evidence so far
 
-- Ahmedabad's plan, started in 2013, became a model for many other Indian cities
-- Studies of Ahmedabad found fewer heat-related deaths after the plan began
+- A 2018 evaluation in the Journal of Environmental and Public Health linked Ahmedabad's plan to more than 1,100 deaths avoided each year.[^nrdc]
+- The National Disaster Management Authority asked 23 heat-prone states to make similar plans.[^nrdc]
+
+[^nrdc]: [New evidence shows pioneering heat action plan helps millions avoid killer heat](https://www.nrdc.org/press-releases/new-evidence-shows-pioneering-heat-action-plan-helps-millions-avoid-killer-heat), NRDC, June 2019.

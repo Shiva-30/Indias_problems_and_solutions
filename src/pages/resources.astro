@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro';
 import ResourceRow from '../components/ResourceRow.astro';
 import { RESOURCE_TYPES, resourceCategories } from '../lib/data';
 
-const resources = (await getCollection('resources')).sort((a, b) => b.data.year - a.data.year);
+const resources = (await getCollection('resources')).sort((a, b) => (b.data.year ?? 0) - (a.data.year ?? 0));
 const categories = await getCollection('categories');
 const catsOf = await resourceCategories();
 ---

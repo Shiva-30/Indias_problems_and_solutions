@@ -1,6 +1,9 @@
 ---
 title: "Harmful entertainment and media"
-summary: "Much popular entertainment and social media content glorifies violence, misogyny and consumerism, and is designed to keep people scrolling rather than informed."
+summary: "Indians spent 1.1 trillion hours on digital platforms in 2024, more than any other country. The government's Economic Survey links heavy social media use and screen time to worsening mental health among young people."
+summarySources:
+  - { source: "EY-FICCI report, via eMarketer", url: "https://www.emarketer.com/content/india-spent-more-time-on-phones-than-any-other-country-2024" }
+  - { source: "Economic Survey 2024-25, via Business Today", url: "https://businesstoday.in/union-budget/story/economic-survey-2024-25-flags-rising-mental-health-crisis-among-youth-462793-2025-01-31" }
 categories: ["society", "technology"]
 regions: ["in"]
 sdgs: [3, 4]
@@ -20,12 +23,13 @@ updated: 2026-10-25
 
 ## Causes
 
-- Algorithms that reward outrage and addiction
-- Content made for views, not value
-- Little media literacy taught in schools
+- Phone-based childhoods are "rewiring" children and changing how they develop, the Economic Survey says, drawing on Jonathan Haidt's The Anxious Generation.[^es]
+- Many Indians get news through platforms built for sharing: 54% use YouTube and 48% WhatsApp for news.[^news]
 
 ## Impact
 
-- Shorter attention spans and poorer mental health
-- Normalised violence and stereotypes
-- Spread of misinformation
+- Young people who spend more time online, rarely exercise or have weak family ties are more likely to have lower mental well-being, according to the Economic Survey.[^es]
+- A 2022 Lokniti-CSDS study found widespread concern about fake news and inaccurate information online.[^news]
+
+[^es]: [Economic Survey 2024-25 flags rising mental health crisis among youth](https://businesstoday.in/union-budget/story/economic-survey-2024-25-flags-rising-mental-health-crisis-among-youth-462793-2025-01-31), Business Today, January 2025.
+[^news]: [Disinformation concerns in India](https://www.nextias.com/ca/current-affairs/21-05-2025/disinformation-concerns-in-india), NEXT IAS, May 2025, citing the Reuters Institute Digital News Report 2024 and Lokniti-CSDS.

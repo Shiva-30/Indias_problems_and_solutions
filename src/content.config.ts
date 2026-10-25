@@ -22,10 +22,10 @@ const resources = defineCollection({
   loader: file('src/data/resources.json'),
   schema: z.object({
     title: z.string(),
-    type: z.enum(['article', 'paper', 'video', 'report', 'dataset', 'podcast']),
+    type: z.enum(['article', 'paper', 'video', 'report', 'dataset', 'podcast', 'website']),
     url: z.string().url(),
     source: z.string(),
-    year: z.number().int(),
+    year: z.number().int().optional(),
     language: z.string().default('en'),
   }),
 });
@@ -33,6 +33,8 @@ const resources = defineCollection({
 const common = {
   title: z.string(),
   summary: z.string(),
+  // Where the summary's facts come from. Body text cites with Markdown footnotes ([^1]).
+  summarySources: z.array(z.object({ source: z.string(), url: z.string().url() })).default([]),
   categories: z.array(reference('categories')).min(1),
   regions: z.array(reference('regions')).min(1),
   sdgs: z.array(z.number().int().min(1).max(17)).default([]),

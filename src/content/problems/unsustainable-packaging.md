@@ -1,6 +1,9 @@
 ---
 title: "Packaging that harms the environment"
-summary: "Single-use plastic and multi-layer packaging, used for everything from snacks to deliveries, is hard to recycle and pollutes land, rivers and the sea."
+summary: "India releases about 9.3 million tonnes of plastic pollution a year, around a fifth of the world's total. Much of it is packaging, including multi-layered wrappers that cannot be recycled at scale."
+summarySources:
+  - { source: "Nature study, via Drishti IAS", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/india-as-the-world-largest-plastic-polluter/print_manually" }
+  - { source: "CSE, via Down To Earth", url: "https://www.downtoearth.org.in/news/pollution/life-of-plastic-indian-producers-brands-contribute-majorly-to-polymer-pollution-says-cse-here-is-how-86131" }
 categories: ["environment", "consumption"]
 regions: ["in"]
 sdgs: [12, 14]
@@ -22,12 +25,16 @@ updated: 2026-10-25
 
 ## Causes
 
-- Cheap single-use packaging, including small sachets
-- Multi-layer materials that cannot be recycled
-- Weak enforcement of producer responsibility for packaging waste
+- Multi-layered plastic packaging made up 35% of all plastic waste and 40% of branded plastic waste, nearly 3.8 million tonnes.[^cse]
+- Under producer responsibility rules, most collected multi-layered plastic is burnt in cement kilns or waste-to-energy plants rather than recycled.[^cse]
+- Most brand owners do not disclose their plastic footprint, even though the Plastic Waste Management Rules, 2016 ask them to.[^cse]
+- Waste collection is overstated: official figures say 95%, while research puts it near 81%.[^nature]
 
 ## Impact
 
-- Plastic in soil, drains, rivers and animals' stomachs
-- Microplastics in food and water
-- Clogged drains that worsen urban flooding
+- Plastic waste generated rose to over 34 lakh tonnes in 2019-20, more than 10 lakh tonnes up on 2017-18.[^dh]
+- About 5.8 million tonnes of plastic is burnt in the open each year, and 3.5 million tonnes ends up in the environment as debris.[^nature]
+
+[^nature]: [India as the world's largest plastic polluter](https://www.drishtiias.com/daily-updates/daily-news-analysis/india-as-the-world-largest-plastic-polluter/print_manually), Drishti IAS, September 2024, summarising a study in Nature.
+[^cse]: [Life of plastic: Indian producers, brands contribute majorly to polymer pollution, says CSE](https://www.downtoearth.org.in/news/pollution/life-of-plastic-indian-producers-brands-contribute-majorly-to-polymer-pollution-says-cse-here-is-how-86131), Down To Earth, November 2022, on the Unwrapped report.
+[^dh]: [Over 34 lakh tonnes of plastic waste generated in FY 2019-20](https://www.deccanherald.com/national/over-34-lakh-tonnes-of-plastic-waste-generated-in-fy-2019-20-1010477.html), Deccan Herald (PTI), July 2021.

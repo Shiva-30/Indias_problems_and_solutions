@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { problem } = Astro.props as { problem: Problem };
-const { title, summary, categories, sdgs, keyStats, charts, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
+const { title, summary, summarySources, categories, sdgs, keyStats, charts, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
 const { Content } = await render(problem);
 const regions = await getEntries(problem.data.regions);
 // Problems list their solutions, and solutions list their problems. Show both directions.
@@ -42,6 +42,9 @@ const related = linked.length
         <CategoryTags kind="problem" categories={categories} sdgs={sdgs} />
         <h1>{title}</h1>
         <p class="summary">{summary}</p>
+        {summarySources.length > 0 && (
+          <p class="cite">Source{summarySources.length > 1 && 's'}: {summarySources.map((s, i) => <>{i > 0 && ', '}<a href={s.url} target="_blank" rel="noopener">{s.source}</a></>)}</p>
+        )}
         <p class="where">
           Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}
           {regionNote && <> · {regionNote}</>}

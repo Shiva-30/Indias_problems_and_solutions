@@ -1,6 +1,9 @@
 ---
 title: "Few women in paid work"
-summary: "A much smaller share of women than men work for pay in India, held back by care work, safety, social norms and a shortage of suitable jobs."
+summary: "In 2023-24, 41.7% of women aged 15 and over were in the labour force, against 78.8% of men. Women spend far more of each day on unpaid housework and care, which leaves less time for paid work."
+summarySources:
+  - { source: "MoSPI, PLFS 2023-24", url: "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf" }
+  - { source: "Time Use Survey 2024, via Business Today", url: "https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25" }
 categories: ["economy", "gender"]
 regions: ["in"]
 regionNote: "All states, lowest in the north"
@@ -38,12 +41,13 @@ updated: 2026-10-25
 
 ## Causes
 
-- Unpaid care and household work
-- Safety and mobility concerns
-- Few jobs close to home
+- Women who do unpaid housework spend 289 minutes a day on it, against 88 minutes for men.[^tus]
+- Women aged 15 to 59 who give care spend about 140 minutes a day on it, against 74 minutes for men.[^tus]
 
 ## Impact
 
-- Lower household income
-- Less say for women in family decisions
-- Slower economic growth
+- Women produce only about 18% of India's GDP, one of the lowest shares in the world.[^mgi]
+- McKinsey estimated in 2018 that equal opportunities for women could add up to $770 billion to India's GDP by 2025.[^mgi]
+
+[^tus]: [Time Use Survey: women take on most of household and caregiving work](https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25), Business Today, February 2025, reporting MoSPI's Time Use Survey 2024. Minutes are per person taking part in the activity.
+[^mgi]: [India could boost its GDP by $770 billion by treating women better](https://www.weforum.org/stories/2018/07/india-could-boost-its-gdp-by-770-billion-by-just-treating-women-better/), World Economic Forum, July 2018, reporting McKinsey Global Institute.

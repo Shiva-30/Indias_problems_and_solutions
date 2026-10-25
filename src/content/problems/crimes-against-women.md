@@ -1,12 +1,15 @@
 ---
 title: "Crimes against women"
-summary: "Women and girls in India face violence at home and in public, including domestic violence, sexual assault, harassment, dowry-related crime and trafficking, and many cases are never reported."
+summary: "Police registered 4,45,256 crimes against women in 2022, led by cruelty by husbands or their relatives. Surveys show far more violence than is reported: 29.3% of married women in a national survey said they had faced violence from a husband."
+summarySources:
+  - { source: "NCRB Crime in India 2022, via Drishti IAS", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/ncrbs-crime-in-india-2022-report/print_manually" }
+  - { source: "NFHS-5, via FactChecker", url: "https://www.factchecker.in/data-dive/data-dive-more-women-own-houses-but-even-more-think-domestic-violence-is-justified-790140" }
 categories: ["gender", "governance"]
 regions: ["in"]
 sdgs: [5, 16]
 keyStats:
   - { value: "4,45,256", label: "cases of crime against women were registered in 2022, about 4% more than in 2021", source: "NCRB, Crime in India 2022", sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/ncrbs-crime-in-india-2022-report/print_manually" }
-resources: ["ncrb-2022-summary", "ncrb", "vaw-paper"]
+resources: ["ncrb-2022-summary", "vaw-paper"]
 related: ["women-work", "restrictive-social-norms"]
 whatYouCanDo:
   - { step: "Know the helplines", how: "Save 112 (emergency) and 181 (women's helpline) in your phone, and share them." }
@@ -23,13 +26,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Patriarchal norms and acceptance of violence
-- Slow investigation and trials
-- Fear of stigma that stops survivors from reporting
-- Unsafe public spaces and transport
+- Violence is widely accepted. In NFHS-5, 83.8% of women in Telangana and 81.9% of men in Karnataka said a husband can be justified in beating his wife.[^fc]
+- Most women who face violence from a husband never seek help. Kerala had the highest share seeking help, at just 23.8%.[^fc]
+- Justice is slow and uncertain. In 2019 more than 90% of cases of crimes against women were pending in court, and the conviction rate was 23.7%.[^factly]
 
 ## Impact
 
-- Physical and mental harm to survivors
-- Women limiting study, work and travel
-- Loss of trust in police and courts
+- 4,45,256 cases were registered in 2022, 4% more than in 2021. The largest categories were cruelty by a husband or his relatives, kidnapping and abduction, and assault intended to outrage modesty.[^ncrb]
+- Spousal violence fell only slightly, from 31.2% of women in 2015-16 to 29.3% in 2019-21.[^fc]
+
+[^fc]: [More women own houses, but even more think domestic violence is justified](https://www.factchecker.in/data-dive/data-dive-more-women-own-houses-but-even-more-think-domestic-violence-is-justified-790140), FactChecker, November 2021, analysing NFHS-5.
+[^factly]: [Huge pendency, low conviction: the story of crimes against women](https://factly.in/data-huge-pendency-low-conviction-the-story-of-crimes-against-women), Factly, using NCRB Crime in India 2019.
+[^ncrb]: [NCRB's Crime in India 2022 report](https://www.drishtiias.com/daily-updates/daily-news-analysis/ncrbs-crime-in-india-2022-report/print_manually), Drishti IAS.

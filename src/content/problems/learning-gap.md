@@ -1,6 +1,8 @@
 ---
 title: "Children in school but not learning"
-summary: "Almost every child now enrols in school, but many reach Class 5 without being able to read a simple Class 2 text or do basic arithmetic."
+summary: "98.4% of rural children aged 6 to 14 are enrolled in school, but in 2022 only 42.8% of Class 5 children could read a Class 2 text and only 25.6% could do division."
+summarySources:
+  - { source: "ASER 2022", url: "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf" }
 categories: ["education"]
 regions: ["in"]
 regionNote: "All states"
@@ -18,7 +20,7 @@ charts:
     note: "Government and private schools combined, rural India."
     source: "ASER 2022 press release"
     sourceUrl: "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf"
-resources: ["aser", "edu_vid"]
+resources: ["aser"]
 whatYouCanDo:
   - { step: "Read with a child for 15 minutes", how: "Read aloud with a child at home or in your neighbourhood every day." }
   - { step: "Volunteer to tutor", how: "Help children in a local school or community centre with basic reading and maths." }
@@ -33,12 +35,14 @@ updated: 2026-10-25
 
 ## Causes
 
-- Curriculum moves faster than children learn
-- Teaching aimed at the top of the class
-- Learning lost during school closures
+- Curriculum standards that move too fast and cover too much leave many children behind, and those far behind can lose interest and fall further back.[^ipa]
+- Teachers often lack tools to find out each child's level and teach to it.[^ipa]
+- Schools closed for a long time during the COVID-19 pandemic. Reading levels fell between 2018 and 2022.[^aser]
 
 ## Impact
 
-- Children fall further behind each year
-- Higher dropout in secondary school
-- Fewer skills for work
+- Only 20.5% of Class 3 children could read a Class 2 text in 2022, down from 27.3% in 2018.[^aser]
+- The gap persists into older classes: 69.6% of Class 8 children could read a basic text in 2022, down from 73%.[^aser]
+
+[^ipa]: [Teaching at the level of the child](https://poverty-action.org/impact/teaching-level-child), Innovations for Poverty Action, summarising evaluations in India by Banerjee, Duflo and others.
+[^aser]: [ASER 2022 national findings](https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf), ASER Centre, January 2023. Rural India, government and private schools.

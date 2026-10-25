@@ -1,11 +1,13 @@
 ---
 title: "Repair, reuse and buying less"
-summary: "Making products easier to repair, and buying second-hand or borrowing instead of buying new, keeps things in use longer and cuts waste."
+summary: "India's Right to Repair portal gives buyers product manuals, repair videos and spare-part prices for phones, appliances, vehicles and farm equipment, so things stay in use longer and less becomes e-waste."
+summarySources:
+  - { source: "ThePrint", url: "https://theprint.in/india/govt-launches-right-to-repair-portal-to-promote-circular-economy-reduce-e-waste/1993903/" }
 categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
 approach: "Policy + consumer action"
-whoIsDoingIt: "Department of Consumer Affairs, repair shops, second-hand markets"
+whoIsDoingIt: "Right to Repair portal, product makers"
 problems: ["overconsumption"]
 resources: ["right-to-repair", "circular-economy-paper", "unep-consumption"]
 updated: 2026-10-25
@@ -13,11 +15,14 @@ updated: 2026-10-25
 
 ## How it works
 
-1. Manufacturers share repair manuals and spare parts
-2. Consumers choose durable and repairable products
-3. Communities run repair cafes and swap events
+1. The government portal covers automobiles, consumer durables, mobiles and electronics, and farming equipment.[^print]
+2. It shares product manuals, repair videos, spare-part prices and warranty information.[^print]
+3. Consumers can give feedback on products and services.[^print]
 
 ## Evidence so far
 
-- India launched a Right to Repair portal in 2022 covering phones, appliances and vehicles
-- India's tradition of local repair shops is a strength to build on
+- The portal aims to cut e-waste and build a circular economy based on repair and reuse.[^print]
+- The need is growing: India's e-waste rose 73% in five years, to 1.751 million tonnes in 2023-24.[^ewaste]
+
+[^print]: [Govt launches Right to Repair portal to promote circular economy, reduce e-waste](https://theprint.in/india/govt-launches-right-to-repair-portal-to-promote-circular-economy-reduce-e-waste/1993903/), ThePrint.
+[^ewaste]: Kiran Pandey, [India's e-waste surges by 73% in 5 years](https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years), Down To Earth, December 2024.

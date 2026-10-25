@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { solution } = Astro.props as { solution: Solution };
-const { title, summary, categories, sdgs, approach, whoIsDoingIt } = solution.data;
+const { title, summary, summarySources, categories, sdgs, approach, whoIsDoingIt } = solution.data;
 const { Content } = await render(solution);
 const regions = await getEntries(solution.data.regions);
 const resources = await resourcesFor(solution);
@@ -31,6 +31,9 @@ const problems = (await getCollection('problems')).filter(
         <CategoryTags kind="solution" categories={categories} sdgs={sdgs} />
         <h1>{title}</h1>
         <p class="summary">{summary}</p>
+        {summarySources.length > 0 && (
+          <p class="cite">Source{summarySources.length > 1 && 's'}: {summarySources.map((s, i) => <>{i > 0 && ', '}<a href={s.url} target="_blank" rel="noopener">{s.source}</a></>)}</p>
+        )}
         <p class="where">Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}</p>
       </div>
       <div class="hero-art"><CategoryIcon category={categories[0].id} size={72} /></div>
