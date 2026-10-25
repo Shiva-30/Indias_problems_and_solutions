@@ -1,6 +1,9 @@
 ---
 title: "Urban flooding"
-summary: "Heavy monsoon rain regularly floods Indian cities because lakes, wetlands and drains have been built over and storm water has nowhere to go."
+summary: "Heavy rain regularly floods Indian cities. Drains, floodplains and water bodies have been built over, and old storm drains were designed for far lighter rain than cities now get."
+summarySources:
+  - { source: "NDMA guidelines on urban flooding, 2010", url: "https://www.niti.gov.in/sites/default/files/2021-03/Annexure-NDMA-Guidelines-compressed.pdf" }
+  - { source: "CAG on the 2015 Chennai floods, via The News Minute", url: "https://www.thenewsminute.com/amp/story/tamil-nadu/cag-report-slams-chennai-administration-2015-floods-says-govt-was-unprepared-84476" }
 categories: ["urban", "environment"]
 regions: ["in-maharashtra", "in-tamil-nadu", "in-karnataka", "in-delhi"]
 regionNote: "Mumbai, Chennai, Bengaluru, Delhi"
@@ -21,12 +24,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Building on lakes, wetlands and floodplains
-- Blocked and undersized drains
-- More intense rainfall with climate change
+- Encroachment on natural drains and floodplains has cut how much water cities can carry away.[^ndma]
+- Storm-water drains in the past were designed for rainfall of 12 to 20 mm an hour, which heavy storms overwhelm.[^ndma]
+- High-intensity rainfall is becoming more frequent with climate change.[^ndma]
+- In Chennai, the CAG found that the planning authority had allowed building on water bodies, and called the 2015 floods "man-made".[^cag]
 
 ## Impact
 
-- Deaths and damaged homes
-- Transport and work shut down
-- Water-borne disease
+- Around 300 people died in the 2015 Chennai floods.[^cag]
+- Floods cut transport and power, and epidemics and infections can follow.[^ndma]
+
+[^ndma]: National Disaster Management Authority, [Management of Urban Flooding](https://www.niti.gov.in/sites/default/files/2021-03/Annexure-NDMA-Guidelines-compressed.pdf), national guidelines, September 2010.
+[^cag]: [CAG report slams Chennai administration for 2015 floods](https://www.thenewsminute.com/amp/story/tamil-nadu/cag-report-slams-chennai-administration-2015-floods-says-govt-was-unprepared-84476), The News Minute.

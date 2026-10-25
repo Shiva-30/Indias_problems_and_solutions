@@ -1,6 +1,9 @@
 ---
 title: "Population pressure"
-summary: "India is the world's most populous country, and the number of people strains land, water, jobs, housing and public services, especially in fast-growing states and cities."
+summary: "India became the world's most populous country in 2023, with about 142.86 crore people. Families are now smaller on average, but the huge young population needs jobs, homes and services."
+summarySources:
+  - { source: "UNFPA State of World Population 2023, via Drishti IAS", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/state-of-world-population-report-unfpa/print_manually" }
+  - { source: "NFHS-5, via Drishti IAS", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually" }
 categories: ["society", "environment"]
 regions: ["in"]
 sdgs: [3, 11]
@@ -31,11 +34,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Uneven access to family planning and girls' education in some states
-- Migration into already crowded cities
+- The national fertility rate has fallen to 2.0 children per woman, below the replacement level of 2.1, but five states are still above it: Bihar, Meghalaya, Uttar Pradesh, Jharkhand and Manipur.[^nfhs]
+- Rural fertility (2.1) is higher than urban fertility (1.6).[^nfhs]
+- Unmet need for family planning is highest among the poorest women, at 11.4%.[^nfhs]
 
 ## Impact
 
-- Competition for jobs, housing and water
-- Overloaded schools, hospitals and transport
-- Pressure on forests and farmland
+- 68% of Indians are of working age (15 to 64), and nearly half are under 25. UNFPA says unemployment and a shortage of well-paid jobs are a big challenge for young people.[^unfpa]
+- India's urban population is projected to reach 675 million by 2035, adding pressure on city housing, water and transport.[^urban]
+
+[^nfhs]: [NFHS-5 national report](https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually), Drishti IAS, on the National Family Health Survey 2019-21.
+[^unfpa]: [State of World Population Report: UNFPA](https://www.drishtiias.com/daily-updates/daily-news-analysis/state-of-world-population-report-unfpa/print_manually), Drishti IAS, April 2023.
+[^urban]: [India's urban population to stand at 675 mn in 2035](https://www.deccanherald.com/india/india-s-urban-population-to-stand-at-675-mn-in-2035-behind-china-s-1-bn-un-1122643.html), Deccan Herald, June 2022, reporting UN projections.

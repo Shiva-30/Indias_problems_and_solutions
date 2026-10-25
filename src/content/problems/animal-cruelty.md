@@ -1,6 +1,9 @@
 ---
 title: "Animal cruelty"
-summary: "Stray, working, farm and wild animals in India often suffer neglect, abuse, illegal trade and poor living conditions, and penalties under animal protection law are low."
+summary: "Street, working, companion and wild animals in India face violence and neglect. The 1960 cruelty law fines a first offence just ₹10 to ₹50, and the national crime bureau keeps no record of crimes against animals."
+summarySources:
+  - { source: "Drishti IAS on the 2022 draft amendment", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/draft-prevention-of-cruelty-to-animal-amendment-bill-2022/print_manually" }
+  - { source: "Scroll, March 2021", url: "https://scroll.in/article/987579/despite-a-history-of-violence-against-animals-india-does-not-have-a-formal-record-of-this-cruelty" }
 categories: ["animals", "governance"]
 regions: ["in"]
 sdgs: [15]
@@ -23,13 +26,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Low penalties and weak enforcement of animal welfare law
-- Overloading and poor care of working and farm animals
-- Habitat loss pushing wildlife into conflict with people
-- Little awareness of animal welfare
+- Penalties are tiny. A first offence under the Prevention of Cruelty to Animals Act, 1960 carries a fine of ₹10 to ₹50, and a repeat offence within three years up to ₹100 or three months in jail.[^draft]
+- Critics say the Act does not define cruelty well and does not grade penalties by how serious the act is.[^draft]
+- Animals are not a victim category in NCRB crime reports, so there is no official count of these crimes.[^scroll]
 
 ## Impact
 
-- Suffering and death of animals
-- Human-animal conflict and disease spread
-- Loss of biodiversity
+- Animal welfare groups documented about 2,400 crimes against animals from 2010 to 2020, including 741 against working animals, 720 against street animals, 588 against companion animals and 258 against wild animals. They describe this as only a small window on the real scale.[^scroll]
+- Conflict between people and wildlife harms both: elephants killed 2,853 people in India from 2019 to 2023.[^elephants]
+
+[^draft]: [Draft Prevention of Cruelty to Animals (Amendment) Bill, 2022](https://www.drishtiias.com/daily-updates/daily-news-analysis/draft-prevention-of-cruelty-to-animal-amendment-bill-2022/print_manually), Drishti IAS.
+[^scroll]: [Despite a history of violence against animals, India does not have a formal record of this cruelty](https://scroll.in/article/987579/despite-a-history-of-violence-against-animals-india-does-not-have-a-formal-record-of-this-cruelty), Scroll, March 2021, on FIAPO's report documenting crimes against animals from 2010 to 2020.
+[^elephants]: [Over 2,500 people died in five years in human-elephant conflicts](https://thesouthfirst.com/news/over-2500-people-died-in-five-years-in-human-elephant-conflicts-government-data/), The South First (PTI), July 2024, reporting a Rajya Sabha reply.

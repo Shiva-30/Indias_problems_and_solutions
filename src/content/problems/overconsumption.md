@@ -1,6 +1,10 @@
 ---
 title: "Excessive consumption"
-summary: "Rising incomes and constant marketing push people to buy more than they need, using up resources and creating waste faster than the planet can absorb."
+summary: "Indians are buying, borrowing and throwing away more. E-waste rose 73% in five years, textile waste reaches up to 7.8 million tonnes a year, and household debt hit 45.5% of GDP in 2025."
+summarySources:
+  - { source: "Down To Earth, December 2024", url: "https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years" }
+  - { source: "Fashion for Good, 2022", url: "https://fashionforgood.com/our_news/wealth-in-waste-indias-potential-to-lead-circular-textile-sourcing" }
+  - { source: "RBI, via Business Today", url: "https://www.businesstoday.in/latest/economy/story/indias-household-debt-rises-to-45-5-of-gdp-non-housing-retail-loans-account-for-58-4-show-data-544604-2026-07-22" }
 categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
@@ -20,12 +24,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Advertising and social media that link happiness to buying
-- Fast fashion and short-lived products
-- Easy credit and instant delivery
+- More borrowing goes to spending. Loans other than home loans, for personal consumption, vehicles and consumer goods, made up 58.4% of household debt, up from about 50% in 2019-20.[^bt]
+- About half of India's textile waste (51%) is clothes and fabric thrown out by Indian consumers.[^ffg]
 
 ## Impact
 
-- More waste and emissions
-- Household debt and stress
-- Pressure on water, land and forests
+- E-waste grew from 1.01 million tonnes in 2019-20 to 1.751 million tonnes in 2023-24. About 57% of it was not processed.[^dte]
+- India's textile waste is about 8.5% of the world's total.[^ffg]
+- Household debt reached 45.5% of GDP in September 2025, the highest in recent years.[^bt]
+
+[^bt]: [India's household debt rises to 45.5% of GDP](https://www.businesstoday.in/latest/economy/story/indias-household-debt-rises-to-45-5-of-gdp-non-housing-retail-loans-account-for-58-4-show-data-544604-2026-07-22), Business Today, July 2026, reporting the RBI Financial Stability Report.
+[^ffg]: [Wealth in waste: India's potential to lead circular textile sourcing](https://fashionforgood.com/our_news/wealth-in-waste-indias-potential-to-lead-circular-textile-sourcing), Fashion for Good, July 2022.
+[^dte]: Kiran Pandey, [India's e-waste surges by 73% in 5 years](https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years), Down To Earth, December 2024, reporting replies in the Rajya Sabha.

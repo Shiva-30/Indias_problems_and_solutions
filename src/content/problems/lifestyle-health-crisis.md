@@ -1,6 +1,9 @@
 ---
 title: "Health crisis from diet and inactivity"
-summary: "Poor and rich households both face a health crisis: some children still lack enough nutritious food, while many adults eat unhealthy diets and exercise too little, driving diabetes, obesity and heart disease."
+summary: "About 101 million Indians have diabetes and 136 million more have prediabetes. Diets heavy in carbohydrates, salt, sugar and fat, and the fact that about half of adults do too little exercise, are driving the rise."
+summarySources:
+  - { source: "ICMR-INDIAB study, via Scroll", url: "https://scroll.in/article/1053677/interview-unhealthy-food-habits-sedentary-lifestyle-driving-diabetes-surge-in-india" }
+  - { source: "Lancet Global Health, via The South First", url: "https://thesouthfirst.com/health/the-sedentary-india-half-of-adult-population-lack-adequate-physical-activity-says-lancet-study" }
 categories: ["health", "consumption"]
 regions: ["in"]
 sdgs: [2, 3]
@@ -33,13 +36,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Cheap, heavily marketed processed food
-- Desk jobs, long commutes and little safe space to exercise
-- Low awareness of nutrition
-- Poverty limiting access to healthy food
+- Diets are heavy in carbohydrates, salt, sugar and fat, and low in fruit and vegetables, in rural as well as urban India, says the lead author of the ICMR-INDIAB study.[^indiab]
+- Almost 50% of Indian adults were not active enough in 2022, up from about 22% in 2000. Women (57%) were less active than men (42%).[^activity]
+- If trends continue, 60% of adults will be insufficiently active by 2030.[^activity]
 
 ## Impact
 
-- Rising diabetes, obesity and heart disease
-- Undernutrition in children alongside obesity in adults
-- High medical costs for families
+- Diabetes cases rose from about 70 million in 2019 to 101 million in 2021, 11.4% of the population.[^indiab]
+- Families still pay a large share of health costs themselves: 39.4% of all health spending in 2021-22 was out of pocket.[^nha]
+
+[^indiab]: [Interview: unhealthy food habits, sedentary lifestyle driving diabetes surge in India](https://scroll.in/article/1053677/interview-unhealthy-food-habits-sedentary-lifestyle-driving-diabetes-surge-in-india), Scroll / IndiaSpend, August 2023, with RM Anjana, lead author of the ICMR-INDIAB study in The Lancet Diabetes & Endocrinology.
+[^activity]: [The sedentary India: half of adult population lack adequate physical activity](https://thesouthfirst.com/health/the-sedentary-india-half-of-adult-population-lack-adequate-physical-activity-says-lancet-study), The South First, June 2024, reporting a study in The Lancet Global Health.
+[^nha]: [Decline in out-of-pocket health spending](https://www.drishtiias.com/daily-updates/daily-news-analysis/decline-in-out-of-pocket-health-spending/print_manually), Drishti IAS, September 2024, on National Health Accounts estimates for 2021-22.

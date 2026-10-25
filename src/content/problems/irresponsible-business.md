@@ -1,6 +1,8 @@
 ---
 title: "Businesses that ignore people and planet"
-summary: "Many businesses chase short-term profit while ignoring their effect on workers, consumers, communities and the environment."
+summary: "Some businesses cut corners on the safety of workers, the health of consumers and the environment. Three workers died every day on average in India's registered factories from 2017 to 2020."
+summarySources:
+  - { source: "DGFASLI data, via IndiaSpend and Janata Weekly", url: "https://janataweekly.org/three-workers-die-every-day-in-indian-factories-govt-data-show/" }
 categories: ["economy", "environment"]
 regions: ["in"]
 sdgs: [8, 12]
@@ -20,12 +22,15 @@ updated: 2026-10-25
 
 ## Causes
 
-- Pressure for quarterly profits
-- Weak enforcement of labour and environmental rules
-- Little demand from consumers for responsible products
+- Safety checks are thin. In 2020 only 69% of factory inspector posts were filled, leaving one inspector for every 412 working factories, and one for nearly 5,000 in Dadra and Nagar Haveli and Daman and Diu.[^dgfasli]
+- Brands that use hard-to-recycle multi-layered packaging mostly do not disclose their plastic footprint, despite rules that ask them to.[^cse]
+- Company social spending goes where companies already are: six richer states received about 60% of the ₹29,989.92 crore spent on CSR in 2022-23, and the poorest districts got less than 20%.[^csr]
 
 ## Impact
 
-- Pollution and resource depletion
-- Unsafe or underpaid work
-- Products designed to be thrown away
+- Registered factories reported an average of 1,109 deaths and over 4,000 injuries a year from 2017 to 2020.[^dgfasli]
+- Gujarat alone accounted for more than one in five of those injuries and deaths.[^dgfasli]
+
+[^dgfasli]: Shreehari Paliath, [Three workers die every day in Indian factories, govt data show](https://janataweekly.org/three-workers-die-every-day-in-indian-factories-govt-data-show/), IndiaSpend, republished by Janata Weekly, February 2023, using DGFASLI data obtained under RTI.
+[^cse]: [Life of plastic: Indian producers, brands contribute majorly to polymer pollution, says CSE](https://www.downtoearth.org.in/news/pollution/life-of-plastic-indian-producers-brands-contribute-majorly-to-polymer-pollution-says-cse-here-is-how-86131), Down To Earth, November 2022.
+[^csr]: [CSR spending imbalance](https://www.insightsonindia.com/2025/08/09/csr-spending-imbalance/), InsightsIAS, August 2025.

@@ -1,6 +1,9 @@
 ---
 title: "Caste and religious discrimination"
-summary: "Caste and religious identity still shape who gets jobs, housing, marriage partners and justice in India, and can turn into violence."
+summary: "Caste and religion still shape who Indians marry, befriend and live alongside. Only about 5% of marriages cross caste lines, and police registered 57,582 crimes against Scheduled Castes in 2022."
+summarySources:
+  - { source: "NCAER, India Human Development Survey", url: "https://www.ncaer.org/news/just-5-of-indian-marriages-are-inter-caste-survey" }
+  - { source: "NCRB 2022, via Scroll", url: "https://scroll.in/latest/1060054/scroll_in" }
 categories: ["society", "governance"]
 regions: ["in"]
 sdgs: [10, 16]
@@ -20,12 +23,16 @@ updated: 2026-10-25
 
 ## Causes
 
-- Centuries-old caste hierarchy
-- Politics that mobilises voters by caste or religion
-- Segregated neighbourhoods and social circles
+- In a Pew survey of about 30,000 adults, 64% of Indians said it is very important to stop women in their community from marrying into another caste.[^pew]
+- 67% of Hindus and 80% of Muslims said it is very important to stop women of their religion marrying outside it.[^pew]
+- Social circles stay separate: 70% say most or all of their close friends are from their own caste, and 86% of Hindus say their close friends are mainly from their own religion.[^pew]
+- In the India Human Development Survey, 30% of rural and 20% of urban households said they practised untouchability.[^ihds]
 
 ## Impact
 
-- Unequal access to education, jobs and housing
-- Violence and hate crimes
-- Divided communities and lower trust
+- Only 5.4% of married women aged 15 to 49 said their marriage was inter-caste.[^ihds]
+- Crimes against Scheduled Castes rose 13.1%, from 50,900 cases in 2021 to 57,582 in 2022. Crimes against Scheduled Tribes rose 14.3% to 10,064.[^ncrb]
+
+[^pew]: [Key findings about religion in India](https://www.pewresearch.org/short-reads/2021/06/29/key-findings-about-religion-in-india/), Pew Research Center, June 2021. Survey of 29,999 adults, 2019-20.
+[^ihds]: [Just 5% of Indian marriages are inter-caste: survey](https://www.ncaer.org/news/just-5-of-indian-marriages-are-inter-caste-survey), NCAER, reprinting The Hindu, November 2014, on the India Human Development Survey.
+[^ncrb]: [Crimes against women, children, SC/STs and cyber cases rose last year, shows NCRB report](https://scroll.in/latest/1060054/scroll_in), Scroll, reporting NCRB Crime in India 2022.
