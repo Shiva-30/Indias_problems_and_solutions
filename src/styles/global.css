@@ -214,3 +214,9 @@ footer .wrap { padding-block: 20px; }
 .number:hover { transform: translateY(-2px); }
 .number b { font-family: var(--mono); font-size: 1.8rem; color: var(--c); }
 .number small { color: var(--muted); font-size: .8rem; margin-top: 4px; }
+
+/* Header photos with credit line */
+.photo { margin: 0; }
+.photo img { display: block; width: 100%; max-height: 420px; object-fit: cover; border-radius: 16px; background: var(--tint); }
+.photo figcaption { margin-top: 8px; font-size: .85rem; color: var(--muted); }
+.photo figcaption .cite { margin-top: 0; }

@@ -1,0 +1,12 @@
+---
+// A photo with its credit line: author, licence and a link to the original file.
+interface Props { src: string; alt: string; caption?: string; author: string; license: string; licenseUrl: string; sourceUrl: string }
+const { src, alt, caption, author, license, licenseUrl, sourceUrl } = Astro.props;
+---
+<figure class="photo">
+  <img src={src} alt={alt} loading="lazy" decoding="async" />
+  <figcaption>
+    {caption && <span>{caption} </span>}
+    <span class="cite">Photo: {author}, <a href={licenseUrl} target="_blank" rel="noopener license">{license}</a>, via <a href={sourceUrl} target="_blank" rel="noopener">Wikimedia Commons</a></span>
+  </figcaption>
+</figure>

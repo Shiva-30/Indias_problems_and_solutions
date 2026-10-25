@@ -8,6 +8,7 @@ import ResourceSection from '../../components/ResourceSection.astro';
 import TakeAction from '../../components/TakeAction.astro';
 import Chart from '../../components/Chart.astro';
 import CategoryIcon from '../../components/CategoryIcon.astro';
+import Photo from '../../components/Photo.astro';
 import { resourcesFor, type Problem } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { problem } = Astro.props as { problem: Problem };
-const { title, summary, summarySources, categories, sdgs, keyStats, charts, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
+const { title, summary, summarySources, image, categories, sdgs, keyStats, charts, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
 const { Content } = await render(problem);
 const regions = await getEntries(problem.data.regions);
 // Problems list their solutions, and solutions list their problems. Show both directions.
@@ -53,6 +54,8 @@ const related = linked.length
       </div>
       <div class="hero-art"><CategoryIcon category={categories[0].id} size={72} /></div>
     </header>
+
+    {image && <Photo {...image} />}
 
     {(keyStats.length > 0 || charts.length > 0) && (
       <section class={`c-${categories[0].id}`} aria-label="In numbers">
