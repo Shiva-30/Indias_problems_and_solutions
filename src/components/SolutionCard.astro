@@ -1,13 +1,17 @@
 ---
 import { plural, type Solution } from '../lib/data';
 import CategoryTags from './CategoryTags.astro';
+import CategoryIcon from './CategoryIcon.astro';
 
 interface Props { solution: Solution }
 const { solution } = Astro.props;
 const { title, summary, categories, approach, resources } = solution.data;
 ---
-<article class="card">
-  <CategoryTags kind="solution" categories={categories} />
+<article class={`card c-${categories[0].id}`}>
+  <div class="card-top">
+    <CategoryTags kind="solution" categories={categories} />
+    <span class="icon-chip"><CategoryIcon category={categories[0].id} /></span>
+  </div>
   <h3><a href={`/solutions/${solution.id}/`}>{title}</a></h3>
   <p>{summary}</p>
   <div class="foot">

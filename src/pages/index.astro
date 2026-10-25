@@ -3,12 +3,15 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import ProblemCard from '../components/ProblemCard.astro';
 import SolutionCard from '../components/SolutionCard.astro';
+import CategoryIcon from '../components/CategoryIcon.astro';
 import { byTitle, plural } from '../lib/data';
 
 const problems = (await getCollection('problems')).sort(byTitle);
 const solutions = (await getCollection('solutions')).sort(byTitle);
 const resources = await getCollection('resources');
 const categories = await getCollection('categories');
+const steps = problems.reduce((n, p) => n + p.data.whatYouCanDo.length, 0);
+const states = (await getCollection('regions')).filter((r) => r.data.type === 'state').length;
 const count = (id: string, list: { data: { categories: { id: string }[] } }[]) =>
   list.filter((e) => e.data.categories.some((c) => c.id === id)).length;
 const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
@@ -19,17 +22,27 @@ const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
     <section class="hero">
       <div>
         <h1>India's hardest problems, the evidence behind them, and what is working.</h1>
-        <p class="lede">Every problem links to research, reports and videos, and to the solutions being tried across the country.</p>
+        <p class="lede">Every problem links to research, reports and videos, to the solutions being tried across the country, and to simple steps you can take yourself.</p>
         <form class="search" action="/search/" role="search">
           <input name="q" type="search" placeholder="Search problems, solutions, sources" aria-label="Search" />
           <button class="button" type="submit">Search</button>
         </form>
       </div>
-      <div class="ledger" aria-label="Site contents">
-        <div><b>{problems.length}</b><span>Problems</span></div>
-        <div><b>{solutions.length}</b><span>Solutions</span></div>
-        <div><b>{resources.length}</b><span>Resources</span></div>
+      <div class="mosaic" aria-label="Categories">
+        {categories.map((c) => (
+          <a class={`c-${c.id}`} href={`/categories/${c.id}/`} title={c.data.name}>
+            <CategoryIcon category={c.id} size={34} /><span>{c.data.name.split(' ')[0]}</span>
+          </a>
+        ))}
+        <a class="c-none all-tile" href="/problems/"><b>{problems.length}</b><span>Problems</span></a>
+        <a class="c-none all-tile" href="/solutions/"><b>{solutions.length}</b><span>Solutions</span></a>
       </div>
+    </section>
+
+    <section class="ledger-row" aria-label="Site contents">
+      <div><b>{resources.length}</b><span>Sources</span></div>
+      <div><b>{steps}</b><span>Steps you can take</span></div>
+      <div><b>{states}</b><span>States covered</span></div>
     </section>
 
     <section>
@@ -37,6 +50,7 @@ const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
       <div class="cats">
         {categories.map((c) => (
           <a class={`cat c-${c.id}`} href={`/categories/${c.id}/`}>
+            <span class="icon-chip"><CategoryIcon category={c.id} /></span>
             <strong>{c.data.name}</strong>
             <small>{plural(count(c.id, problems), 'problem')} · {plural(count(c.id, solutions), 'solution')}</small>
           </a>

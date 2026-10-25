@@ -76,6 +76,10 @@ keyStats:
 solutions: ["drip-irrigation"]
 resources: ["cgwb"]
 related: ["climate-change"]
+whatYouCanDo:
+  - { step: "Fix leaks at home", how: "One sentence on how to do it." }
+whatGovernmentCanDo:
+  - { step: "Meter farm electricity", how: "One sentence on what it means." }
 updated: 2026-10-25
 ---
 
@@ -87,6 +91,8 @@ updated: 2026-10-25
 
 - ...
 ```
+
+`whatYouCanDo` steps appear as a checklist readers can tick (saved in their own browser). `whatGovernmentCanDo` appears as a numbered list beside it.
 
 ### Add a solution
 

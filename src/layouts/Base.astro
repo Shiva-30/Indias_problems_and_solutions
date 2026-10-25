@@ -20,9 +20,7 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
 
 // Each category gets a CSS class that sets its colour, e.g. .c-water
 const cats = await getCollection('categories');
-const catCss =
-  cats.map((c) => `.c-${c.id}{--c:${c.data.color}}`).join('') +
-  `@media (prefers-color-scheme: dark){${cats.map((c) => `.c-${c.id}{--c:${c.data.colorDark}}`).join('')}}`;
+const catCss = cats.map((c) => `.c-${c.id}{--c:${c.data.color}}`).join('');
 ---
 <!doctype html>
 <html lang="en">

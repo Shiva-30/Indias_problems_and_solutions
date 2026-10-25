@@ -6,6 +6,15 @@ regions: ["in"]
 sdgs: [12, 14]
 resources: ["plastic-rules", "packaging-paper"]
 related: ["waste-management", "overconsumption"]
+whatYouCanDo:
+  - { step: "Carry your own bag and bottle", how: "Keep a cloth bag and refillable bottle with you every day." }
+  - { step: "Buy loose or in bulk", how: "Choose loose items, bigger packs or refill stores over many small sachets." }
+  - { step: "Say no to extras", how: "Refuse straws, cutlery and extra packaging with food deliveries." }
+  - { step: "Tell brands", how: "Ask companies on social media to switch to recyclable or reusable packaging." }
+whatGovernmentCanDo:
+  - { step: "Enforce producer responsibility", how: "Audit EPR certificates and penalise fake recycling claims." }
+  - { step: "Ban hard-to-recycle formats", how: "Phase out multi-layer sachets that cannot be recycled." }
+  - { step: "Support refill systems", how: "Encourage deposit-return and refill schemes." }
 updated: 2026-10-25
 ---
 

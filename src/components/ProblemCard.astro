@@ -1,13 +1,22 @@
 ---
+import { getCollection } from 'astro:content';
 import { plural, type Problem } from '../lib/data';
 import CategoryTags from './CategoryTags.astro';
+import CategoryIcon from './CategoryIcon.astro';
 
 interface Props { problem: Problem }
 const { problem } = Astro.props;
-const { title, summary, categories, solutions, resources } = problem.data;
+const { title, summary, categories, resources } = problem.data;
+// Count solutions linked from either side.
+const solutions = (await getCollection('solutions')).filter(
+  (s) => problem.data.solutions.some((r) => r.id === s.id) || s.data.problems.some((r) => r.id === problem.id),
+);
 ---
-<article class="card">
-  <CategoryTags kind="problem" categories={categories} />
+<article class={`card c-${categories[0].id}`}>
+  <div class="card-top">
+    <CategoryTags kind="problem" categories={categories} />
+    <span class="icon-chip"><CategoryIcon category={categories[0].id} /></span>
+  </div>
   <h3><a href={`/problems/${problem.id}/`}>{title}</a></h3>
   <p>{summary}</p>
   <div class="foot">

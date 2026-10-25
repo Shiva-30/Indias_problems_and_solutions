@@ -49,6 +49,9 @@ const problems = defineCollection({
     keyStats: z.array(z.object({ value: z.string(), label: z.string(), source: z.string() })).default([]),
     solutions: z.array(reference('solutions')).default([]),
     related: z.array(reference('problems')).default([]),
+    // "Steps to follow": simple acts for anyone, and what government can do.
+    whatYouCanDo: z.array(z.object({ step: z.string(), how: z.string() })).default([]),
+    whatGovernmentCanDo: z.array(z.object({ step: z.string(), how: z.string() })).default([]),
   }),
 });
 

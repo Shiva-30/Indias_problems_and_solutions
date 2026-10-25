@@ -5,6 +5,8 @@ import CategoryTags from '../../components/CategoryTags.astro';
 import SolutionCard from '../../components/SolutionCard.astro';
 import ProblemCard from '../../components/ProblemCard.astro';
 import ResourceSection from '../../components/ResourceSection.astro';
+import TakeAction from '../../components/TakeAction.astro';
+import CategoryIcon from '../../components/CategoryIcon.astro';
 import { resourcesFor, type Problem } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -13,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { problem } = Astro.props as { problem: Problem };
-const { title, summary, categories, sdgs, keyStats, regionNote } = problem.data;
+const { title, summary, categories, sdgs, keyStats, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
 const { Content } = await render(problem);
 const regions = await getEntries(problem.data.regions);
 // Problems list their solutions, and solutions list their problems. Show both directions.
@@ -34,15 +36,19 @@ const related = linked.length
 <Base title={title} description={summary}>
   <div class="stack">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/problems/">Problems</a><span>/</span><span>{title}</span></nav>
-    <div class="detail-head">
-      <CategoryTags kind="problem" categories={categories} sdgs={sdgs} />
-      <h1>{title}</h1>
-      <p class="summary">{summary}</p>
-      <p class="where">
-        Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}
-        {regionNote && <> · {regionNote}</>}
-      </p>
-    </div>
+    <header class={`page-hero c-${categories[0].id}`}>
+      <div class="detail-head">
+        <CategoryTags kind="problem" categories={categories} sdgs={sdgs} />
+        <h1>{title}</h1>
+        <p class="summary">{summary}</p>
+        <p class="where">
+          Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}
+          {regionNote && <> · {regionNote}</>}
+        </p>
+        {whatYouCanDo.length > 0 && <a class="jump" href="#take-action">What can I do?</a>}
+      </div>
+      <div class="hero-art"><CategoryIcon category={categories[0].id} size={72} /></div>
+    </header>
 
     {keyStats.length > 0 && (
       <section class="stats" aria-label="Key numbers">
@@ -51,6 +57,8 @@ const related = linked.length
     )}
 
     <section class="prose"><Content /></section>
+
+    <TakeAction id={problem.id} you={whatYouCanDo} government={whatGovernmentCanDo} />
 
     <section>
       <div class="section-head"><h2>Solutions for this problem</h2><p>{solutions.length}</p></div>

@@ -6,6 +6,15 @@ regions: ["in"]
 sdgs: [11]
 resources: ["walkable-cities-paper"]
 related: ["urban-flooding"]
+whatYouCanDo:
+  - { step: "Walk and cycle more", how: "Use footpaths and cycle lanes, so cities see that people want them." }
+  - { step: "Speak up in planning", how: "Give feedback when your city consults on road or park projects." }
+  - { step: "Green your building", how: "Plant trees and keep courtyards, terraces and balconies green." }
+  - { step: "Design for everyone", how: "If you build or renovate, add ramps, shade and water bowls for animals." }
+whatGovernmentCanDo:
+  - { step: "Put people before cars", how: "Build continuous footpaths, cycle lanes and safe crossings." }
+  - { step: "Protect green and open space", how: "Set minimum tree cover and park area in every ward." }
+  - { step: "Plan for heat and wildlife", how: "Use cool roofs, shade and green corridors in new developments." }
 updated: 2026-10-25
 ---
 
