@@ -20,6 +20,14 @@ whatGovernmentCanDo:
   - { step: "Upgrade storm-water drains", how: "Design for heavier rainfall and clean drains before every monsoon." }
   - { step: "Build sponge cities", how: "Use parks, wetlands and permeable surfaces to absorb rain." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chennai_flood_water_logging_near_ofice_nandanam5.jpg/1280px-Chennai_flood_water_logging_near_ofice_nandanam5.jpg"
+  alt: "People wading through a flooded city street lined with shops"
+  caption: "A waterlogged street in Nandanam during the Chennai floods."
+  author: "Vijayingarsal"
+  license: "CC0"
+  licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Chennai_flood_water_logging_near_ofice_nandanam5.jpg"
 ---
 
 ## Causes

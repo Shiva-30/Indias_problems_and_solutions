@@ -5,6 +5,7 @@ import CategoryTags from '../../components/CategoryTags.astro';
 import ProblemCard from '../../components/ProblemCard.astro';
 import ResourceSection from '../../components/ResourceSection.astro';
 import CategoryIcon from '../../components/CategoryIcon.astro';
+import Photo from '../../components/Photo.astro';
 import { resourcesFor, type Solution } from '../../lib/data';
 
 export async function getStaticPaths() {
@@ -13,7 +14,7 @@ export async function getStaticPaths() {
 }
 
 const { solution } = Astro.props as { solution: Solution };
-const { title, summary, summarySources, categories, sdgs, approach, whoIsDoingIt } = solution.data;
+const { title, summary, summarySources, image, categories, sdgs, approach, whoIsDoingIt } = solution.data;
 const { Content } = await render(solution);
 const regions = await getEntries(solution.data.regions);
 const resources = await resourcesFor(solution);
@@ -38,6 +39,8 @@ const problems = (await getCollection('problems')).filter(
       </div>
       <div class="hero-art"><CategoryIcon category={categories[0].id} size={72} /></div>
     </header>
+
+    {image && <Photo {...image} />}
 
     <section class="stats">
       <div class="stat sol"><span><strong>Approach</strong></span><small>{approach}</small></div>

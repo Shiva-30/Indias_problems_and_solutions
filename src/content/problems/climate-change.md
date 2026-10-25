@@ -23,6 +23,14 @@ whatGovernmentCanDo:
   - { step: "Protect people from heat and floods", how: "Fund heat action plans, early warnings and climate-resilient homes." }
   - { step: "Restore forests and wetlands", how: "Protect natural areas that store carbon and buffer floods." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Kerala_Flood_2018_-_Angamaly-_IMG_20180816_163946.jpg/1280px-Kerala_Flood_2018_-_Angamaly-_IMG_20180816_163946.jpg"
+  alt: "Brown floodwater up to the roofs of houses among trees"
+  caption: "Floods in Angamaly during the 2018 Kerala floods."
+  author: "Ranjithsiji"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Kerala_Flood_2018_-_Angamaly-_IMG_20180816_163946.jpg"
 ---
 
 ## Causes

@@ -34,6 +34,14 @@ whatGovernmentCanDo:
   - { step: "Track every child", how: "Measure growth regularly and act early when a child falls behind." }
   - { step: "Focus on mothers", how: "Strengthen nutrition and health care for adolescent girls and pregnant women." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Anganwadi_Day_starts_with_prayer.jpg/1280px-Anganwadi_Day_starts_with_prayer.jpg"
+  alt: "Young children and anganwadi workers with hands folded in prayer in a classroom"
+  caption: "The day starts at Karunaram Anganwadi, Kozhikode, Kerala. Anganwadis provide food and care for young children."
+  author: "Jaisuvyas"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Anganwadi_Day_starts_with_prayer.jpg"
 ---
 
 ## Causes

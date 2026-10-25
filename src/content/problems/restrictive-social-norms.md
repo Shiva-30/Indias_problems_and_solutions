@@ -19,6 +19,14 @@ whatGovernmentCanDo:
   - { step: "Enforce laws against forced marriage and dowry", how: "Make it easy and safe to report." }
   - { step: "Fund counselling services", how: "Offer support for young people facing family pressure." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/RPD_5062.jpg/1280px-RPD_5062.jpg"
+  alt: "A row of women in bright saris with their faces covered by their veils"
+  caption: "Women in Rajasthan keeping their faces covered, a custom in some communities."
+  author: "Rupeshdabhi"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:RPD_5062.jpg"
 ---
 
 ## Causes

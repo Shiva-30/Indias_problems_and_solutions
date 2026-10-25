@@ -12,6 +12,14 @@ whoIsDoingIt: "Mission Parivar Vikas, state health departments"
 problems: ["population-pressure"]
 resources: ["unfpa-india"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/School_Girls_in_India.jpg/1280px-School_Girls_in_India.jpg"
+  alt: "Schoolgirls with backpacks walking to school"
+  caption: "Girls on their way to school."
+  author: "Sandra Cohen-Rose and Colin Rose"
+  license: "CC BY-SA 2.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:School_Girls_in_India.jpg"
 ---
 
 ## How it works

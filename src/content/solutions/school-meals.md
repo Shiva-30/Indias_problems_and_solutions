@@ -13,6 +13,14 @@ whoIsDoingIt: "PM POSHAN (formerly Mid-Day Meal scheme), government schools"
 problems: ["child-malnutrition", "learning-gap"]
 resources: ["pmposhan", "meal_paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mid_day_meal.jpg/1280px-Mid_day_meal.jpg"
+  alt: "Children in green uniforms sitting in rows eating a mid-day meal"
+  caption: "Students eating the mid-day meal at Government Primary School Asir, Sirsa, Haryana."
+  author: "Mulkh Singh"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Mid_day_meal.jpg"
 ---
 
 ## How it works

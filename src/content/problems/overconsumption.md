@@ -20,6 +20,14 @@ whatGovernmentCanDo:
   - { step: "Label durability", how: "Show how long a product will last and how repairable it is." }
   - { step: "Curb misleading ads", how: "Act against advertising that pushes needless buying through false claims." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Shoppers_Stop_store_in_DB_Mall%2C_Bhopal%2C_India_%2891844%29.jpg/1280px-Shoppers_Stop_store_in_DB_Mall%2C_Bhopal%2C_India_%2891844%29.jpg"
+  alt: "Racks of clothes and a sale sign inside a large department store"
+  caption: "A department store in DB Mall, Bhopal."
+  author: "Suyash.dwivedi"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Shoppers_Stop_store_in_DB_Mall,_Bhopal,_India_(91844).jpg"
 ---
 
 ## Causes

@@ -31,6 +31,14 @@ whatGovernmentCanDo:
   - { step: "Train teachers in proven methods", how: "Scale up approaches like Teaching at the Right Level." }
   - { step: "Make foundational learning the first goal", how: "Hold schools to account for children's learning, not only enrolment." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Classroom_of_Jawaharlal_Nehru_Vidyapith.jpg/1280px-Classroom_of_Jawaharlal_Nehru_Vidyapith.jpg"
+  alt: "Students in white uniforms sitting at benches in a crowded classroom"
+  caption: "A classroom at Jawaharlal Nehru Vidyapith, a government-aided school in West Bengal."
+  author: "Anindya202414"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Classroom_of_Jawaharlal_Nehru_Vidyapith.jpg"
 ---
 
 ## Causes

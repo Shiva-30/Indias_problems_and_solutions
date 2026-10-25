@@ -147,3 +147,15 @@ Every claim needs a source you have opened and checked.
 
 - **Statistics and charts:** give `source` and `sourceUrl`.
 - **Resources:** link the specific article, paper or video, not a search page. Use type `website` for an organisation's home page. `year` is optional.
+- **Photos:** use only freely licensed files from Wikimedia Commons (CC0, public domain, CC BY or CC BY-SA). Open the file page, copy the author and licence exactly, and link the file page as `sourceUrl`. The credit line is printed under the photo. `src` is the Commons 1280px thumbnail.
+
+  ```yaml
+  image:
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Name.jpg/1280px-Name.jpg"
+    alt: "What the photo shows, for screen readers"
+    caption: "Where and when it was taken."
+    author: "Photographer name"
+    license: "CC BY-SA 4.0"
+    licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:Name.jpg"
+  ```

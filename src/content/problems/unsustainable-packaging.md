@@ -21,6 +21,14 @@ whatGovernmentCanDo:
   - { step: "Ban hard-to-recycle formats", how: "Phase out multi-layer sachets that cannot be recycled." }
   - { step: "Support refill systems", how: "Encourage deposit-return and refill schemes." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Waste_cocobeach_india.jpg/1280px-Waste_cocobeach_india.jpg"
+  alt: "Plastic waste washed up along a beach"
+  caption: "Plastic waste at Coco Beach, Goa, where the Mandovi river meets the sea."
+  author: "Hajj0 ms"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Waste_cocobeach_india.jpg"
 ---
 
 ## Causes

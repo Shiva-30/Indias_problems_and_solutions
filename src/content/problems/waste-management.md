@@ -31,6 +31,14 @@ whatGovernmentCanDo:
   - { step: "Build processing, not landfills", how: "Fund composting, biogas and recycling plants and clear old dumpsites." }
   - { step: "Include waste pickers", how: "Give waste pickers ID cards, safety gear and contracts." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Workers_on_top_of_Ghazipur_landfill_2013.jpg/1280px-Workers_on_top_of_Ghazipur_landfill_2013.jpg"
+  alt: "People sorting rubbish on top of a hazy landfill"
+  caption: "Workers on top of the Ghazipur landfill, Delhi, 2013."
+  author: "FacetsOfNonStickPans"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Workers_on_top_of_Ghazipur_landfill_2013.jpg"
 ---
 
 ## Causes

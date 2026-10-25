@@ -19,6 +19,14 @@ whatGovernmentCanDo:
   - { step: "Integrate schools and housing", how: "Enforce the RTE seat quota and act against housing discrimination." }
   - { step: "Stop hate speech", how: "Act quickly and equally against hate speech from any side." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Protest_manual_scavening.JPG/1280px-Protest_manual_scavening.JPG"
+  alt: "Men in blue shirts raising their fists at a street demonstration"
+  caption: "A demonstration in Chennai calling for an end to manual scavenging."
+  author: "ADHIYAMAAN"
+  license: "CC BY-SA 3.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Protest_manual_scavening.JPG"
 ---
 
 ## Causes

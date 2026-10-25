@@ -39,6 +39,18 @@ const common = {
   regions: z.array(reference('regions')).min(1),
   sdgs: z.array(z.number().int().min(1).max(17)).default([]),
   resources: z.array(reference('resources')).default([]),
+  // Optional header photo. Every photo must credit its author and licence and link to the original file.
+  image: z
+    .object({
+      src: z.string().url(),
+      alt: z.string(),
+      caption: z.string().optional(),
+      author: z.string(),
+      license: z.string(),
+      licenseUrl: z.string().url(),
+      sourceUrl: z.string().url(),
+    })
+    .optional(),
   updated: z.coerce.date(),
 };
 

@@ -11,6 +11,14 @@ whoIsDoingIt: "Researchers and community libraries in Bihar"
 problems: ["harmful-media-content"]
 resources: ["media-literacy-paper", "media-paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VignanDegreeCollegeComputerLab.jpg/1280px-VignanDegreeCollegeComputerLab.jpg"
+  alt: "Students working at rows of computers in a college lab"
+  caption: "A computer lab at Vignan Degree College."
+  author: "Arjuna Rao Chavala"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:VignanDegreeCollegeComputerLab.jpg"
 ---
 
 ## How it works

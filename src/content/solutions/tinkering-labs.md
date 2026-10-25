@@ -12,6 +12,14 @@ whoIsDoingIt: "Atal Innovation Mission (NITI Aayog), schools"
 problems: ["holistic-education-gap"]
 resources: ["atal-tinkering", "nep-2020"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Robotics_Workshop_in_Atal_Tinkering_Lab.jpg/1280px-Robotics_Workshop_in_Atal_Tinkering_Lab.jpg"
+  alt: "Students sitting on the floor around a robotics kit"
+  caption: "A robotics workshop in an Atal Tinkering Lab."
+  author: "Al124aa"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Robotics_Workshop_in_Atal_Tinkering_Lab.jpg"
 ---
 
 ## How it works
