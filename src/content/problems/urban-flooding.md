@@ -5,8 +5,6 @@ categories: ["urban", "environment"]
 regions: ["in-maharashtra", "in-tamil-nadu", "in-karnataka", "in-delhi"]
 regionNote: "Mumbai, Chennai, Bengaluru, Delhi"
 sdgs: [11, 13]
-keyStats:
-  - { value: "Yearly", label: "major flood events in large Indian cities", source: "Sample, add source" }
 solutions: ["restore-lakes"]
 resources: ["flood_paper", "flood_vid"]
 whatYouCanDo:

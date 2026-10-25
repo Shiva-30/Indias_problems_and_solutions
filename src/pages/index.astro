@@ -10,6 +10,7 @@ const problems = (await getCollection('problems')).sort(byTitle);
 const solutions = (await getCollection('solutions')).sort(byTitle);
 const resources = await getCollection('resources');
 const categories = await getCollection('categories');
+const withStats = problems.filter((p) => p.data.keyStats.length > 0).slice(0, 6);
 const steps = problems.reduce((n, p) => n + p.data.whatYouCanDo.length, 0);
 const states = (await getCollection('regions')).filter((r) => r.data.type === 'state').length;
 const count = (id: string, list: { data: { categories: { id: string }[] } }[]) =>
@@ -43,6 +44,19 @@ const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
       <div><b>{resources.length}</b><span>Sources</span></div>
       <div><b>{steps}</b><span>Steps you can take</span></div>
       <div><b>{states}</b><span>States covered</span></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>India in numbers</h2><p>Tap a figure to see the problem behind it</p></div>
+      <div class="numbers">
+        {withStats.map((p) => (
+          <a class={`number c-${p.data.categories[0].id}`} href={`/problems/${p.id}/`}>
+            <b>{p.data.keyStats[0].value}</b>
+            <span>{p.data.keyStats[0].label}</span>
+            <small>{p.data.title} · {p.data.keyStats[0].source}</small>
+          </a>
+        ))}
+      </div>
     </section>
 
     <section>

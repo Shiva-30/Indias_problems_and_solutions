@@ -6,6 +6,7 @@ import SolutionCard from '../../components/SolutionCard.astro';
 import ProblemCard from '../../components/ProblemCard.astro';
 import ResourceSection from '../../components/ResourceSection.astro';
 import TakeAction from '../../components/TakeAction.astro';
+import Chart from '../../components/Chart.astro';
 import CategoryIcon from '../../components/CategoryIcon.astro';
 import { resourcesFor, type Problem } from '../../lib/data';
 
@@ -15,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { problem } = Astro.props as { problem: Problem };
-const { title, summary, categories, sdgs, keyStats, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
+const { title, summary, categories, sdgs, keyStats, charts, regionNote, whatYouCanDo, whatGovernmentCanDo } = problem.data;
 const { Content } = await render(problem);
 const regions = await getEntries(problem.data.regions);
 // Problems list their solutions, and solutions list their problems. Show both directions.
@@ -50,9 +51,22 @@ const related = linked.length
       <div class="hero-art"><CategoryIcon category={categories[0].id} size={72} /></div>
     </header>
 
-    {keyStats.length > 0 && (
-      <section class="stats" aria-label="Key numbers">
-        {keyStats.map((s) => <div class="stat"><b>{s.value}</b><span>{s.label}</span><small>Source: {s.source}</small></div>)}
+    {(keyStats.length > 0 || charts.length > 0) && (
+      <section class={`c-${categories[0].id}`} aria-label="In numbers">
+        <div class="section-head"><h2>In numbers</h2></div>
+        <div class="stack" style="gap:16px">
+          {keyStats.length > 0 && (
+            <div class="stats">
+              {keyStats.map((s) => (
+                <div class="stat">
+                  <b>{s.value}</b><span>{s.label}</span>
+                  <small>Source: {s.sourceUrl ? <a href={s.sourceUrl} target="_blank" rel="noopener">{s.source}</a> : s.source}</small>
+                </div>
+              ))}
+            </div>
+          )}
+          {charts.length > 0 && <div class="charts">{charts.map((c) => <Chart {...c} />)}</div>}
+        </div>
       </section>
     )}
 

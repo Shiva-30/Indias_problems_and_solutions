@@ -46,7 +46,24 @@ const problems = defineCollection({
   schema: z.object({
     ...common,
     regionNote: z.string().optional(),
-    keyStats: z.array(z.object({ value: z.string(), label: z.string(), source: z.string() })).default([]),
+    keyStats: z
+      .array(z.object({ value: z.string(), label: z.string(), source: z.string(), sourceUrl: z.string().url().optional() }))
+      .default([]),
+    // Small charts. Each row has one value per series (one series = a plain bar or line chart).
+    charts: z
+      .array(
+        z.object({
+          title: z.string(),
+          kind: z.enum(['bar', 'line']),
+          unit: z.string().default(''),
+          series: z.array(z.string()).default([]),
+          data: z.array(z.object({ label: z.string(), values: z.array(z.number()) })).min(2),
+          note: z.string().optional(),
+          source: z.string(),
+          sourceUrl: z.string().url(),
+        }),
+      )
+      .default([]),
     solutions: z.array(reference('solutions')).default([]),
     related: z.array(reference('problems')).default([]),
     // "Steps to follow": simple acts for anyone, and what government can do.

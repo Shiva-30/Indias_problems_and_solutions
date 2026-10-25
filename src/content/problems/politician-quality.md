@@ -4,6 +4,18 @@ summary: "Many candidates and elected representatives have pending criminal case
 categories: ["governance"]
 regions: ["in"]
 sdgs: [16]
+keyStats:
+  - { value: "251 of 543", label: "Lok Sabha MPs elected in 2024 declared criminal cases against themselves (46%)", source: "ADR analysis, 2024", sourceUrl: "https://www.adrindia.org/content/almost-half-of-newly-elected-mps-face-criminal-cases-reveals-adr-analysis" }
+charts:
+  - title: "Share of newly elected Lok Sabha MPs with declared criminal cases"
+    kind: bar
+    unit: "%"
+    data:
+      - { label: "2014", values: [30] }
+      - { label: "2019", values: [43] }
+      - { label: "2024", values: [46] }
+    source: "ADR analysis of election affidavits"
+    sourceUrl: "https://www.adrindia.org/content/almost-half-of-newly-elected-mps-face-criminal-cases-reveals-adr-analysis"
 resources: ["adr", "myneta"]
 related: []
 whatYouCanDo:

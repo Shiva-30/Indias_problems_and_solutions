@@ -137,9 +137,9 @@
   },
   {
     "id": "aser",
-    "title": "Annual Status of Education Report (ASER) 2022",
+    "title": "ASER 2022: national findings (press release)",
     "type": "report",
-    "url": "https://asercentre.org",
+    "url": "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf",
     "source": "ASER Centre / Pratham",
     "year": 2023
   },
@@ -169,11 +169,11 @@
   },
   {
     "id": "plfs",
-    "title": "Periodic Labour Force Survey annual report",
+    "title": "Periodic Labour Force Survey annual report 2023-24 (press note)",
     "type": "dataset",
-    "url": "https://mospi.gov.in",
+    "url": "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf",
     "source": "Ministry of Statistics and Programme Implementation",
-    "year": 2023
+    "year": 2024
   },
   {
     "id": "flfp_paper",
@@ -401,9 +401,9 @@
   },
   {
     "id": "adr",
-    "title": "Analysis of candidates' criminal, financial and education details",
+    "title": "Almost half of newly elected MPs face criminal cases: ADR analysis of 2024 Lok Sabha winners",
     "type": "report",
-    "url": "https://adrindia.org",
+    "url": "https://www.adrindia.org/content/almost-half-of-newly-elected-mps-face-criminal-cases-reveals-adr-analysis",
     "source": "Association for Democratic Reforms",
     "year": 2024
   },
@@ -773,6 +773,86 @@
     "type": "paper",
     "url": "https://scholar.google.com/scholar?q=media+literacy+intervention+misinformation+India+WhatsApp",
     "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "nfhs5-pib",
+    "title": "NFHS-5 shows improvement in child nutrition indicators",
+    "type": "article",
+    "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=1797701",
+    "source": "Ministry of Women and Child Development (PIB)",
+    "year": 2022
+  },
+  {
+    "id": "waqr-2024-summary",
+    "title": "World Air Quality Report 2024: key findings for India",
+    "type": "article",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/world-air-quality-report-2024/print_manually",
+    "source": "Drishti IAS",
+    "year": 2025
+  },
+  {
+    "id": "gw-2024-factly",
+    "title": "Groundwater recharge and extraction in the 2024 assessment",
+    "type": "article",
+    "url": "https://factly.in/data-marginal-decrease-in-annual-ground-water-recharge-in-2024-with-minimal-increase-in-extraction",
+    "source": "Factly",
+    "year": 2025
+  },
+  {
+    "id": "imd-2024-warmest",
+    "title": "2024 warmest year in India since 1901, says IMD",
+    "type": "article",
+    "url": "https://www.wionews.com/india-news/2024-warmest-year-in-india-since-1901-says-imd-8583891",
+    "source": "WION",
+    "year": 2025
+  },
+  {
+    "id": "nfhs5-report-summary",
+    "title": "NFHS-5 national report: key findings",
+    "type": "article",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually",
+    "source": "Drishti IAS",
+    "year": 2022
+  },
+  {
+    "id": "ncrb-2022-summary",
+    "title": "NCRB's Crime in India 2022 report: key findings",
+    "type": "article",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/ncrbs-crime-in-india-2022-report/print_manually",
+    "source": "Drishti IAS",
+    "year": 2023
+  },
+  {
+    "id": "diabetes-interview",
+    "title": "Unhealthy food habits and sedentary lifestyles are driving India's diabetes surge",
+    "type": "article",
+    "url": "https://scroll.in/article/1053677/interview-unhealthy-food-habits-sedentary-lifestyle-driving-diabetes-surge-in-india",
+    "source": "Scroll.in",
+    "year": 2023
+  },
+  {
+    "id": "swm-capacity",
+    "title": "Indian cities raise waste processing capacity to 80% in 10 years",
+    "type": "article",
+    "url": "https://www.iamrenew.com/environment/indian-cities-raise-waste-processing-capacity-to-80-in-10-years-mohua/",
+    "source": "Iamrenew",
+    "year": 2025
+  },
+  {
+    "id": "plastic-2019-20",
+    "title": "Over 34 lakh tonnes of plastic waste generated in FY 2019-20",
+    "type": "article",
+    "url": "https://www.deccanherald.com/national/over-34-lakh-tonnes-of-plastic-waste-generated-in-fy-2019-20-1010477.html",
+    "source": "Deccan Herald",
+    "year": 2021
+  },
+  {
+    "id": "pca-draft-2022",
+    "title": "Draft Prevention of Cruelty to Animals (Amendment) Bill, 2022",
+    "type": "article",
+    "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/draft-prevention-of-cruelty-to-animal-amendment-bill-2022/print_manually",
+    "source": "Drishti IAS",
     "year": 2022
   }
 ]

@@ -179,3 +179,29 @@ footer .wrap { padding-block: 20px; }
   .mosaic { grid-template-columns: repeat(5, 1fr); gap: 6px; }
   .mosaic a span { display: none; }
 }
+
+/* Charts */
+.charts { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 16px; }
+.chart { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px; display: grid; gap: 8px; min-width: 0; }
+.chart figcaption { display: flex; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; align-items: baseline; }
+.chart .legend { display: flex; gap: 12px; font-size: .82rem; color: var(--muted); }
+.chart .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.chart-scroll { overflow-x: auto; }
+.chart svg { width: 100%; min-width: 300px; height: auto; display: block; }
+.chart .grid { stroke: var(--line); stroke-width: 1; }
+.chart .axis { stroke: var(--muted); stroke-width: 1; }
+.chart .tick { fill: var(--muted); font-size: 12.5px; font-family: var(--body); }
+.chart .value { fill: var(--ink); font-size: 13px; font-weight: 700; font-family: var(--mono); }
+.chart .mark:hover path, .chart .mark:hover circle { filter: brightness(.9); }
+.chart-source { font-size: .8rem; color: var(--muted); }
+.chart-data summary { font-size: .82rem; color: var(--accent); cursor: pointer; }
+.chart-data table { border-collapse: collapse; font-size: .85rem; margin-top: 8px; font-variant-numeric: tabular-nums; }
+.chart-data th, .chart-data td { padding: 4px 12px 4px 0; text-align: left; border-bottom: 1px solid var(--line); }
+.stat small a { color: inherit; }
+
+/* Home: key numbers */
+.numbers { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 12px; }
+.number { display: grid; gap: 4px; align-content: start; text-decoration: none; color: var(--ink); background: var(--tint); border-radius: 16px; padding: 18px; transition: transform .15s ease; }
+.number:hover { transform: translateY(-2px); }
+.number b { font-family: var(--mono); font-size: 1.8rem; color: var(--c); }
+.number small { color: var(--muted); font-size: .8rem; margin-top: 4px; }

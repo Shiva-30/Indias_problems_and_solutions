@@ -4,7 +4,19 @@ summary: "India is the world's most populous country, and the number of people s
 categories: ["society", "environment"]
 regions: ["in"]
 sdgs: [3, 11]
-resources: ["unfpa-india", "census"]
+keyStats:
+  - { value: "2.0", label: "children per woman in 2019-21, down from 2.2 in 2015-16", source: "NFHS-5", sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually" }
+charts:
+  - title: "Children per woman (total fertility rate)"
+    kind: bar
+    unit: ""
+    series: ["1992-93", "2019-21"]
+    data:
+      - { label: "Rural", values: [3.7, 2.1] }
+      - { label: "Urban", values: [2.7, 1.6] }
+    source: "NFHS-5 national report, as summarised by Drishti IAS"
+    sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually"
+resources: ["nfhs5-report-summary", "unfpa-india", "census"]
 related: ["overconsumption", "unhealthy-infrastructure"]
 whatYouCanDo:
   - { step: "Support girls' education", how: "Sponsor a girl's schooling or volunteer with an education NGO." }

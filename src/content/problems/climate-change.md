@@ -4,7 +4,10 @@ summary: "India is one of the countries most exposed to climate change: hotter a
 categories: ["environment", "agriculture"]
 regions: ["in"]
 sdgs: [13]
-resources: ["ipcc-ar6", "imd-climate", "climate-india-video"]
+keyStats:
+  - { value: "2024", label: "was India's warmest year since records began in 1901", source: "India Meteorological Department", sourceUrl: "https://www.wionews.com/india-news/2024-warmest-year-in-india-since-1901-says-imd-8583891" }
+  - { value: "+0.65\u00b0C", label: "India's 2024 mean temperature above the long-period average", source: "India Meteorological Department", sourceUrl: "https://www.wionews.com/india-news/2024-warmest-year-in-india-since-1901-says-imd-8583891" }
+resources: ["imd-2024-warmest", "ipcc-ar6", "imd-climate", "climate-india-video"]
 related: ["air-pollution", "urban-flooding", "groundwater-depletion"]
 whatYouCanDo:
   - { step: "Save electricity", how: "Switch to LED bulbs and 5-star appliances, and set the AC to 24 degrees or higher." }

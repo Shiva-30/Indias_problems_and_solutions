@@ -5,9 +5,19 @@ categories: ["education"]
 regions: ["in"]
 regionNote: "All states"
 sdgs: [4]
-keyStats:
-  - { value: "42.8%", label: "of Class 5 children could read a Class 2 text", source: "ASER 2022" }
 solutions: ["teaching-right-level", "school-meals"]
+keyStats:
+  - { value: "42.8%", label: "of Class 5 children could read a Class 2 level text in 2022, down from 50.5% in 2018", source: "ASER 2022", sourceUrl: "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf" }
+charts:
+  - title: "Class 5 children who can read a Class 2 text"
+    kind: bar
+    unit: "%"
+    data:
+      - { label: "2018", values: [50.5] }
+      - { label: "2022", values: [42.8] }
+    note: "Government and private schools combined, rural India."
+    source: "ASER 2022 press release"
+    sourceUrl: "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf"
 resources: ["aser", "edu_vid"]
 whatYouCanDo:
   - { step: "Read with a child for 15 minutes", how: "Read aloud with a child at home or in your neighbourhood every day." }
