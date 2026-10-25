@@ -23,7 +23,7 @@ charts:
       - { label: "Underweight", values: [35.8, 32.1] }
     source: "Ministry of Women and Child Development (PIB)"
     sourceUrl: "https://pib.gov.in/PressReleasePage.aspx?PRID=1797701"
-resources: ["nfhs5-pib", "nfhs5-report-summary", "stunt_paper"]
+resources: ["nfhs5-pib", "nfhs5-report-summary", "stunt_paper", "yt-h8y89b5oueq", "yt-gbsxc6v0uyw"]
 whatYouCanDo:
   - { step: "Support local anganwadis", how: "Volunteer, donate supplies or help families in your area learn what services they can get." }
   - { step: "Feed children a varied diet", how: "Include pulses, eggs or milk, and green vegetables in children's meals every day." }

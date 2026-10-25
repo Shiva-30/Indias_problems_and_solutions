@@ -10,7 +10,7 @@ sdgs: [4, 10]
 approach: "Policy"
 whoIsDoingIt: "Private schools under the Right to Education Act's 25% quota"
 problems: ["caste-and-religious-discrimination", "restrictive-social-norms"]
-resources: ["rao-classroom"]
+resources: ["rao-classroom", "yt-rfwhquz2j70"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/MRIH_School_Children.jpg/1280px-MRIH_School_Children.jpg"

@@ -9,7 +9,7 @@ regions: ["in"]
 sdgs: [15]
 keyStats:
   - { value: "\u20b910 to \u20b950", label: "fine for a first offence of cruelty under the 1960 law; a 2022 draft amendment proposed far higher penalties", source: "Prevention of Cruelty to Animals Act, 1960", sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/draft-prevention-of-cruelty-to-animal-amendment-bill-2022/print_manually" }
-resources: ["pca-draft-2022", "awbi", "animal-welfare-paper"]
+resources: ["pca-draft-2022", "awbi", "animal-welfare-paper", "yt-hrs6lpu7nfc"]
 related: ["unhealthy-infrastructure"]
 whatYouCanDo:
   - { step: "Feed and water animals kindly", how: "Keep a bowl of water outside in summer, and feed strays responsibly in one spot." }

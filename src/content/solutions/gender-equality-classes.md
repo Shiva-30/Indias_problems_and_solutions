@@ -9,7 +9,7 @@ sdgs: [4, 5]
 approach: "Education"
 whoIsDoingIt: "Breakthrough, with the Haryana and Punjab governments"
 problems: ["crimes-against-women", "restrictive-social-norms"]
-resources: ["taaron-ki-toli"]
+resources: ["taaron-ki-toli", "yt-bcumr1bdgmw"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Computer_education_girls_Gujarat.jpg/1280px-Computer_education_girls_Gujarat.jpg"

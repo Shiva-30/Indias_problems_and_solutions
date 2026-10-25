@@ -7,7 +7,7 @@ summarySources:
 categories: ["health", "governance", "consumption"]
 regions: ["in"]
 sdgs: [3]
-resources: ["asci", "surrogate-paper"]
+resources: ["asci", "surrogate-paper", "yt-ywpinrqs-je"]
 related: ["harmful-media-content"]
 whatYouCanDo:
   - { step: "Learn to spot surrogate ads", how: "Notice when a 'soda' or 'music CD' ad uses a liquor or tobacco brand name." }

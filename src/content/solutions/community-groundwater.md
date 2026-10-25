@@ -10,7 +10,7 @@ sdgs: [6]
 approach: "Community + policy"
 whoIsDoingIt: "Atal Bhujal Yojana, with World Bank support"
 problems: ["groundwater-depletion"]
-resources: ["atal", "cgwb"]
+resources: ["atal", "cgwb", "yt-h53od0tvoxi", "yt-wqzaleqki3k"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pond_check_dam_overflow_during_raining_season.jpg/1280px-Pond_check_dam_overflow_during_raining_season.jpg"

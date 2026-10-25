@@ -8,7 +8,7 @@ summarySources:
 categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
-resources: ["unep-consumption", "consumption-paper"]
+resources: ["unep-consumption", "consumption-paper", "yt-tlfnud0-8ts"]
 related: ["unsustainable-packaging", "irresponsible-business"]
 whatYouCanDo:
   - { step: "Pause before you buy", how: "Wait 30 days before buying anything you don't need right away." }

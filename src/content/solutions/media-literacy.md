@@ -9,7 +9,7 @@ sdgs: [4, 16]
 approach: "Education"
 whoIsDoingIt: "Researchers and community libraries in Bihar"
 problems: ["harmful-media-content"]
-resources: ["media-literacy-paper", "media-paper"]
+resources: ["media-literacy-paper", "media-paper", "yt-ie2rbloicp4"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VignanDegreeCollegeComputerLab.jpg/1280px-VignanDegreeCollegeComputerLab.jpg"

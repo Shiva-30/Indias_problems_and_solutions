@@ -9,7 +9,7 @@ sdgs: [9, 13]
 approach: "Technology + policy"
 whoIsDoingIt: "Data centre operators, chip and AI model makers"
 problems: ["harmful-ai", "climate-change"]
-resources: ["iea", "green-ai-paper"]
+resources: ["iea", "green-ai-paper", "yt-cwbgyoqjkgm"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Wind_Farm_Muppandal.jpg/1280px-Wind_Farm_Muppandal.jpg"

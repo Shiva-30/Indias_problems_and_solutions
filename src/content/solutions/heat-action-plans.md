@@ -9,7 +9,7 @@ sdgs: [3, 11, 13]
 approach: "Policy + community"
 whoIsDoingIt: "Ahmedabad and other cities, National Disaster Management Authority"
 problems: ["climate-change", "unhealthy-infrastructure"]
-resources: ["heat-action-paper"]
+resources: ["heat-action-paper", "yt-gmdlwgcvxua", "yt-mezs-6rgi-y"]
 updated: 2026-10-25
 ---
 

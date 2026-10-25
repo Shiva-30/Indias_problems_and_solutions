@@ -9,7 +9,7 @@ sdgs: [5, 8]
 approach: "Community + finance"
 whoIsDoingIt: "National Rural Livelihoods Mission, JEEViKA (Bihar)"
 problems: ["women-work"]
-resources: ["kudumbashree"]
+resources: ["kudumbashree", "yt-tdzf9kopuq"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Women_self_help_group_foundation.jpg/1280px-Women_self_help_group_foundation.jpg"

@@ -9,7 +9,7 @@ sdgs: [2, 12, 15]
 approach: "Community + farmer training"
 whoIsDoingIt: "Andhra Pradesh community-managed natural farming programme"
 problems: ["pollution", "groundwater-depletion"]
-resources: ["natural-farming-paper"]
+resources: ["natural-farming-paper", "yt-kqxmetgaoak", "yt-fvlc1dpime4"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Women_planting_seedlings_at_a_paddy_field_of_Assam.jpg/1280px-Women_planting_seedlings_at_a_paddy_field_of_Assam.jpg"

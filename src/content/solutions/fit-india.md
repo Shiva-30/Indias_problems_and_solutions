@@ -9,7 +9,7 @@ sdgs: [3]
 approach: "Campaign + infrastructure"
 whoIsDoingIt: "Fit India Movement, Ministry of Youth Affairs and Sports, schools"
 problems: ["lifestyle-health-crisis"]
-resources: ["fit-india", "who-activity"]
+resources: ["fit-india", "who-activity", "yt-evfolmymatw"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/WORLD_YOGA_DAY_Victoriya_Kolkata.jpg/1280px-WORLD_YOGA_DAY_Victoriya_Kolkata.jpg"

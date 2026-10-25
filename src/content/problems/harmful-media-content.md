@@ -7,7 +7,7 @@ summarySources:
 categories: ["society", "technology"]
 regions: ["in"]
 sdgs: [3, 4]
-resources: ["media-paper"]
+resources: ["media-paper", "yt-rooonrwfxem"]
 related: ["surrogate-advertising", "restrictive-social-norms"]
 whatYouCanDo:
   - { step: "Choose what you watch", how: "Pick content that informs or uplifts, and switch off autoplay." }
