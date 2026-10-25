@@ -95,7 +95,16 @@ footer .wrap { padding-block: 20px; }
 .stat span { display: block; font-size: .9rem; }
 .stat small { color: var(--muted); font-size: .78rem; }
 .prose { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; }
-.prose h2 { grid-row: 1; margin-bottom: 8px; }
+.prose > h2 { grid-row: 1; margin-bottom: 8px; }
+.cite { font-size: .82rem; color: var(--muted); margin-top: -6px; }
+.cite a { color: inherit; }
+/* Markdown footnotes become the page's numbered source list. */
+.prose sup a { font-family: var(--mono); font-size: .72rem; text-decoration: none; padding: 0 2px; }
+.footnotes { grid-column: 1 / -1; margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .85rem; color: var(--muted); }
+.footnotes h2 { position: static; width: auto; height: auto; clip: auto; margin: 0 0 6px; font-size: .78rem; font-family: var(--mono); text-transform: uppercase; letter-spacing: .06em; font-weight: 600; color: var(--muted); white-space: normal; overflow: visible; }
+.footnotes ol { gap: 4px; }
+.footnotes p { margin: 0; display: inline; }
+.footnotes a { color: inherit; overflow-wrap: anywhere; }
 .prose ul, .prose ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; align-content: start; }
 
 /* Resources */
@@ -118,7 +127,7 @@ footer .wrap { padding-block: 20px; }
 
 @media (max-width: 760px) {
   .hero, .prose { grid-template-columns: 1fr; }
-  .prose h2 { grid-row: auto; margin-top: 16px; }
+  .prose > h2 { grid-row: auto; margin-top: 16px; }
   .res { grid-template-columns: minmax(0, 1fr) auto; }
   .res .type { grid-column: 1 / -1; }
 }

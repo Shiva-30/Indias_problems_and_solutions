@@ -1,6 +1,9 @@
 ---
 title: "Air pollution"
-summary: "Many of the world's most polluted cities are in India. Fine particles (PM2.5) from vehicles, industry, crop burning and cooking fires shorten lives across the country."
+summary: "Thirteen of the world's 20 most polluted cities in 2024 were in India. Fine particles (PM2.5) from vehicles, road dust, industry, crop burning and cooking fires were linked to 1.67 million deaths in 2019."
+summarySources:
+  - { source: "World Air Quality Report 2024, via Drishti IAS", url: "https://www.drishtiias.com/daily-updates/daily-news-analysis/world-air-quality-report-2024/print_manually" }
+  - { source: "GBD 2019 India air pollution study, Lancet Planetary Health", url: "https://doaj.org/article/daf693fd3a3d444b9df48695cb72a342" }
 categories: ["environment", "health"]
 regions: ["in-delhi", "in-uttar-pradesh", "in-bihar", "in-punjab"]
 regionNote: "Indo-Gangetic plain, Delhi NCR"
@@ -35,13 +38,17 @@ updated: 2026-10-25
 
 ## Causes
 
-- Vehicle and industrial emissions
-- Burning crop residue after harvest
-- Solid fuels for cooking in rural homes
-- Construction and road dust
+- Transport is the largest source of Delhi's PM2.5 in most studies, at 17.9% to 39.2% depending on the study.[^ceew]
+- Road dust adds 18.1% to 37.8%, and industry between 2.3% and 28.9%.[^ceew]
+- Burning paddy stubble in Punjab and Haryana made up nearly 40% of the PM2.5 near the ground in Delhi during the severe 2016 episode.[^stubble]
+- Wood, dung and crop waste burnt for cooking fill homes with smoke. Household air pollution caused 0.61 million deaths in 2019.[^gbd]
 
 ## Impact
 
-- Respiratory and heart disease
-- Lower lung growth in children
-- Lost work days and lower productivity
+- 1.67 million deaths in India in 2019 were attributed to air pollution, 17.8% of all deaths that year.[^gbd]
+- Outdoor particulate pollution caused 0.98 million of those deaths.[^gbd]
+- Early deaths and illness from air pollution cost an estimated $36.8 billion in lost output, 1.36% of India's GDP.[^gbd]
+
+[^ceew]: Jalan and Dholakia, [What is polluting Delhi's air?](https://www.ceew.in/publications/delhi-air-pollution-sources-and-causes), CEEW, 2019. Ranges compare several source studies.
+[^stubble]: [Stubble burning and pollution](https://www.drishtiias.com/daily-updates/daily-news-analysis/stubble-burning-and-pollution/print_manually), Drishti IAS, July 2020, summarising a study of crop burning in north India.
+[^gbd]: India State-Level Disease Burden Initiative Air Pollution Collaborators, [Health and economic impact of air pollution in the states of India](https://doaj.org/article/daf693fd3a3d444b9df48695cb72a342), Lancet Planetary Health 5(1), 2021.
