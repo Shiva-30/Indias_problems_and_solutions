@@ -526,5 +526,253 @@
     "url": "https://scholar.google.com/scholar?q=screen+time+media+content+adolescent+mental+health+India",
     "source": "Google Scholar search",
     "year": 2023
+  },
+  {
+    "id": "pm-surya-ghar",
+    "title": "PM Surya Ghar: Muft Bijli Yojana (rooftop solar)",
+    "type": "article",
+    "url": "https://pmsuryaghar.gov.in",
+    "source": "Ministry of New and Renewable Energy",
+    "year": 2024
+  },
+  {
+    "id": "rooftop-solar-paper",
+    "title": "Rooftop solar adoption in Indian households",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=rooftop+solar+adoption+India+households",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "heat-action-paper",
+    "title": "Ahmedabad Heat Action Plan and heat-related deaths",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Ahmedabad+heat+action+plan+mortality+evaluation",
+    "source": "Google Scholar search",
+    "year": 2018
+  },
+  {
+    "id": "heat-action-video",
+    "title": "How Indian cities prepare for heatwaves",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=heat+action+plan+India+city+heatwave",
+    "source": "YouTube search",
+    "year": 2024
+  },
+  {
+    "id": "namami-gange",
+    "title": "Namami Gange programme",
+    "type": "article",
+    "url": "https://nmcg.nic.in",
+    "source": "National Mission for Clean Ganga",
+    "year": 2024
+  },
+  {
+    "id": "natural-farming-paper",
+    "title": "Community-managed natural farming in Andhra Pradesh",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Andhra+Pradesh+community+managed+natural+farming+APCNF+evaluation",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "streets-for-people",
+    "title": "Streets for People Challenge",
+    "type": "article",
+    "url": "https://smartcities.gov.in",
+    "source": "Smart Cities Mission",
+    "year": 2021
+  },
+  {
+    "id": "complete-streets-paper",
+    "title": "Complete streets and non-motorised transport in Indian cities",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=complete+streets+non-motorised+transport+India+pedestrian+safety",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "one-stop-centres",
+    "title": "Sakhi One Stop Centres for women affected by violence",
+    "type": "article",
+    "url": "https://wcd.gov.in",
+    "source": "Ministry of Women and Child Development",
+    "year": 2024
+  },
+  {
+    "id": "taaron-ki-toli",
+    "title": "Reshaping adolescents' gender attitudes: evidence from a school-based experiment in India",
+    "type": "paper",
+    "url": "https://www.povertyactionlab.org",
+    "source": "J-PAL (Dhar, Jain and Jayachandran)",
+    "year": 2022
+  },
+  {
+    "id": "abc-paper",
+    "title": "Animal birth control programmes and street dog populations in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=animal+birth+control+programme+street+dogs+India+rabies",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "indore-video",
+    "title": "How Indore became India's cleanest city",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=Indore+cleanest+city+waste+segregation",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "indore-paper",
+    "title": "Source segregation and decentralised composting: the Indore model",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Indore+solid+waste+management+segregation+model",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "swach-paper",
+    "title": "Integrating waste pickers into city waste systems: SWaCH, Pune",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=SWaCH+Pune+waste+pickers+cooperative",
+    "source": "Google Scholar search",
+    "year": 2020
+  },
+  {
+    "id": "epr-portal",
+    "title": "Centralised EPR portal for plastic packaging",
+    "type": "dataset",
+    "url": "https://cpcb.nic.in",
+    "source": "Central Pollution Control Board",
+    "year": 2024
+  },
+  {
+    "id": "right-to-repair",
+    "title": "Right to Repair portal",
+    "type": "article",
+    "url": "https://righttorepairindia.gov.in",
+    "source": "Department of Consumer Affairs",
+    "year": 2023
+  },
+  {
+    "id": "circular-economy-paper",
+    "title": "Repair, reuse and the circular economy in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=circular+economy+India+repair+reuse+informal+sector",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "fit-india",
+    "title": "Fit India Movement",
+    "type": "article",
+    "url": "https://fitindia.gov.in",
+    "source": "Ministry of Youth Affairs and Sports",
+    "year": 2024
+  },
+  {
+    "id": "eat-right",
+    "title": "Eat Right India",
+    "type": "article",
+    "url": "https://eatrightindia.gov.in",
+    "source": "FSSAI",
+    "year": 2024
+  },
+  {
+    "id": "ccpa-ads",
+    "title": "Guidelines for Prevention of Misleading Advertisements and Endorsements, 2022",
+    "type": "report",
+    "url": "https://consumeraffairs.nic.in",
+    "source": "Central Consumer Protection Authority",
+    "year": 2022
+  },
+  {
+    "id": "eci",
+    "title": "Election Commission of India: candidate affidavits and the Know Your Candidate app",
+    "type": "article",
+    "url": "https://www.eci.gov.in",
+    "source": "Election Commission of India",
+    "year": 2024
+  },
+  {
+    "id": "atal-tinkering",
+    "title": "Atal Tinkering Labs",
+    "type": "article",
+    "url": "https://aim.gov.in",
+    "source": "Atal Innovation Mission, NITI Aayog",
+    "year": 2024
+  },
+  {
+    "id": "happiness-curriculum",
+    "title": "Happiness Curriculum in Delhi government schools",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Delhi+happiness+curriculum+evaluation",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "poa-act",
+    "title": "Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act",
+    "type": "article",
+    "url": "https://socialjustice.gov.in",
+    "source": "Ministry of Social Justice and Empowerment",
+    "year": 2024
+  },
+  {
+    "id": "rao-classroom",
+    "title": "Familiarity does not breed contempt: generosity, discrimination and diversity in Delhi schools",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Rao+familiarity+does+not+breed+contempt+Delhi+schools",
+    "source": "American Economic Review (Gautam Rao)",
+    "year": 2019
+  },
+  {
+    "id": "eu-ai-act",
+    "title": "EU Artificial Intelligence Act explorer",
+    "type": "article",
+    "url": "https://artificialintelligenceact.eu",
+    "source": "Future of Life Institute",
+    "year": 2024
+  },
+  {
+    "id": "green-ai-paper",
+    "title": "Energy use and carbon footprint of training and running AI models",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=carbon+footprint+energy+consumption+AI+models+data+centres",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "family-planning-paper",
+    "title": "Girls' education, women's autonomy and fertility in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=female+education+fertility+decline+India",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "fop-labels-paper",
+    "title": "Front-of-pack warning labels: evidence from Chile",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Chile+front-of-package+warning+labels+food+law+evaluation",
+    "source": "Google Scholar search",
+    "year": 2020
+  },
+  {
+    "id": "sebi-brsr",
+    "title": "Business Responsibility and Sustainability Reporting (BRSR)",
+    "type": "report",
+    "url": "https://www.sebi.gov.in",
+    "source": "Securities and Exchange Board of India",
+    "year": 2023
+  },
+  {
+    "id": "media-literacy-paper",
+    "title": "Media literacy education and misinformation",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=media+literacy+intervention+misinformation+India+WhatsApp",
+    "source": "Google Scholar search",
+    "year": 2022
   }
 ]
