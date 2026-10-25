@@ -7,7 +7,7 @@ categories: ["education", "health"]
 regions: ["in"]
 sdgs: [3, 4]
 approach: "Education"
-whoIsDoingIt: "Delhi government schools, other states"
+whoIsDoingIt: "Delhi government schools"
 problems: ["holistic-education-gap", "harmful-media-content"]
 resources: ["happiness-curriculum"]
 updated: 2026-10-25

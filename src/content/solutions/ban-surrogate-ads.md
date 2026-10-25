@@ -7,7 +7,7 @@ categories: ["governance", "health"]
 regions: ["in"]
 sdgs: [3]
 approach: "Policy + enforcement"
-whoIsDoingIt: "Central Consumer Protection Authority, Advertising Standards Council of India"
+whoIsDoingIt: "Central Consumer Protection Authority"
 problems: ["surrogate-advertising"]
 resources: ["ccpa-ads", "asci"]
 updated: 2026-10-25

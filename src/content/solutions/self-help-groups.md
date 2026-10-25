@@ -7,9 +7,9 @@ categories: ["gender", "economy"]
 regions: ["in", "in-kerala", "in-bihar"]
 sdgs: [5, 8]
 approach: "Community + finance"
-whoIsDoingIt: "DAY-NRLM, Kudumbashree (Kerala), Jeevika (Bihar)"
+whoIsDoingIt: "National Rural Livelihoods Mission, JEEViKA (Bihar)"
 problems: ["women-work"]
-resources: ["kudumbashree", "shg_vid"]
+resources: ["kudumbashree"]
 updated: 2026-10-25
 ---
 

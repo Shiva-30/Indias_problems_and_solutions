@@ -8,9 +8,9 @@ categories: ["governance"]
 regions: ["in"]
 sdgs: [16]
 approach: "Transparency + voter action"
-whoIsDoingIt: "Election Commission of India, Association for Democratic Reforms"
+whoIsDoingIt: "Supreme Court rules, Association for Democratic Reforms"
 problems: ["politician-quality"]
-resources: ["eci", "adr", "myneta"]
+resources: ["myneta", "adr"]
 updated: 2026-10-25
 ---
 

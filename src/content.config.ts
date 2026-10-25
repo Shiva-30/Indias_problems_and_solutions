@@ -22,10 +22,10 @@ const resources = defineCollection({
   loader: file('src/data/resources.json'),
   schema: z.object({
     title: z.string(),
-    type: z.enum(['article', 'paper', 'video', 'report', 'dataset', 'podcast']),
+    type: z.enum(['article', 'paper', 'video', 'report', 'dataset', 'podcast', 'website']),
     url: z.string().url(),
     source: z.string(),
-    year: z.number().int(),
+    year: z.number().int().optional(),
     language: z.string().default('en'),
   }),
 });

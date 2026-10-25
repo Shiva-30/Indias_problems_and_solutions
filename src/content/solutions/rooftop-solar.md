@@ -8,7 +8,7 @@ categories: ["environment", "economy"]
 regions: ["in"]
 sdgs: [7, 13]
 approach: "Policy + subsidy"
-whoIsDoingIt: "PM Surya Ghar scheme, state electricity boards, solar installers"
+whoIsDoingIt: "PM Surya Ghar scheme, state electricity companies"
 problems: ["climate-change", "harmful-ai"]
 resources: ["pm-surya-ghar", "rooftop-solar-paper"]
 updated: 2026-10-25

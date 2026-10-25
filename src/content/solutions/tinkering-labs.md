@@ -8,7 +8,7 @@ categories: ["education", "technology"]
 regions: ["in"]
 sdgs: [4, 9]
 approach: "Education"
-whoIsDoingIt: "Atal Innovation Mission, schools"
+whoIsDoingIt: "Atal Innovation Mission (NITI Aayog), schools"
 problems: ["holistic-education-gap"]
 resources: ["atal-tinkering", "nep-2020"]
 updated: 2026-10-25

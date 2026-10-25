@@ -8,7 +8,7 @@ categories: ["water"]
 regions: ["in"]
 sdgs: [6]
 approach: "Community + policy"
-whoIsDoingIt: "Atal Bhujal Yojana, gram panchayats, NGOs"
+whoIsDoingIt: "Atal Bhujal Yojana, with World Bank support"
 problems: ["groundwater-depletion"]
 resources: ["atal", "cgwb"]
 updated: 2026-10-25

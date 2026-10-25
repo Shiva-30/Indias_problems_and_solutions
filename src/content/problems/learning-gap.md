@@ -20,7 +20,7 @@ charts:
     note: "Government and private schools combined, rural India."
     source: "ASER 2022 press release"
     sourceUrl: "https://img.asercentre.org/docs/ASER%202022%20report%20pdfs/aser2022pressrelease_english_january18final_prathamletterhead.pdf"
-resources: ["aser", "edu_vid"]
+resources: ["aser"]
 whatYouCanDo:
   - { step: "Read with a child for 15 minutes", how: "Read aloud with a child at home or in your neighbourhood every day." }
   - { step: "Volunteer to tutor", how: "Help children in a local school or community centre with basic reading and maths." }

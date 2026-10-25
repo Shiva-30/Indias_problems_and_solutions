@@ -8,7 +8,7 @@ categories: ["environment", "water"]
 regions: ["in"]
 sdgs: [6, 14]
 approach: "Policy + infrastructure"
-whoIsDoingIt: "Namami Gange, state governments, city corporations"
+whoIsDoingIt: "National Mission for Clean Ganga (Namami Gange), state governments"
 problems: ["pollution"]
 resources: ["namami-gange", "cpcb"]
 updated: 2026-10-25

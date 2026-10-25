@@ -7,7 +7,7 @@ categories: ["environment", "consumption", "governance"]
 regions: ["in"]
 sdgs: [12]
 approach: "Policy"
-whoIsDoingIt: "Central Pollution Control Board, brands and recyclers"
+whoIsDoingIt: "Central Pollution Control Board, producers, brand owners and recyclers"
 problems: ["unsustainable-packaging", "irresponsible-business"]
 resources: ["epr-portal", "plastic-rules", "packaging-paper"]
 updated: 2026-10-25

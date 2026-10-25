@@ -7,7 +7,7 @@ summarySources:
 categories: ["education"]
 regions: ["in"]
 sdgs: [4]
-resources: ["nep-2020", "curiosity-video"]
+resources: ["nep-2020"]
 related: ["learning-gap"]
 whatYouCanDo:
   - { step: "Ask why, not just what", how: "Encourage children to ask questions and explore answers, not just memorise." }

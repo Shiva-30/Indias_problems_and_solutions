@@ -7,7 +7,7 @@ categories: ["education"]
 regions: ["in"]
 sdgs: [4]
 approach: "Community + teaching method"
-whoIsDoingIt: "Pratham, state education departments"
+whoIsDoingIt: "Pratham, state governments"
 problems: ["learning-gap"]
 resources: ["tarl", "tarl_jpal"]
 updated: 2026-10-25

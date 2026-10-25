@@ -7,7 +7,7 @@ categories: ["urban", "economy"]
 regions: ["in"]
 sdgs: [8, 11]
 approach: "Community + city partnership"
-whoIsDoingIt: "SWaCH (Pune), other cooperatives"
+whoIsDoingIt: "SWaCH cooperative, Pune Municipal Corporation"
 problems: ["waste-management"]
 resources: ["swach-paper"]
 updated: 2026-10-25

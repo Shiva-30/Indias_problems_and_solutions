@@ -7,7 +7,7 @@ categories: ["economy", "governance", "environment"]
 regions: ["in"]
 sdgs: [8, 12]
 approach: "Policy"
-whoIsDoingIt: "SEBI, listed companies, investors"
+whoIsDoingIt: "SEBI, India's 1,000 largest listed companies"
 problems: ["irresponsible-business"]
 resources: ["sebi-brsr", "brsr-paper"]
 updated: 2026-10-25

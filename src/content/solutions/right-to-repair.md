@@ -7,7 +7,7 @@ categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
 approach: "Policy + consumer action"
-whoIsDoingIt: "Department of Consumer Affairs, repair shops, second-hand markets"
+whoIsDoingIt: "Right to Repair portal, product makers"
 problems: ["overconsumption"]
 resources: ["right-to-repair", "circular-economy-paper", "unep-consumption"]
 updated: 2026-10-25

@@ -7,7 +7,7 @@ categories: ["environment", "urban"]
 regions: ["in"]
 sdgs: [11, 3]
 approach: "Policy"
-whoIsDoingIt: "National Clean Air Programme, city municipal bodies, pollution control boards"
+whoIsDoingIt: "National Clean Air Programme, 130 city governments"
 problems: ["air-pollution"]
 resources: ["ncap", "who_aq"]
 updated: 2026-10-25

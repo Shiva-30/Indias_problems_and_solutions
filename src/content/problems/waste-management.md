@@ -19,7 +19,7 @@ charts:
     note: "Capacity to process, not the amount actually processed."
     source: "Ministry of Housing and Urban Affairs, via Iamrenew"
     sourceUrl: "https://www.iamrenew.com/environment/indian-cities-raise-waste-processing-capacity-to-80-in-10-years-mohua/"
-resources: ["swm-capacity", "swachh-bharat", "waste-paper", "waste-video"]
+resources: ["swm-capacity", "swachh-bharat", "waste-paper"]
 related: ["pollution", "unsustainable-packaging"]
 whatYouCanDo:
   - { step: "Separate your waste", how: "Use separate bins for wet, dry and hazardous waste at home." }

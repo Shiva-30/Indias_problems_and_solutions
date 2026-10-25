@@ -7,9 +7,9 @@ categories: ["urban", "environment", "water"]
 regions: ["in"]
 sdgs: [11, 13, 6]
 approach: "Community + city planning"
-whoIsDoingIt: "City corporations, resident groups, NGOs"
+whoIsDoingIt: "Karnataka lake authorities, researchers at IISc"
 problems: ["urban-flooding"]
-resources: ["lakes_paper", "flood_paper"]
+resources: ["flood_paper"]
 updated: 2026-10-25
 ---
 

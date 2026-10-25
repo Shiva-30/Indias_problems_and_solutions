@@ -126,6 +126,24 @@ Add the country and its states or cities to `src/data/regions.json`, with `paren
 
 Region pages (`/regions/ke/`) then list everything tagged with that country or anywhere inside it.
 
-## Sample content
+## Citations
 
-The entries shipped with the site are samples. Check every figure against its source before launch. Some paper and video links open a Google Scholar or YouTube search and should be replaced with links to the specific item.
+Every claim needs a source you have opened and checked.
+
+- **Summary:** list sources under `summarySources` in the front matter. They show as a "Sources:" line under the summary.
+
+  ```yaml
+  summarySources:
+    - { source: "ASER 2022", url: "https://..." }
+  ```
+
+- **Body text:** end each point with a Markdown footnote, and define the footnote at the bottom of the file. Footnotes become the numbered "Sources" list on the page.
+
+  ```markdown
+  - Only 25.6% of Class 5 children could do division in 2022.[^aser]
+
+  [^aser]: [ASER 2022 national findings](https://...), ASER Centre, January 2023.
+  ```
+
+- **Statistics and charts:** give `source` and `sourceUrl`.
+- **Resources:** link the specific article, paper or video, not a search page. Use type `website` for an organisation's home page. `year` is optional.

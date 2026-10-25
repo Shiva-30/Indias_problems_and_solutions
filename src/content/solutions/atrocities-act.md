@@ -7,7 +7,7 @@ categories: ["governance", "society"]
 regions: ["in"]
 sdgs: [10, 16]
 approach: "Law"
-whoIsDoingIt: "Ministry of Social Justice and Empowerment, police and special courts"
+whoIsDoingIt: "State governments, police and Exclusive Special Courts"
 problems: ["caste-and-religious-discrimination"]
 resources: ["poa-act", "ncsc"]
 updated: 2026-10-25

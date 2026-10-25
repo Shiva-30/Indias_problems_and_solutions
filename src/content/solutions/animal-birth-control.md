@@ -7,7 +7,7 @@ categories: ["animals", "health"]
 regions: ["in"]
 sdgs: [3, 15]
 approach: "Policy + community"
-whoIsDoingIt: "City corporations, animal welfare groups, Animal Welfare Board of India"
+whoIsDoingIt: "City and municipal bodies, under the Animal Birth Control Rules, 2023"
 problems: ["animal-cruelty"]
 resources: ["awbi", "abc-paper"]
 updated: 2026-10-25

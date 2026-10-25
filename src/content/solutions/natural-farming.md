@@ -7,7 +7,7 @@ categories: ["agriculture", "environment", "health"]
 regions: ["in"]
 sdgs: [2, 12, 15]
 approach: "Community + farmer training"
-whoIsDoingIt: "Andhra Pradesh community-managed natural farming programme, state agriculture departments"
+whoIsDoingIt: "Andhra Pradesh community-managed natural farming programme"
 problems: ["pollution", "groundwater-depletion"]
 resources: ["natural-farming-paper"]
 updated: 2026-10-25

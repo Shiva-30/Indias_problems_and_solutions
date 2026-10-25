@@ -7,9 +7,9 @@ categories: ["urban", "environment"]
 regions: ["in"]
 sdgs: [11, 12]
 approach: "City systems + community"
-whoIsDoingIt: "City corporations such as Indore, resident groups"
+whoIsDoingIt: "Indore Municipal Corporation, residents"
 problems: ["waste-management"]
-resources: ["indore-paper", "indore-video", "swachh-bharat"]
+resources: ["indore-paper", "swachh-bharat"]
 updated: 2026-10-25
 ---
 

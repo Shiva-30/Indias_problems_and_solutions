@@ -9,7 +9,7 @@ categories: ["health", "education"]
 regions: ["in"]
 sdgs: [2, 4]
 approach: "Policy"
-whoIsDoingIt: "PM POSHAN, state governments, NGOs like Akshaya Patra"
+whoIsDoingIt: "PM POSHAN (formerly Mid-Day Meal scheme), government schools"
 problems: ["child-malnutrition", "learning-gap"]
 resources: ["pmposhan", "meal_paper"]
 updated: 2026-10-25

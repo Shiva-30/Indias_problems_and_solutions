@@ -8,7 +8,7 @@ categories: ["education", "society"]
 regions: ["in"]
 sdgs: [4, 10]
 approach: "Policy"
-whoIsDoingIt: "Right to Education Act (25% seats), schools"
+whoIsDoingIt: "Private schools under the Right to Education Act's 25% quota"
 problems: ["caste-and-religious-discrimination", "restrictive-social-norms"]
 resources: ["rao-classroom"]
 updated: 2026-10-25

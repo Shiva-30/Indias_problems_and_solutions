@@ -8,7 +8,7 @@ categories: ["technology", "governance"]
 regions: ["world"]
 sdgs: [9, 16]
 approach: "Policy"
-whoIsDoingIt: "Governments, UNESCO, the European Union"
+whoIsDoingIt: "The European Union, UNESCO member states, India's MeitY"
 problems: ["harmful-ai"]
 resources: ["eu-ai-act", "unesco-ai", "ai-ethics-paper"]
 updated: 2026-10-25

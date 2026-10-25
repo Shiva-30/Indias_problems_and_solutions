@@ -7,7 +7,7 @@ categories: ["agriculture", "water"]
 regions: ["in"]
 sdgs: [6, 2]
 approach: "Technology + subsidy"
-whoIsDoingIt: "Government (PMKSY), state agriculture departments, equipment makers"
+whoIsDoingIt: "Per Drop More Crop scheme, state governments"
 problems: ["groundwater-depletion"]
 resources: ["pmksy", "drip_paper"]
 updated: 2026-10-25

@@ -7,7 +7,7 @@ categories: ["gender", "education", "society"]
 regions: ["in"]
 sdgs: [4, 5]
 approach: "Education"
-whoIsDoingIt: "Breakthrough, state education departments, researchers"
+whoIsDoingIt: "Breakthrough, with the Haryana and Punjab governments"
 problems: ["crimes-against-women", "restrictive-social-norms"]
 resources: ["taaron-ki-toli"]
 updated: 2026-10-25

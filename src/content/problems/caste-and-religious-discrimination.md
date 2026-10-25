@@ -7,7 +7,7 @@ summarySources:
 categories: ["society", "governance"]
 regions: ["in"]
 sdgs: [10, 16]
-resources: ["ncsc", "caste-paper", "ncrb"]
+resources: ["ncsc", "caste-paper", "ncrb-2022-summary"]
 related: ["restrictive-social-norms"]
 whatYouCanDo:
   - { step: "Notice your own bias", how: "Reflect on the assumptions you make about people from other castes or religions." }

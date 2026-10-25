@@ -7,7 +7,7 @@ categories: ["education", "technology", "society"]
 regions: ["in"]
 sdgs: [4, 16]
 approach: "Education"
-whoIsDoingIt: "Schools, fact-checking organisations, NGOs"
+whoIsDoingIt: "Researchers and community libraries in Bihar"
 problems: ["harmful-media-content"]
 resources: ["media-literacy-paper", "media-paper"]
 updated: 2026-10-25

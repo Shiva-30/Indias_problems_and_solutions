@@ -8,9 +8,9 @@ categories: ["health", "gender", "society"]
 regions: ["in"]
 sdgs: [3, 4, 5]
 approach: "Policy + services"
-whoIsDoingIt: "Ministry of Health (Mission Parivar Vikas), state governments, NGOs"
+whoIsDoingIt: "Mission Parivar Vikas, state health departments"
 problems: ["population-pressure"]
-resources: ["family-planning-paper", "unfpa-india"]
+resources: ["unfpa-india"]
 updated: 2026-10-25
 ---
 

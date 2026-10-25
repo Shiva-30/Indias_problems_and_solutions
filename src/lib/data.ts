@@ -11,6 +11,7 @@ export const RESOURCE_TYPES: Record<string, string> = {
   report: 'Reports',
   dataset: 'Data',
   podcast: 'Podcasts',
+  website: 'Official sites',
 };
 
 export const SDG_NAMES: Record<number, string> = {

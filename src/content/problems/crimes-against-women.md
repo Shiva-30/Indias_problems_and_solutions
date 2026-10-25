@@ -9,7 +9,7 @@ regions: ["in"]
 sdgs: [5, 16]
 keyStats:
   - { value: "4,45,256", label: "cases of crime against women were registered in 2022, about 4% more than in 2021", source: "NCRB, Crime in India 2022", sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/ncrbs-crime-in-india-2022-report/print_manually" }
-resources: ["ncrb-2022-summary", "ncrb", "vaw-paper"]
+resources: ["ncrb-2022-summary", "vaw-paper"]
 related: ["women-work", "restrictive-social-norms"]
 whatYouCanDo:
   - { step: "Know the helplines", how: "Save 112 (emergency) and 181 (women's helpline) in your phone, and share them." }

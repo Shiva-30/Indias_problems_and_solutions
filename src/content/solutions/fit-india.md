@@ -7,7 +7,7 @@ categories: ["health"]
 regions: ["in"]
 sdgs: [3]
 approach: "Campaign + infrastructure"
-whoIsDoingIt: "Fit India Movement, schools, workplaces, city corporations"
+whoIsDoingIt: "Fit India Movement, Ministry of Youth Affairs and Sports, schools"
 problems: ["lifestyle-health-crisis"]
 resources: ["fit-india", "who-activity"]
 updated: 2026-10-25

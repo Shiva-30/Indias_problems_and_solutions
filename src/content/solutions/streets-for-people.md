@@ -7,9 +7,9 @@ categories: ["urban", "health"]
 regions: ["in"]
 sdgs: [3, 11]
 approach: "City planning"
-whoIsDoingIt: "Smart Cities Mission, city corporations, urban design groups"
+whoIsDoingIt: "Smart Cities Mission, ITDP, city governments"
 problems: ["unhealthy-infrastructure", "lifestyle-health-crisis"]
-resources: ["streets-for-people", "complete-streets-paper", "walkable-cities-paper"]
+resources: ["complete-streets-paper", "walkable-cities-paper"]
 updated: 2026-10-25
 ---
 

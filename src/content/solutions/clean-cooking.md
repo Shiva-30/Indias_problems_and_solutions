@@ -8,7 +8,7 @@ categories: ["environment", "health", "gender"]
 regions: ["in"]
 sdgs: [3, 5, 13]
 approach: "Policy + subsidy"
-whoIsDoingIt: "Pradhan Mantri Ujjwala Yojana, oil marketing companies"
+whoIsDoingIt: "Pradhan Mantri Ujjwala Yojana"
 problems: ["air-pollution"]
 resources: ["ujjwala", "lpg_paper"]
 updated: 2026-10-25

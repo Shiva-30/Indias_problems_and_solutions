@@ -7,7 +7,7 @@ categories: ["technology", "environment"]
 regions: ["world"]
 sdgs: [9, 13]
 approach: "Technology + policy"
-whoIsDoingIt: "Cloud companies, data centre operators, energy regulators"
+whoIsDoingIt: "Data centre operators, chip and AI model makers"
 problems: ["harmful-ai", "climate-change"]
 resources: ["iea", "green-ai-paper"]
 updated: 2026-10-25

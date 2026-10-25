@@ -7,9 +7,9 @@ categories: ["environment", "health", "urban"]
 regions: ["in"]
 sdgs: [3, 11, 13]
 approach: "Policy + community"
-whoIsDoingIt: "City corporations, state disaster authorities, public health institutes"
+whoIsDoingIt: "Ahmedabad and other cities, National Disaster Management Authority"
 problems: ["climate-change", "unhealthy-infrastructure"]
-resources: ["heat-action-paper", "heat-action-video"]
+resources: ["heat-action-paper"]
 updated: 2026-10-25
 ---
 

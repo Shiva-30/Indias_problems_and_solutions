@@ -8,7 +8,7 @@ categories: ["health", "consumption"]
 regions: ["in"]
 sdgs: [2, 3]
 approach: "Policy + campaign"
-whoIsDoingIt: "FSSAI Eat Right India, schools"
+whoIsDoingIt: "Food Safety and Standards Authority of India (FSSAI), schools"
 problems: ["lifestyle-health-crisis", "ultra-processed-food"]
 resources: ["eat-right", "fssai"]
 updated: 2026-10-25
