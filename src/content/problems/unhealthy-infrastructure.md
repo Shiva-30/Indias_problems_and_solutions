@@ -19,14 +19,6 @@ whatGovernmentCanDo:
   - { step: "Protect green and open space", how: "Set minimum tree cover and park area in every ward." }
   - { step: "Plan for heat and wildlife", how: "Use cool roofs, shade and green corridors in new developments." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/TRAFFIC_VIEW_IN_BANGALORE.jpg/1280px-TRAFFIC_VIEW_IN_BANGALORE.jpg"
-  alt: "A wide road packed with cars, buses and two-wheelers"
-  caption: "Traffic in Bengaluru."
-  author: "Divya Chinnasamy"
-  license: "CC0"
-  licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:TRAFFIC_VIEW_IN_BANGALORE.jpg"
 ---
 
 ## Causes

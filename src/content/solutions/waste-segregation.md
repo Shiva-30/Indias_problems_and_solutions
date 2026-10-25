@@ -11,14 +11,6 @@ whoIsDoingIt: "Indore Municipal Corporation, residents"
 problems: ["waste-management"]
 resources: ["indore-paper", "swachh-bharat", "yt-nywgfe5x4ym"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Photograph_of_public-waste_segregation_bins%2C_Amritsar%2C_Punjab%2C_India%2C_8_April_2023.jpg/1280px-Photograph_of_public-waste_segregation_bins%2C_Amritsar%2C_Punjab%2C_India%2C_8_April_2023.jpg"
-  alt: "Blue and green waste bins on a street corner"
-  caption: "Separate bins for dry and wet waste in Amritsar, 2023."
-  author: "MaplesyrupSushi"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Photograph_of_public-waste_segregation_bins,_Amritsar,_Punjab,_India,_8_April_2023.jpg"
 ---
 
 ## How it works

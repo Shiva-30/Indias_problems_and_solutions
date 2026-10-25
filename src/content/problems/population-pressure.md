@@ -30,14 +30,6 @@ whatGovernmentCanDo:
   - { step: "Expand contraceptive choice", how: "Make a range of contraceptives available at every health centre." }
   - { step: "Plan cities for growth", how: "Invest in housing, transport and water ahead of population growth." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Crowded_Thane_station_on_31_Dec_2012_02.jpg/1280px-Crowded_Thane_station_on_31_Dec_2012_02.jpg"
-  alt: "A dense crowd filling a railway platform"
-  caption: "Crowds waiting for a train at Thane station, Mumbai region."
-  author: "Dharmadhyaksha"
-  license: "CC BY-SA 3.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Crowded_Thane_station_on_31_Dec_2012_02.jpg"
 ---
 
 ## Causes

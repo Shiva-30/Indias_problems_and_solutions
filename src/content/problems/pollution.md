@@ -20,14 +20,6 @@ whatGovernmentCanDo:
   - { step: "Enforce discharge rules", how: "Monitor industries in real time and close persistent polluters." }
   - { step: "Support farmers to cut chemicals", how: "Promote natural farming and soil testing." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Polluted_Malad_Creek_at_Lokhandwala%2CMumbai_%284588707292%29.jpg/1280px-Polluted_Malad_Creek_at_Lokhandwala%2CMumbai_%284588707292%29.jpg"
-  alt: "A narrow creek choked with sewage and rubbish between apartment blocks"
-  caption: "Malad Creek, Mumbai, clogged with sewage, garbage and construction debris."
-  author: "Ravi Khemka from Mumbai, India"
-  license: "CC BY 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/2.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Polluted_Malad_Creek_at_Lokhandwala,Mumbai_(4588707292).jpg"
 ---
 
 ## Causes

@@ -11,14 +11,6 @@ whoIsDoingIt: "Fit India Movement, Ministry of Youth Affairs and Sports, schools
 problems: ["lifestyle-health-crisis"]
 resources: ["fit-india", "who-activity", "yt-evfolmymatw"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/WORLD_YOGA_DAY_Victoriya_Kolkata.jpg/1280px-WORLD_YOGA_DAY_Victoriya_Kolkata.jpg"
-  alt: "Rows of people doing yoga on blue mats in front of the Victoria Memorial"
-  caption: "International Yoga Day at the Victoria Memorial, Kolkata."
-  author: "Susovan Chakraborty5"
-  license: "CC0"
-  licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:WORLD_YOGA_DAY_Victoriya_Kolkata.jpg"
 ---
 
 ## How it works

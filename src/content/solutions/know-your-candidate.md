@@ -12,14 +12,6 @@ whoIsDoingIt: "Supreme Court rules, Association for Democratic Reforms"
 problems: ["politician-quality"]
 resources: ["myneta", "adr", "yt-i0hbt-wpk0i"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Contr_Unit_of_Electronic_Voting_Machine_2.jpg/1280px-Contr_Unit_of_Electronic_Voting_Machine_2.jpg"
-  alt: "A gloved hand operating the control unit of an electronic voting machine"
-  caption: "The control unit of an electronic voting machine."
-  author: "Shagil Kannur"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Contr_Unit_of_Electronic_Voting_Machine_2.jpg"
 ---
 
 ## How it works

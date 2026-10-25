@@ -11,14 +11,6 @@ whoIsDoingIt: "Pratham, state governments"
 problems: ["learning-gap"]
 resources: ["tarl", "tarl_jpal", "yt-gngfqjeizlw", "yt-jqzz5zz7kdm"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Children_Reading_Pratham_Books_and_Akshara_-_Flickr_-_Pratham_Books_%2878%29.jpg/1280px-Children_Reading_Pratham_Books_and_Akshara_-_Flickr_-_Pratham_Books_%2878%29.jpg"
-  alt: "A smiling young boy holding a book with other children behind him"
-  caption: "Children reading."
-  author: "Ryan Lobo for Pratham Books"
-  license: "CC BY 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/2.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Children_Reading_Pratham_Books_and_Akshara_-_Flickr_-_Pratham_Books_(78).jpg"
 ---
 
 ## How it works

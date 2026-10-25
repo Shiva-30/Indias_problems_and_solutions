@@ -11,14 +11,6 @@ whoIsDoingIt: "Right to Repair portal, product makers"
 problems: ["overconsumption"]
 resources: ["right-to-repair", "circular-economy-paper", "unep-consumption", "yt-pvv---yp2km", "yt-46rdkiy5h3u"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/YadavTireRepairShopIndia.jpg/1280px-YadavTireRepairShopIndia.jpg"
-  alt: "Two men repairing a tyre at a roadside shop stacked with tyres"
-  caption: "A roadside tyre repair shop."
-  author: "Shashwat Nagpal"
-  license: "CC BY 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/2.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:YadavTireRepairShopIndia.jpg"
 ---
 
 ## How it works

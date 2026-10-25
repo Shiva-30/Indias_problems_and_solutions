@@ -12,14 +12,6 @@ whoIsDoingIt: "Food Safety and Standards Authority of India (FSSAI), schools"
 problems: ["lifestyle-health-crisis", "ultra-processed-food"]
 resources: ["eat-right", "fssai", "yt-ue39uvsqi4s"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Vegetables_at_vegetable_market%2C_Havelock_Island%2C_Andamans.jpg/1280px-Vegetables_at_vegetable_market%2C_Havelock_Island%2C_Andamans.jpg"
-  alt: "Baskets of fresh vegetables and tender coconuts"
-  caption: "Fresh vegetables at a market on Havelock Island, Andamans."
-  author: "Vyacheslav Argenberg"
-  license: "CC BY 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Vegetables_at_vegetable_market,_Havelock_Island,_Andamans.jpg"
 ---
 
 ## How it works

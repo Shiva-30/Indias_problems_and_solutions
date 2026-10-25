@@ -11,14 +11,6 @@ whoIsDoingIt: "National Rural Livelihoods Mission, JEEViKA (Bihar)"
 problems: ["women-work"]
 resources: ["kudumbashree", "yt-tdzf9kopuq"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Women_self_help_group_foundation.jpg/1280px-Women_self_help_group_foundation.jpg"
-  alt: "Women sitting on the floor at a group meeting"
-  caption: "A women's self-help group meeting in Cuddalore district, Tamil Nadu, 2017."
-  author: "Pondicherry17"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Women_self_help_group_foundation.jpg"
 ---
 
 ## How it works

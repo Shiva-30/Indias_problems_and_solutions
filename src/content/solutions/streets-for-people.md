@@ -11,14 +11,6 @@ whoIsDoingIt: "Smart Cities Mission, ITDP, city governments"
 problems: ["unhealthy-infrastructure", "lifestyle-health-crisis"]
 resources: ["complete-streets-paper", "walkable-cities-paper", "yt-1fc-8k-7qlo", "yt-2k-7wrxyrqi"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2017_remodeled_expanded_pedestrian_street_Golden_temple_Amritsar.jpg/1280px-2017_remodeled_expanded_pedestrian_street_Golden_temple_Amritsar.jpg"
-  alt: "A wide paved pedestrian street with shops leading to the Golden Temple"
-  caption: "The pedestrian street leading to the Golden Temple, Amritsar, remodelled in 2017."
-  author: "Ms Sarah Welch"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:2017_remodeled_expanded_pedestrian_street_Golden_temple_Amritsar.jpg"
 ---
 
 ## How it works

@@ -24,14 +24,6 @@ whatGovernmentCanDo:
   - { step: "Pay farmers to switch crops", how: "Guarantee prices and procurement for millets and pulses in water-stressed districts." }
   - { step: "Scale up community groundwater plans", how: "Extend Atal Bhujal Yojana-style village water budgets to every over-exploited block." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Borewell_pump_and_irrigation_pipes_in_a_Raichur%2C_India_agricultural_fields_growing_cotton.jpg/1280px-Borewell_pump_and_irrigation_pipes_in_a_Raichur%2C_India_agricultural_fields_growing_cotton.jpg"
-  alt: "A borewell pump head with black irrigation pipes running across a farm field"
-  caption: "A borewell pumping groundwater for irrigation in Raichur, Karnataka."
-  author: "Vraj Acharya, WELL Labs"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Borewell_pump_and_irrigation_pipes_in_a_Raichur,_India_agricultural_fields_growing_cotton.jpg"
 ---
 
 ## Causes

@@ -22,14 +22,6 @@ whatGovernmentCanDo:
   - { step: "Fund animal birth control properly", how: "Make sure every city runs and monitors a humane ABC programme." }
   - { step: "Protect wildlife corridors", how: "Keep habitats connected to reduce human-animal conflict." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Stray_dog_feeding_her_puppies_in_a_rural_courtyard.jpg/1280px-Stray_dog_feeding_her_puppies_in_a_rural_courtyard.jpg"
-  alt: "A stray mother dog nursing her puppies in a village courtyard"
-  caption: "A community dog nursing her puppies in a village courtyard in India."
-  author: "Anonymousguyindia"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Stray_dog_feeding_her_puppies_in_a_rural_courtyard.jpg"
 ---
 
 ## Causes

@@ -19,14 +19,6 @@ whatGovernmentCanDo:
   - { step: "Hold platforms accountable", how: "Require transparency about recommendation algorithms." }
   - { step: "Enforce content ratings", how: "Strengthen age ratings and parental controls on streaming and TV." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cricket_cheer.jpg/1280px-Cricket_cheer.jpg"
-  alt: "A crowd of men gathered around a small television, cheering"
-  caption: "A crowd gathers around a television."
-  author: "Arvind Jain"
-  license: "CC BY-SA 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Cricket_cheer.jpg"
 ---
 
 ## Causes

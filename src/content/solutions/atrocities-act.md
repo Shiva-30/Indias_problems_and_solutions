@@ -11,14 +11,6 @@ whoIsDoingIt: "State governments, police and Exclusive Special Courts"
 problems: ["caste-and-religious-discrimination"]
 resources: ["poa-act", "ncsc", "yt-rqayw6gepvu"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Statue_of_B._R._Ambedkar%2C_Vidhana_Soudha_%2802%29.jpg/1280px-Statue_of_B._R._Ambedkar%2C_Vidhana_Soudha_%2802%29.jpg"
-  alt: "A statue of B. R. Ambedkar pointing forward, in a garden"
-  caption: "Statue of B. R. Ambedkar at Vidhana Soudha, Bengaluru."
-  author: "Moheen Reeyad"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Statue_of_B._R._Ambedkar,_Vidhana_Soudha_(02).jpg"
 ---
 
 ## How it works

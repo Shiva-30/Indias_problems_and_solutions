@@ -11,14 +11,6 @@ whoIsDoingIt: "Data centre operators, chip and AI model makers"
 problems: ["harmful-ai", "climate-change"]
 resources: ["iea", "green-ai-paper", "yt-cwbgyoqjkgm"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Wind_Farm_Muppandal.jpg/1280px-Wind_Farm_Muppandal.jpg"
-  alt: "Wind turbines along a road in front of hills"
-  caption: "Wind farm at Muppandal, Tamil Nadu. Data centres can run on clean power like this."
-  author: "Deepa vasudevan"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Wind_Farm_Muppandal.jpg"
 ---
 
 ## How it works

@@ -12,14 +12,6 @@ whoIsDoingIt: "National Mission for Clean Ganga (Namami Gange), state government
 problems: ["pollution"]
 resources: ["namami-gange", "cpcb", "yt-vwzlwscpc7o"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Doddabommasandra_Lake_STP_Bengaluru_sewage_treatment_plant_aerial_view_India.jpg/1280px-Doddabommasandra_Lake_STP_Bengaluru_sewage_treatment_plant_aerial_view_India.jpg"
-  alt: "Aerial view of round treatment tanks beside a lake"
-  caption: "Sewage treatment plant at Doddabommasandra Lake, Bengaluru."
-  author: "Vraj Acharya, WELL Labs"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Doddabommasandra_Lake_STP_Bengaluru_sewage_treatment_plant_aerial_view_India.jpg"
 ---
 
 ## How it works

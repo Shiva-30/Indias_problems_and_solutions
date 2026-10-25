@@ -11,14 +11,6 @@ whoIsDoingIt: "Per Drop More Crop scheme, state governments"
 problems: ["groundwater-depletion"]
 resources: ["pmksy", "drip_paper", "yt-toeoflocc4g", "yt-szexmwi5dum"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Drip_irrigation_in_Kerala.jpg/1280px-Drip_irrigation_in_Kerala.jpg"
-  alt: "Drip pipes running along rows of vegetable plants"
-  caption: "Drip irrigation in Cherthala, Kerala."
-  author: "Vis M"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Drip_irrigation_in_Kerala.jpg"
 ---
 
 ## How it works
