@@ -6,6 +6,16 @@ regions: ["in"]
 sdgs: [3, 6, 14, 15]
 resources: ["cpcb", "river-pollution-paper"]
 related: ["air-pollution", "waste-management"]
+whatYouCanDo:
+  - { step: "Avoid chemicals down the drain", how: "Do not pour oil, paint or medicines down sinks or toilets." }
+  - { step: "Use less plastic", how: "Carry a cloth bag and a water bottle, and refuse single-use plastic." }
+  - { step: "Choose chemical-free produce", how: "Buy organic or natural-farming produce when you can." }
+  - { step: "Report polluters", how: "Report industries dumping waste into rivers or land to your state pollution control board." }
+  - { step: "Join a clean-up", how: "Take part in a river, beach or lake clean-up near you." }
+whatGovernmentCanDo:
+  - { step: "Treat all sewage", how: "Build and run enough sewage treatment plants, and check that they work." }
+  - { step: "Enforce discharge rules", how: "Monitor industries in real time and close persistent polluters." }
+  - { step: "Support farmers to cut chemicals", how: "Promote natural farming and soil testing." }
 updated: 2026-10-25
 ---
 

@@ -6,6 +6,15 @@ regions: ["in"]
 sdgs: [12]
 resources: ["unep-consumption", "consumption-paper"]
 related: ["unsustainable-packaging", "irresponsible-business"]
+whatYouCanDo:
+  - { step: "Pause before you buy", how: "Wait 30 days before buying anything you don't need right away." }
+  - { step: "Repair and reuse", how: "Fix things before replacing them, and use local repair shops." }
+  - { step: "Buy second-hand or borrow", how: "Swap clothes, borrow tools, and buy pre-owned when you can." }
+  - { step: "Choose quality over quantity", how: "Buy fewer, longer-lasting things." }
+whatGovernmentCanDo:
+  - { step: "Enforce the right to repair", how: "Require spare parts and repair manuals for phones, appliances and vehicles." }
+  - { step: "Label durability", how: "Show how long a product will last and how repairable it is." }
+  - { step: "Curb misleading ads", how: "Act against advertising that pushes needless buying through false claims." }
 updated: 2026-10-25
 ---
 

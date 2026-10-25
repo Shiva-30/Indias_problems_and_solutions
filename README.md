@@ -76,6 +76,10 @@ keyStats:
 solutions: ["drip-irrigation"]
 resources: ["cgwb"]
 related: ["climate-change"]
+whatYouCanDo:
+  - { step: "Fix leaks at home", how: "One sentence on how to do it." }
+whatGovernmentCanDo:
+  - { step: "Meter farm electricity", how: "One sentence on what it means." }
 updated: 2026-10-25
 ---
 
@@ -87,6 +91,25 @@ updated: 2026-10-25
 
 - ...
 ```
+
+Statistics and charts are optional. Only add a figure you have checked against its source, and link the exact page:
+
+```yaml
+keyStats:
+  - { value: "41.7%", label: "of women aged 15+ were in the labour force in 2023-24", source: "PLFS 2023-24", sourceUrl: "https://..." }
+charts:
+  - title: "Women's labour force participation rate (age 15+)"
+    kind: line          # or bar
+    unit: "%"
+    series: ["2015-16", "2019-21"]   # only for grouped bars; leave out for one series
+    data:
+      - { label: "2017-18", values: [23.3] }
+      - { label: "2023-24", values: [41.7] }
+    source: "MoSPI, PLFS annual report 2023-24"
+    sourceUrl: "https://..."
+```
+
+`whatYouCanDo` steps appear as a checklist readers can tick (saved in their own browser). `whatGovernmentCanDo` appears as a numbered list beside it.
 
 ### Add a solution
 

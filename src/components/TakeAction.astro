@@ -1,0 +1,60 @@
+---
+interface Step { step: string; how: string }
+interface Props { id: string; you: Step[]; government: Step[] }
+const { id, you, government } = Astro.props;
+---
+{(you.length > 0 || government.length > 0) && (
+  <section class="take-action" id="take-action" data-problem={id}>
+    <div class="section-head">
+      <h2>Take action</h2>
+      <p>Steps anyone can follow, and what government can do</p>
+    </div>
+    <div class="action-grid">
+      {you.length > 0 && (
+        <div class="action-card you">
+          <div class="action-card-head">
+            <h3>What you can do</h3>
+            <p class="pledge-count" aria-live="polite">Tick the steps you'll try</p>
+          </div>
+          <ol class="steps">
+            {you.map((s, i) => (
+              <li>
+                <label>
+                  <input type="checkbox" data-step={i} />
+                  <span><strong>{s.step}</strong><span class="how">{s.how}</span></span>
+                </label>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
+      {government.length > 0 && (
+        <div class="action-card gov">
+          <div class="action-card-head"><h3>What government can do</h3></div>
+          <ol class="steps">
+            {government.map((s) => <li><span><strong>{s.step}</strong><span class="how">{s.how}</span></span></li>)}
+          </ol>
+        </div>
+      )}
+    </div>
+  </section>
+)}
+
+<script>
+  // Remember which steps a reader ticked, on their own device only.
+  for (const section of document.querySelectorAll<HTMLElement>('.take-action')) {
+    const key = `pledges:${section.dataset.problem}`;
+    const boxes = [...section.querySelectorAll<HTMLInputElement>('.you input[type=checkbox]')];
+    const count = section.querySelector('.pledge-count');
+    let saved: number[] = [];
+    try { saved = JSON.parse(localStorage.getItem(key) ?? '[]'); } catch {}
+    boxes.forEach((b) => (b.checked = saved.includes(Number(b.dataset.step))));
+    const update = () => {
+      const ticked = boxes.filter((b) => b.checked).map((b) => Number(b.dataset.step));
+      if (count) count.textContent = ticked.length ? `You plan to try ${ticked.length} of ${boxes.length}` : 'Tick the steps you\'ll try';
+      try { localStorage.setItem(key, JSON.stringify(ticked)); } catch {}
+    };
+    boxes.forEach((b) => b.addEventListener('change', update));
+    update();
+  }
+</script>

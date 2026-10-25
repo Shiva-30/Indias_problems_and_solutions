@@ -4,8 +4,29 @@ summary: "Indian towns and cities produce more waste each year than they can col
 categories: ["environment", "urban"]
 regions: ["in"]
 sdgs: [11, 12]
-resources: ["swachh-bharat", "waste-paper", "waste-video"]
+keyStats:
+  - { value: "1,66,096", label: "tonnes of municipal solid waste generated every day", source: "Ministry of Housing and Urban Affairs, in the Rajya Sabha", sourceUrl: "https://www.iamrenew.com/environment/indian-cities-raise-waste-processing-capacity-to-80-in-10-years-mohua/" }
+charts:
+  - title: "Waste processing capacity as a share of waste generated"
+    kind: bar
+    unit: "%"
+    data:
+      - { label: "2014", values: [16] }
+      - { label: "2024", values: [80.17] }
+    note: "Capacity to process, not the amount actually processed."
+    source: "Ministry of Housing and Urban Affairs, via Iamrenew"
+    sourceUrl: "https://www.iamrenew.com/environment/indian-cities-raise-waste-processing-capacity-to-80-in-10-years-mohua/"
+resources: ["swm-capacity", "swachh-bharat", "waste-paper", "waste-video"]
 related: ["pollution", "unsustainable-packaging"]
+whatYouCanDo:
+  - { step: "Separate your waste", how: "Use separate bins for wet, dry and hazardous waste at home." }
+  - { step: "Compost kitchen waste", how: "Start a home or society compost bin for food scraps." }
+  - { step: "Respect waste pickers", how: "Hand over clean, sorted dry waste and treat waste workers with dignity." }
+  - { step: "Report garbage points", how: "Use the Swachhata app to report uncollected garbage." }
+whatGovernmentCanDo:
+  - { step: "Collect waste separately everywhere", how: "Make door-to-door segregated collection universal." }
+  - { step: "Build processing, not landfills", how: "Fund composting, biogas and recycling plants and clear old dumpsites." }
+  - { step: "Include waste pickers", how: "Give waste pickers ID cards, safety gear and contracts." }
 updated: 2026-10-25
 ---
 
