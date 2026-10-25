@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import ProblemCard from '../components/ProblemCard.astro';
 import SolutionCard from '../components/SolutionCard.astro';
-import { byTitle } from '../lib/data';
+import { byTitle, plural } from '../lib/data';
 
 const problems = (await getCollection('problems')).sort(byTitle);
 const solutions = (await getCollection('solutions')).sort(byTitle);
@@ -38,7 +38,7 @@ const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
         {categories.map((c) => (
           <a class={`cat c-${c.id}`} href={`/categories/${c.id}/`}>
             <strong>{c.data.name}</strong>
-            <small>{count(c.id, problems)} problems · {count(c.id, solutions)} solutions</small>
+            <small>{plural(count(c.id, problems), 'problem')} · {plural(count(c.id, solutions), 'solution')}</small>
           </a>
         ))}
       </div>

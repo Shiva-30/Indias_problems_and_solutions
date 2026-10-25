@@ -22,6 +22,9 @@ export const SDG_NAMES: Record<number, string> = {
   15: 'Life on land', 16: 'Peace, justice and strong institutions', 17: 'Partnerships for the goals',
 };
 
+/** "1 problem", "2 problems" */
+export const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
 export const byTitle = <T extends { data: { title: string } }>(a: T, b: T) => a.data.title.localeCompare(b.data.title);
 
 export async function categoryMap() {

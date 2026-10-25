@@ -75,6 +75,7 @@ keyStats:
   - { value: "35.5%", label: "of children under 5 are stunted", source: "NFHS-5, 2019-21" }
 solutions: ["drip-irrigation"]
 resources: ["cgwb"]
+related: ["climate-change"]
 updated: 2026-10-25
 ---
 
