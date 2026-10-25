@@ -9,7 +9,7 @@ sdgs: [8, 11]
 approach: "Community + city partnership"
 whoIsDoingIt: "SWaCH cooperative, Pune Municipal Corporation"
 problems: ["waste-management"]
-resources: ["swach-paper"]
+resources: ["swach-paper", "yt-yj7ukgmtmwe", "yt-wyxhisdieu"]
 updated: 2026-10-25
 ---
 

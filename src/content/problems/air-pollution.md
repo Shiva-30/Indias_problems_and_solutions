@@ -22,7 +22,7 @@ charts:
       - { label: "India 2024", values: [50.6] }
     source: "World Air Quality Report 2024 (IQAir), as summarised by Drishti IAS"
     sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/world-air-quality-report-2024/print_manually"
-resources: ["waqr-2024-summary", "iqair", "who_aq", "aq_paper"]
+resources: ["waqr-2024-summary", "iqair", "who_aq", "aq_paper", "yt-bvzvzxw5n2q", "yt-n9n7eagfldg"]
 whatYouCanDo:
   - { step: "Check the air before you go out", how: "Use the CPCB Sameer app and wear a well-fitted N95 mask on bad days." }
   - { step: "Leave the car at home once a week", how: "Walk, cycle, take the metro or bus, or share a ride." }

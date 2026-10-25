@@ -9,7 +9,7 @@ regions: ["in-maharashtra", "in-tamil-nadu", "in-karnataka", "in-delhi"]
 regionNote: "Mumbai, Chennai, Bengaluru, Delhi"
 sdgs: [11, 13]
 solutions: ["restore-lakes"]
-resources: ["flood_paper"]
+resources: ["flood_paper", "yt-shodk0d6p-m"]
 whatYouCanDo:
   - { step: "Keep drains clear", how: "Never throw plastic or waste into drains, and report blocked drains to your city." }
   - { step: "Let water soak in", how: "Leave soil and plants around your building instead of paving every surface." }

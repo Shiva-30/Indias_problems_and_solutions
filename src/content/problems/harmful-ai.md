@@ -8,7 +8,7 @@ summarySources:
 categories: ["technology", "environment"]
 regions: ["in"]
 sdgs: [9, 13, 16]
-resources: ["iea", "unesco-ai", "ai-ethics-paper"]
+resources: ["iea", "unesco-ai", "ai-ethics-paper", "yt-b0c56yqikbk", "yt-arf2ehiml54"]
 related: ["climate-change", "harmful-media-content"]
 whatYouCanDo:
   - { step: "Use AI thoughtfully", how: "Use AI tools when they genuinely help, and don't run them for trivial tasks." }

@@ -10,7 +10,7 @@ sdgs: [6, 14]
 approach: "Policy + infrastructure"
 whoIsDoingIt: "National Mission for Clean Ganga (Namami Gange), state governments"
 problems: ["pollution"]
-resources: ["namami-gange", "cpcb"]
+resources: ["namami-gange", "cpcb", "yt-vwzlwscpc7o"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Doddabommasandra_Lake_STP_Bengaluru_sewage_treatment_plant_aerial_view_India.jpg/1280px-Doddabommasandra_Lake_STP_Bengaluru_sewage_treatment_plant_aerial_view_India.jpg"

@@ -11,7 +11,7 @@ sdgs: [2, 4]
 approach: "Policy"
 whoIsDoingIt: "PM POSHAN (formerly Mid-Day Meal scheme), government schools"
 problems: ["child-malnutrition", "learning-gap"]
-resources: ["pmposhan", "meal_paper"]
+resources: ["pmposhan", "meal_paper", "yt-drgedmbxnuu"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Mid_day_meal.jpg/1280px-Mid_day_meal.jpg"

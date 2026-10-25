@@ -19,7 +19,7 @@ charts:
       - { label: "Urban", values: [2.7, 1.6] }
     source: "NFHS-5 national report, as summarised by Drishti IAS"
     sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually"
-resources: ["nfhs5-report-summary", "unfpa-india"]
+resources: ["nfhs5-report-summary", "unfpa-india", "yt-uy5sx8c8kwi", "yt-w88luejbsc8"]
 related: ["overconsumption", "unhealthy-infrastructure"]
 whatYouCanDo:
   - { step: "Support girls' education", how: "Sponsor a girl's schooling or volunteer with an education NGO." }

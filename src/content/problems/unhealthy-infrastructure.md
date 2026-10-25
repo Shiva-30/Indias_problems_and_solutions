@@ -7,7 +7,7 @@ summarySources:
 categories: ["urban", "environment", "health"]
 regions: ["in"]
 sdgs: [11]
-resources: ["walkable-cities-paper"]
+resources: ["walkable-cities-paper", "yt-1fc-8k-7qlo", "yt-zzybcuklceo"]
 related: ["urban-flooding"]
 whatYouCanDo:
   - { step: "Walk and cycle more", how: "Use footpaths and cycle lanes, so cities see that people want them." }

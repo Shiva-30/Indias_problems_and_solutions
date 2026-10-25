@@ -10,7 +10,7 @@ sdgs: [9, 16]
 approach: "Policy"
 whoIsDoingIt: "The European Union, UNESCO member states, India's MeitY"
 problems: ["harmful-ai"]
-resources: ["eu-ai-act", "unesco-ai", "ai-ethics-paper"]
+resources: ["eu-ai-act", "unesco-ai", "ai-ethics-paper", "yt-ukgspujhs9m", "yt-s-rxonct3hq"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg/1280px-Code_on_computer_monitor_%28Unsplash%29.jpg"

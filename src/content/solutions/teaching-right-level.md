@@ -9,7 +9,7 @@ sdgs: [4]
 approach: "Community + teaching method"
 whoIsDoingIt: "Pratham, state governments"
 problems: ["learning-gap"]
-resources: ["tarl", "tarl_jpal"]
+resources: ["tarl", "tarl_jpal", "yt-gngfqjeizlw", "yt-jqzz5zz7kdm"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Children_Reading_Pratham_Books_and_Akshara_-_Flickr_-_Pratham_Books_%2878%29.jpg/1280px-Children_Reading_Pratham_Books_and_Akshara_-_Flickr_-_Pratham_Books_%2878%29.jpg"

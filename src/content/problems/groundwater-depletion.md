@@ -12,7 +12,7 @@ solutions: ["drip-irrigation", "community-groundwater"]
 keyStats:
   - { value: "60.47%", label: "of annual extractable groundwater was being extracted in 2024, up from 59.21% in 2023", source: "CGWB assessment 2024", sourceUrl: "https://factly.in/data-marginal-decrease-in-annual-ground-water-recharge-in-2024-with-minimal-increase-in-extraction" }
   - { value: "751", label: "assessment units (11.13%) are over-exploited, drawing more than is recharged", source: "CGWB assessment 2024", sourceUrl: "https://factly.in/data-marginal-decrease-in-annual-ground-water-recharge-in-2024-with-minimal-increase-in-extraction" }
-resources: ["gw-2024-factly", "cgwb", "wb_gw"]
+resources: ["gw-2024-factly", "cgwb", "wb_gw", "yt-50amqyifiik"]
 whatYouCanDo:
   - { step: "Fix leaks at home", how: "Check taps, pipes and toilets for leaks this week and repair them." }
   - { step: "Harvest rainwater", how: "Ask your housing society or school to set up rooftop rainwater harvesting or a recharge pit." }

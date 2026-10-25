@@ -9,7 +9,7 @@ sdgs: [10, 16]
 approach: "Law"
 whoIsDoingIt: "State governments, police and Exclusive Special Courts"
 problems: ["caste-and-religious-discrimination"]
-resources: ["poa-act", "ncsc"]
+resources: ["poa-act", "ncsc", "yt-rqayw6gepvu"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Statue_of_B._R._Ambedkar%2C_Vidhana_Soudha_%2802%29.jpg/1280px-Statue_of_B._R._Ambedkar%2C_Vidhana_Soudha_%2802%29.jpg"

@@ -9,7 +9,7 @@ sdgs: [11, 12]
 approach: "City systems + community"
 whoIsDoingIt: "Indore Municipal Corporation, residents"
 problems: ["waste-management"]
-resources: ["indore-paper", "swachh-bharat"]
+resources: ["indore-paper", "swachh-bharat", "yt-nywgfe5x4ym"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Photograph_of_public-waste_segregation_bins%2C_Amritsar%2C_Punjab%2C_India%2C_8_April_2023.jpg/1280px-Photograph_of_public-waste_segregation_bins%2C_Amritsar%2C_Punjab%2C_India%2C_8_April_2023.jpg"

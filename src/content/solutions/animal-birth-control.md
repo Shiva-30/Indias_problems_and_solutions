@@ -9,7 +9,7 @@ sdgs: [3, 15]
 approach: "Policy + community"
 whoIsDoingIt: "City and municipal bodies, under the Animal Birth Control Rules, 2023"
 problems: ["animal-cruelty"]
-resources: ["awbi", "abc-paper"]
+resources: ["awbi", "abc-paper", "yt-oa34ms613gk"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sleeping_puppies_in_Varanasi%2C_6_April_2019.jpg/1280px-Sleeping_puppies_in_Varanasi%2C_6_April_2019.jpg"

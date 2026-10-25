@@ -10,7 +10,7 @@ sdgs: [2, 3]
 approach: "Policy + campaign"
 whoIsDoingIt: "Food Safety and Standards Authority of India (FSSAI), schools"
 problems: ["lifestyle-health-crisis", "ultra-processed-food"]
-resources: ["eat-right", "fssai"]
+resources: ["eat-right", "fssai", "yt-ue39uvsqi4s"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Vegetables_at_vegetable_market%2C_Havelock_Island%2C_Andamans.jpg/1280px-Vegetables_at_vegetable_market%2C_Havelock_Island%2C_Andamans.jpg"

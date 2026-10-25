@@ -7,7 +7,7 @@ summarySources:
 categories: ["society", "gender"]
 regions: ["in"]
 sdgs: [5, 10]
-resources: ["norms-paper"]
+resources: ["norms-paper", "yt-a6ncblke70i"]
 related: ["crimes-against-women", "caste-and-religious-discrimination"]
 whatYouCanDo:
   - { step: "Respect other people's choices", how: "Support friends' and family's choices about careers, marriage and identity." }

@@ -10,7 +10,7 @@ sdgs: [16]
 approach: "Transparency + voter action"
 whoIsDoingIt: "Supreme Court rules, Association for Democratic Reforms"
 problems: ["politician-quality"]
-resources: ["myneta", "adr"]
+resources: ["myneta", "adr", "yt-i0hbt-wpk0i"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Contr_Unit_of_Electronic_Voting_Machine_2.jpg/1280px-Contr_Unit_of_Electronic_Voting_Machine_2.jpg"

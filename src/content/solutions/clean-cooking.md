@@ -10,7 +10,7 @@ sdgs: [3, 5, 13]
 approach: "Policy + subsidy"
 whoIsDoingIt: "Pradhan Mantri Ujjwala Yojana"
 problems: ["air-pollution"]
-resources: ["ujjwala", "lpg_paper"]
+resources: ["ujjwala", "lpg_paper", "yt-kxlzh9-hq4o"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Village_kitchen_in_Pune_district_%2C_India_2012_IMG_1583.jpg/1280px-Village_kitchen_in_Pune_district_%2C_India_2012_IMG_1583.jpg"

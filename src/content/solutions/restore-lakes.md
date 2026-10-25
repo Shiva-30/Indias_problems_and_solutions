@@ -9,7 +9,7 @@ sdgs: [11, 13, 6]
 approach: "Community + city planning"
 whoIsDoingIt: "Karnataka lake authorities, researchers at IISc"
 problems: ["urban-flooding"]
-resources: ["flood_paper"]
+resources: ["flood_paper", "yt-ewe0eoortbc", "yt-8l8wafuw-r0"]
 updated: 2026-10-25
 ---
 

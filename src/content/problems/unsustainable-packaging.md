@@ -9,7 +9,7 @@ regions: ["in"]
 sdgs: [12, 14]
 keyStats:
   - { value: "34 lakh+", label: "tonnes of plastic waste generated in 2019-20, over 10 lakh tonnes more than in 2017-18", source: "CPCB data reported in Parliament", sourceUrl: "https://www.deccanherald.com/national/over-34-lakh-tonnes-of-plastic-waste-generated-in-fy-2019-20-1010477.html" }
-resources: ["plastic-2019-20", "plastic-rules", "packaging-paper"]
+resources: ["plastic-2019-20", "plastic-rules", "packaging-paper", "yt-flrdyjzqbh0"]
 related: ["waste-management", "overconsumption"]
 whatYouCanDo:
   - { step: "Carry your own bag and bottle", how: "Keep a cloth bag and refillable bottle with you every day." }

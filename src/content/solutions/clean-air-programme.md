@@ -9,7 +9,7 @@ sdgs: [11, 3]
 approach: "Policy"
 whoIsDoingIt: "National Clean Air Programme, 130 city governments"
 problems: ["air-pollution"]
-resources: ["ncap", "who_aq"]
+resources: ["ncap", "who_aq", "yt-ocilxbsp1om"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Olectra_-_BYD_Electric_Bus_Hyderabad_4.jpg/1280px-Olectra_-_BYD_Electric_Bus_Hyderabad_4.jpg"

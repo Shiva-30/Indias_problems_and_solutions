@@ -10,7 +10,7 @@ sdgs: [3, 4, 5]
 approach: "Policy + services"
 whoIsDoingIt: "Mission Parivar Vikas, state health departments"
 problems: ["population-pressure"]
-resources: ["unfpa-india"]
+resources: ["unfpa-india", "yt-wypl37f7vkk"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/School_Girls_in_India.jpg/1280px-School_Girls_in_India.jpg"

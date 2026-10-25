@@ -7,7 +7,7 @@ summarySources:
 categories: ["environment", "health"]
 regions: ["in"]
 sdgs: [3, 6, 14, 15]
-resources: ["cpcb", "river-pollution-paper"]
+resources: ["cpcb", "river-pollution-paper", "yt-ehcaivpn2ry"]
 related: ["air-pollution", "waste-management"]
 whatYouCanDo:
   - { step: "Avoid chemicals down the drain", how: "Do not pour oil, paint or medicines down sinks or toilets." }

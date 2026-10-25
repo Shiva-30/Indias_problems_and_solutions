@@ -6,7 +6,7 @@ summarySources:
 categories: ["health", "consumption"]
 regions: ["in"]
 sdgs: [2, 3]
-resources: ["fssai", "upf-paper", "who-obesity"]
+resources: ["fssai", "upf-paper", "who-obesity", "yt-u7imf9z7uqq", "yt-kkm6jc--pbq"]
 related: ["lifestyle-health-crisis", "unsustainable-packaging"]
 whatYouCanDo:
   - { step: "Read the label", how: "Check sugar, salt and fat per 100 g before you buy." }

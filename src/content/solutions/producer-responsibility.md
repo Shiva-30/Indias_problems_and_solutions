@@ -9,7 +9,7 @@ sdgs: [12]
 approach: "Policy"
 whoIsDoingIt: "Central Pollution Control Board, producers, brand owners and recyclers"
 problems: ["unsustainable-packaging", "irresponsible-business"]
-resources: ["epr-portal", "plastic-rules", "packaging-paper"]
+resources: ["epr-portal", "plastic-rules", "packaging-paper", "yt-l1-dvf8xo5e"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Plastic_bottles_for_recycling.jpg/1280px-Plastic_bottles_for_recycling.jpg"

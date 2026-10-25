@@ -6,7 +6,7 @@ summarySources:
 categories: ["economy", "environment"]
 regions: ["in"]
 sdgs: [8, 12]
-resources: ["brsr-paper"]
+resources: ["brsr-paper", "yt-99u6-dqea2y"]
 related: ["overconsumption", "pollution"]
 whatYouCanDo:
   - { step: "Buy from responsible brands", how: "Choose brands that are open about how they treat workers and the environment." }

@@ -10,7 +10,7 @@ sdgs: [3]
 approach: "Policy"
 whoIsDoingIt: "Food regulators. Chile was an early adopter, and India's FSSAI has proposed a warning label."
 problems: ["ultra-processed-food"]
-resources: ["fop-labels-paper"]
+resources: ["fop-labels-paper", "yt-erbp00xppy8", "yt-as-bfnlaaw0"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Nutrition_Facts_label_with_94%25_saturated_fat_per_serving.jpg/1280px-Nutrition_Facts_label_with_94%25_saturated_fat_per_serving.jpg"

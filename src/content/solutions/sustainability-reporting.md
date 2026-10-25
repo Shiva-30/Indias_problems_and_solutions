@@ -9,7 +9,7 @@ sdgs: [8, 12]
 approach: "Policy"
 whoIsDoingIt: "SEBI, India's 1,000 largest listed companies"
 problems: ["irresponsible-business"]
-resources: ["sebi-brsr", "brsr-paper"]
+resources: ["sebi-brsr", "brsr-paper", "yt-qptqftfg6p4"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/1280px-BSE_-_Bombay_Stock_Exchange_Building.jpg"

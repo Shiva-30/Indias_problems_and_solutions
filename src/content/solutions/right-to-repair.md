@@ -9,7 +9,7 @@ sdgs: [12]
 approach: "Policy + consumer action"
 whoIsDoingIt: "Right to Repair portal, product makers"
 problems: ["overconsumption"]
-resources: ["right-to-repair", "circular-economy-paper", "unep-consumption"]
+resources: ["right-to-repair", "circular-economy-paper", "unep-consumption", "yt-pvv---yp2km", "yt-46rdkiy5h3u"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/YadavTireRepairShopIndia.jpg/1280px-YadavTireRepairShopIndia.jpg"

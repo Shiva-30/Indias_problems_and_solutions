@@ -20,7 +20,7 @@ charts:
       - { label: "Men", values: [19, 23] }
     source: "NFHS-5 national report, as summarised by Drishti IAS"
     sourceUrl: "https://www.drishtiias.com/daily-updates/daily-news-analysis/nfhs-5-national-report/print_manually"
-resources: ["diabetes-interview", "nfhs5-report-summary", "who-obesity", "who-activity"]
+resources: ["diabetes-interview", "nfhs5-report-summary", "who-obesity", "who-activity", "yt-vlzxmstomi8"]
 related: ["child-malnutrition", "ultra-processed-food"]
 whatYouCanDo:
   - { step: "Move for 30 minutes a day", how: "Walk, cycle, do yoga or play a sport, and take the stairs." }

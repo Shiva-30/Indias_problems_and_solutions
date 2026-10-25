@@ -9,7 +9,7 @@ sdgs: [3]
 approach: "Policy + enforcement"
 whoIsDoingIt: "Central Consumer Protection Authority"
 problems: ["surrogate-advertising"]
-resources: ["ccpa-ads", "asci"]
+resources: ["ccpa-ads", "asci", "yt-ywpinrqs-je"]
 updated: 2026-10-25
 image:
   src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Amritsar_Advertising_Hoardings.jpg/1280px-Amritsar_Advertising_Hoardings.jpg"

@@ -19,7 +19,7 @@ charts:
       - { label: "2024", values: [46] }
     source: "ADR analysis of election affidavits"
     sourceUrl: "https://www.adrindia.org/content/almost-half-of-newly-elected-mps-face-criminal-cases-reveals-adr-analysis"
-resources: ["adr", "myneta"]
+resources: ["adr", "myneta", "yt-ft2eambaana"]
 related: []
 whatYouCanDo:
   - { step: "Check your candidates", how: "Before voting, read candidates' affidavits on the Know Your Candidate app or MyNeta." }

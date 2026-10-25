@@ -26,7 +26,7 @@ charts:
     note: "Usual status (principal and subsidiary), rural and urban combined."
     source: "MoSPI, PLFS annual report 2023-24"
     sourceUrl: "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf"
-resources: ["plfs", "flfp_paper"]
+resources: ["plfs", "flfp_paper", "yt-e-ywovo-6xg"]
 whatYouCanDo:
   - { step: "Share the housework", how: "At home, split cooking, cleaning and childcare so women have time for paid work." }
   - { step: "Buy from women-led businesses", how: "Choose self-help group products and women-run local shops." }
