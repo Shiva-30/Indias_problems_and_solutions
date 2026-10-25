@@ -21,10 +21,15 @@ const solutions = (await getCollection('solutions')).filter(
   (s) => problem.data.solutions.some((r) => r.id === s.id) || s.data.problems.some((r) => r.id === problem.id),
 );
 const resources = await resourcesFor(problem);
-const catIds = new Set(categories.map((c) => c.id));
-const related = (await getCollection('problems')).filter(
-  (p) => p.id !== problem.id && p.data.categories.some((c) => catIds.has(c.id)),
+// Related problems: links written on either page, or else up to 3 from the same categories.
+const allProblems = (await getCollection('problems')).filter((p) => p.id !== problem.id);
+const linked = allProblems.filter(
+  (p) => problem.data.related.some((r) => r.id === p.id) || p.data.related.some((r) => r.id === problem.id),
 );
+const catIds = new Set(categories.map((c) => c.id));
+const related = linked.length
+  ? linked
+  : allProblems.filter((p) => p.data.categories.some((c) => catIds.has(c.id))).slice(0, 3);
 ---
 <Base title={title} description={summary}>
   <div class="stack">

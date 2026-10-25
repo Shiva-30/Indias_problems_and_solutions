@@ -7,7 +7,7 @@
   },
   {
     "id": "environment",
-    "name": "Environment",
+    "name": "Environment & climate",
     "color": "#3a7d35",
     "colorDark": "#7fc177"
   },
@@ -46,5 +46,35 @@
     "name": "Gender",
     "color": "#a14592",
     "colorDark": "#dc8ccd"
+  },
+  {
+    "id": "society",
+    "name": "Society",
+    "color": "#8a5a2b",
+    "colorDark": "#d7a676"
+  },
+  {
+    "id": "governance",
+    "name": "Governance",
+    "color": "#2f4f8f",
+    "colorDark": "#8fa9e0"
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "color": "#5b5f97",
+    "colorDark": "#a9acdf"
+  },
+  {
+    "id": "animals",
+    "name": "Animals",
+    "color": "#7c5a3a",
+    "colorDark": "#cfa883"
+  },
+  {
+    "id": "consumption",
+    "name": "Consumption",
+    "color": "#9a3b6f",
+    "colorDark": "#e08fbc"
   }
 ]

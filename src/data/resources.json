@@ -222,5 +222,309 @@
     "url": "https://scholar.google.com/scholar?q=Bengaluru%20lake%20restoration%20urban%20flood",
     "source": "Google Scholar search",
     "year": 2021
+  },
+  {
+    "id": "ipcc-ar6",
+    "title": "IPCC Sixth Assessment Report (AR6)",
+    "type": "report",
+    "url": "https://www.ipcc.ch/assessment-report/ar6/",
+    "source": "Intergovernmental Panel on Climate Change",
+    "year": 2023
+  },
+  {
+    "id": "imd-climate",
+    "title": "Climate monitoring and annual climate statements",
+    "type": "dataset",
+    "url": "https://mausam.imd.gov.in",
+    "source": "India Meteorological Department",
+    "year": 2024
+  },
+  {
+    "id": "climate-india-video",
+    "title": "Climate change in India, explained",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=climate+change+India+explained+heatwaves+monsoon",
+    "source": "YouTube search",
+    "year": 2024
+  },
+  {
+    "id": "cpcb",
+    "title": "Central Pollution Control Board: air, water and waste data",
+    "type": "dataset",
+    "url": "https://cpcb.nic.in",
+    "source": "Central Pollution Control Board",
+    "year": 2024
+  },
+  {
+    "id": "river-pollution-paper",
+    "title": "Water pollution in Indian rivers",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=river+water+pollution+India+sewage+industrial+effluent",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "walkable-cities-paper",
+    "title": "Walkability, green space and health in Indian cities",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=walkability+green+space+health+Indian+cities+urban+design",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "ncrb",
+    "title": "Crime in India (annual report)",
+    "type": "report",
+    "url": "https://ncrb.gov.in",
+    "source": "National Crime Records Bureau",
+    "year": 2023
+  },
+  {
+    "id": "vaw-paper",
+    "title": "Violence against women in India: prevalence and drivers",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=violence+against+women+India+NFHS+prevalence+determinants",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "awbi",
+    "title": "Animal Welfare Board of India",
+    "type": "article",
+    "url": "https://awbi.gov.in",
+    "source": "Animal Welfare Board of India",
+    "year": 2024
+  },
+  {
+    "id": "animal-welfare-paper",
+    "title": "Animal welfare law and enforcement in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=animal+welfare+law+enforcement+India+Prevention+of+Cruelty+to+Animals+Act",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "swachh-bharat",
+    "title": "Swachh Bharat Mission (Urban)",
+    "type": "article",
+    "url": "https://sbmurban.org",
+    "source": "Ministry of Housing and Urban Affairs",
+    "year": 2024
+  },
+  {
+    "id": "waste-paper",
+    "title": "Municipal solid waste management in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=municipal+solid+waste+management+India+segregation+landfill",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "waste-video",
+    "title": "Where does India's garbage go?",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=India+landfill+garbage+mountain+documentary",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "plastic-rules",
+    "title": "Plastic Waste Management Rules and single-use plastic ban",
+    "type": "report",
+    "url": "https://cpcb.nic.in",
+    "source": "Central Pollution Control Board",
+    "year": 2022
+  },
+  {
+    "id": "packaging-paper",
+    "title": "Plastic packaging waste and extended producer responsibility in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=plastic+packaging+extended+producer+responsibility+India",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "unep-consumption",
+    "title": "Sustainable consumption and production",
+    "type": "article",
+    "url": "https://www.unep.org",
+    "source": "UN Environment Programme",
+    "year": 2024
+  },
+  {
+    "id": "consumption-paper",
+    "title": "Rising consumption and environmental footprint of Indian households",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=household+consumption+carbon+footprint+India+rising+middle+class",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "who-obesity",
+    "title": "Obesity and overweight: fact sheet",
+    "type": "article",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+    "source": "World Health Organization",
+    "year": 2024
+  },
+  {
+    "id": "who-activity",
+    "title": "Physical activity: fact sheet",
+    "type": "article",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+    "source": "World Health Organization",
+    "year": 2024
+  },
+  {
+    "id": "ncd-india-paper",
+    "title": "Diabetes and non-communicable diseases in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=ICMR+INDIAB+diabetes+prevalence+India",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "asci",
+    "title": "Advertising Standards Council of India",
+    "type": "article",
+    "url": "https://www.ascionline.in",
+    "source": "ASCI",
+    "year": 2024
+  },
+  {
+    "id": "surrogate-paper",
+    "title": "Surrogate advertising of alcohol and tobacco in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=surrogate+advertising+India+alcohol+tobacco",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "adr",
+    "title": "Analysis of candidates' criminal, financial and education details",
+    "type": "report",
+    "url": "https://adrindia.org",
+    "source": "Association for Democratic Reforms",
+    "year": 2024
+  },
+  {
+    "id": "myneta",
+    "title": "MyNeta: affidavits of election candidates",
+    "type": "dataset",
+    "url": "https://myneta.info",
+    "source": "Association for Democratic Reforms",
+    "year": 2024
+  },
+  {
+    "id": "nep-2020",
+    "title": "National Education Policy 2020",
+    "type": "report",
+    "url": "https://www.education.gov.in",
+    "source": "Ministry of Education",
+    "year": 2020
+  },
+  {
+    "id": "curiosity-video",
+    "title": "Rote learning vs. understanding in Indian schools",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=rote+learning+India+education+system+curiosity",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "norms-paper",
+    "title": "Social norms and individual choices in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=social+norms+India+marriage+gender+career+choice",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "caste-paper",
+    "title": "Caste discrimination in contemporary India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=caste+discrimination+contemporary+India+labour+market",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "ncsc",
+    "title": "National Commission for Scheduled Castes",
+    "type": "article",
+    "url": "https://ncsc.nic.in",
+    "source": "Government of India",
+    "year": 2024
+  },
+  {
+    "id": "iea",
+    "title": "Energy demand from data centres and AI",
+    "type": "report",
+    "url": "https://www.iea.org",
+    "source": "International Energy Agency",
+    "year": 2025
+  },
+  {
+    "id": "ai-ethics-paper",
+    "title": "Ethical risks of artificial intelligence",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=ethical+risks+artificial+intelligence+bias+surveillance",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "unesco-ai",
+    "title": "Recommendation on the Ethics of Artificial Intelligence",
+    "type": "report",
+    "url": "https://www.unesco.org",
+    "source": "UNESCO",
+    "year": 2021
+  },
+  {
+    "id": "unfpa-india",
+    "title": "Population and development in India",
+    "type": "article",
+    "url": "https://india.unfpa.org",
+    "source": "UNFPA India",
+    "year": 2024
+  },
+  {
+    "id": "census",
+    "title": "Census of India",
+    "type": "dataset",
+    "url": "https://censusindia.gov.in",
+    "source": "Office of the Registrar General",
+    "year": 2011
+  },
+  {
+    "id": "fssai",
+    "title": "Food Safety and Standards Authority of India",
+    "type": "article",
+    "url": "https://www.fssai.gov.in",
+    "source": "FSSAI",
+    "year": 2024
+  },
+  {
+    "id": "upf-paper",
+    "title": "Ultra-processed food consumption and health",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=ultra-processed+food+consumption+health+outcomes+India",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "brsr-paper",
+    "title": "Corporate social responsibility and sustainability reporting in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=CSR+mandate+India+sustainability+reporting+BRSR",
+    "source": "Google Scholar search",
+    "year": 2023
+  },
+  {
+    "id": "media-paper",
+    "title": "Media content, screen time and mental health of young people",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=screen+time+media+content+adolescent+mental+health+India",
+    "source": "Google Scholar search",
+    "year": 2023
   }
 ]

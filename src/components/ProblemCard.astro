@@ -1,5 +1,5 @@
 ---
-import type { Problem } from '../lib/data';
+import { plural, type Problem } from '../lib/data';
 import CategoryTags from './CategoryTags.astro';
 
 interface Props { problem: Problem }
@@ -11,7 +11,7 @@ const { title, summary, categories, solutions, resources } = problem.data;
   <h3><a href={`/problems/${problem.id}/`}>{title}</a></h3>
   <p>{summary}</p>
   <div class="foot">
-    <span>{solutions.length} {solutions.length === 1 ? 'solution' : 'solutions'}</span>
-    <span>{resources.length} resources</span>
+    <span>{plural(solutions.length, 'solution')}</span>
+    <span>{plural(resources.length, 'resource')}</span>
   </div>
 </article>

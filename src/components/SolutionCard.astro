@@ -1,5 +1,5 @@
 ---
-import type { Solution } from '../lib/data';
+import { plural, type Solution } from '../lib/data';
 import CategoryTags from './CategoryTags.astro';
 
 interface Props { solution: Solution }
@@ -12,6 +12,6 @@ const { title, summary, categories, approach, resources } = solution.data;
   <p>{summary}</p>
   <div class="foot">
     <span>{approach}</span>
-    <span>{resources.length} resources</span>
+    <span>{plural(resources.length, 'resource')}</span>
   </div>
 </article>

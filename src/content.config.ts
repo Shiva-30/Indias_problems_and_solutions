@@ -48,6 +48,7 @@ const problems = defineCollection({
     regionNote: z.string().optional(),
     keyStats: z.array(z.object({ value: z.string(), label: z.string(), source: z.string() })).default([]),
     solutions: z.array(reference('solutions')).default([]),
+    related: z.array(reference('problems')).default([]),
   }),
 });
 
