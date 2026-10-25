@@ -22,14 +22,6 @@ whatGovernmentCanDo:
   - { step: "Make public spaces safe", how: "Improve lighting, CCTV and women-friendly public transport." }
   - { step: "Teach gender equality in schools", how: "Make gender-attitude classes part of the curriculum." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Delhi_protests-students%2C_Raisina_Hill.jpg/1280px-Delhi_protests-students%2C_Raisina_Hill.jpg"
-  alt: "A large crowd of students protesting in front of government buildings on Raisina Hill"
-  caption: "Students protest violence against women at Raisina Hill, New Delhi, 22 December 2012."
-  author: "Nilroy (Nilanjana Roy)"
-  license: "CC BY-SA 3.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Delhi_protests-students,_Raisina_Hill.jpg"
 ---
 
 ## Causes

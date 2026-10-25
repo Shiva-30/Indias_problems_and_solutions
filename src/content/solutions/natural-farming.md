@@ -11,14 +11,6 @@ whoIsDoingIt: "Andhra Pradesh community-managed natural farming programme"
 problems: ["pollution", "groundwater-depletion"]
 resources: ["natural-farming-paper", "yt-kqxmetgaoak", "yt-fvlc1dpime4"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Women_planting_seedlings_at_a_paddy_field_of_Assam.jpg/1280px-Women_planting_seedlings_at_a_paddy_field_of_Assam.jpg"
-  alt: "Women bent over planting rice seedlings in a flooded green paddy field"
-  caption: "Women planting rice seedlings in a paddy field in Assam."
-  author: "ঈশান জ্যোতি বৰা"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Women_planting_seedlings_at_a_paddy_field_of_Assam.jpg"
 ---
 
 ## How it works

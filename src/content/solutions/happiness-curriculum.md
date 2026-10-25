@@ -11,14 +11,6 @@ whoIsDoingIt: "Delhi government schools"
 problems: ["holistic-education-gap", "harmful-media-content"]
 resources: ["happiness-curriculum", "yt-mxzqsrlb6l0", "yt-zzeg4sili4g"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/First_Lady_Melania_Trump_visits_a_happiness_curriculum_classroom_in_Delhi.jpg/1280px-First_Lady_Melania_Trump_visits_a_happiness_curriculum_classroom_in_Delhi.jpg"
-  alt: "Schoolgirls in a decorated classroom during a happiness curriculum class"
-  caption: "A happiness curriculum class at a Delhi government school, during a 2020 visit by the US First Lady."
-  author: "The White House"
-  license: "Public domain"
-  licenseUrl: "https://commons.wikimedia.org/wiki/Help:Public_domain"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:First_Lady_Melania_Trump_visits_a_happiness_curriculum_classroom_in_Delhi.jpg"
 ---
 
 ## How it works

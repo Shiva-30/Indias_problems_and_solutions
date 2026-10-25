@@ -11,14 +11,6 @@ whoIsDoingIt: "Breakthrough, with the Haryana and Punjab governments"
 problems: ["crimes-against-women", "restrictive-social-norms"]
 resources: ["taaron-ki-toli", "yt-bcumr1bdgmw"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Computer_education_girls_Gujarat.jpg/1280px-Computer_education_girls_Gujarat.jpg"
-  alt: "Girls in school uniform using desktop computers"
-  caption: "Girls at a computer class near Vadodara, Gujarat, 2007."
-  author: "Yann"
-  license: "CC BY-SA 3.0"
-  licenseUrl: "http://creativecommons.org/licenses/by-sa/3.0/"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Computer_education_girls_Gujarat.jpg"
 ---
 
 ## How it works

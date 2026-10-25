@@ -11,14 +11,6 @@ whoIsDoingIt: "Central Pollution Control Board, producers, brand owners and recy
 problems: ["unsustainable-packaging", "irresponsible-business"]
 resources: ["epr-portal", "plastic-rules", "packaging-paper", "yt-l1-dvf8xo5e"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Plastic_bottles_for_recycling.jpg/1280px-Plastic_bottles_for_recycling.jpg"
-  alt: "Coloured plastic bottles packed into a wire cage"
-  caption: "Plastic bottles sorted for recycling (Slovenia)."
-  author: "Radulf del Maresme"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Plastic_bottles_for_recycling.jpg"
 ---
 
 ## How it works

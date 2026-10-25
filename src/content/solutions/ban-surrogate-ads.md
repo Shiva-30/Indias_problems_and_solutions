@@ -11,14 +11,6 @@ whoIsDoingIt: "Central Consumer Protection Authority"
 problems: ["surrogate-advertising"]
 resources: ["ccpa-ads", "asci", "yt-ywpinrqs-je"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Amritsar_Advertising_Hoardings.jpg/1280px-Amritsar_Advertising_Hoardings.jpg"
-  alt: "A street crowded with advertising hoardings"
-  caption: "Advertising hoardings on a street in Amritsar."
-  author: "Sudzie"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Amritsar_Advertising_Hoardings.jpg"
 ---
 
 ## How it works

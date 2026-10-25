@@ -12,14 +12,6 @@ whoIsDoingIt: "Private schools under the Right to Education Act's 25% quota"
 problems: ["caste-and-religious-discrimination", "restrictive-social-norms"]
 resources: ["rao-classroom", "yt-rfwhquz2j70"]
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/MRIH_School_Children.jpg/1280px-MRIH_School_Children.jpg"
-  alt: "A group of schoolchildren, some in wheelchairs, gathered on a lawn"
-  caption: "Children at the Manovikas Kendra school for children with disabilities getting ready for their annual sports day."
-  author: "Ne0Freedom"
-  license: "CC BY 3.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/3.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:MRIH_School_Children.jpg"
 ---
 
 ## How it works

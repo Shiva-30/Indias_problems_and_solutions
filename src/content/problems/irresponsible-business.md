@@ -18,14 +18,6 @@ whatGovernmentCanDo:
   - { step: "Expand sustainability reporting", how: "Extend BRSR reporting to more companies and check the data." }
   - { step: "Reward good practice", how: "Give preference in public purchasing to responsible suppliers." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/EFFLUENT_POURS_FROM_THE_SOUTH_CHARLESTON_UNION_CARBIDE_PLANT_INTO_THE_KANAWHA_RIVER._SOME_OF_THIS_DISCHARGE_IS_WATER..._-_NARA_-_551180.jpg/1280px-EFFLUENT_POURS_FROM_THE_SOUTH_CHARLESTON_UNION_CARBIDE_PLANT_INTO_THE_KANAWHA_RIVER._SOME_OF_THIS_DISCHARGE_IS_WATER..._-_NARA_-_551180.jpg"
-  alt: "Polluted water pouring out of an industrial plant into a river"
-  caption: "Effluent pouring from a chemical plant into the Kanawha River, South Charleston, USA."
-  author: "Harry Schaefer, US Environmental Protection Agency (National Archives)"
-  license: "Public domain"
-  licenseUrl: "https://commons.wikimedia.org/wiki/Help:Public_domain"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:EFFLUENT_POURS_FROM_THE_SOUTH_CHARLESTON_UNION_CARBIDE_PLANT_INTO_THE_KANAWHA_RIVER._SOME_OF_THIS_DISCHARGE_IS_WATER..._-_NARA_-_551180.jpg"
 ---
 
 ## Causes

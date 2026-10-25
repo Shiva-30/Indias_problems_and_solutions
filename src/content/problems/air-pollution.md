@@ -34,14 +34,6 @@ whatGovernmentCanDo:
   - { step: "Clean up transport", how: "Expand public transport and electric buses and enforce emission norms on trucks." }
   - { step: "Enforce industrial limits", how: "Install continuous monitors on factories and power plants and publish the data." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Low_visibility_due_to_Smog_at_New_Delhi_Railway_station_31st_Dec_2017_after_9AM_DSCN8829_1.jpg/1280px-Low_visibility_due_to_Smog_at_New_Delhi_Railway_station_31st_Dec_2017_after_9AM_DSCN8829_1.jpg"
-  alt: "Cars and auto-rickshaws in thick grey smog under the New Delhi railway station entry arch"
-  caption: "Smog at New Delhi railway station, 31 December 2017."
-  author: "Sumita Roy Dutta"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Low_visibility_due_to_Smog_at_New_Delhi_Railway_station_31st_Dec_2017_after_9AM_DSCN8829_1.jpg"
 ---
 
 ## Causes

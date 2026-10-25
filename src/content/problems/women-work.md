@@ -37,14 +37,6 @@ whatGovernmentCanDo:
   - { step: "Make cities safe", how: "Improve street lighting, public toilets and safe transport for women." }
   - { step: "Create jobs near home", how: "Support women's enterprises and jobs in small towns." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Women_construction_workers_from_Jhansi_and_Sagar.jpg/1280px-Women_construction_workers_from_Jhansi_and_Sagar.jpg"
-  alt: "Three women construction workers standing at a monument restoration site"
-  caption: "Women construction workers restoring an old monument."
-  author: "Ramesh Lalwani"
-  license: "CC BY 2.0"
-  licenseUrl: "https://creativecommons.org/licenses/by/2.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Women_construction_workers_from_Jhansi_and_Sagar.jpg"
 ---
 
 ## Causes

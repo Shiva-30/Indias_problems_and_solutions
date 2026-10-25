@@ -31,14 +31,6 @@ whatGovernmentCanDo:
   - { step: "Reform party funding", how: "Make political donations fully transparent." }
   - { step: "Strengthen disclosure", how: "Make affidavits easy to find and understand at every polling booth." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Sansad_Bhavan%2C_Delhi%2C_BNK.jpg/1280px-Sansad_Bhavan%2C_Delhi%2C_BNK.jpg"
-  alt: "The round colonnaded Old Parliament House in New Delhi behind lawns"
-  caption: "The old Sansad Bhavan (Parliament House), New Delhi."
-  author: "Nikhilb239"
-  license: "CC BY-SA 4.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:Sansad_Bhavan,_Delhi,_BNK.jpg"
 ---
 
 ## Causes

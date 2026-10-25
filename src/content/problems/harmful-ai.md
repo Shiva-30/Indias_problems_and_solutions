@@ -20,14 +20,6 @@ whatGovernmentCanDo:
   - { step: "Label AI content", how: "Require clear labels on AI-generated images, audio and video." }
   - { step: "Make data centres green", how: "Require renewable power and reporting of energy and water use." }
 updated: 2026-10-25
-image:
-  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg"
-  alt: "Rows of server racks lit blue in a data centre"
-  caption: "Inside a data centre. AI runs on buildings like this, which use large amounts of electricity and water."
-  author: "BalticServers.com"
-  license: "CC BY-SA 3.0"
-  licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0"
-  sourceUrl: "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg"
 ---
 
 ## Causes
