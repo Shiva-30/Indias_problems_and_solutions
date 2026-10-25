@@ -11,6 +11,14 @@ whoIsDoingIt: "National Clean Air Programme, 130 city governments"
 problems: ["air-pollution"]
 resources: ["ncap", "who_aq"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Olectra_-_BYD_Electric_Bus_Hyderabad_4.jpg/1280px-Olectra_-_BYD_Electric_Bus_Hyderabad_4.jpg"
+  alt: "A green electric bus parked under a canopy"
+  caption: "An electric bus at Hyderabad airport. Cleaner buses are part of many city clean air plans."
+  author: "LoveofZ"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Olectra_-_BYD_Electric_Bus_Hyderabad_4.jpg"
 ---
 
 ## How it works

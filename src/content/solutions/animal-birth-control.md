@@ -11,6 +11,14 @@ whoIsDoingIt: "City and municipal bodies, under the Animal Birth Control Rules, 
 problems: ["animal-cruelty"]
 resources: ["awbi", "abc-paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Sleeping_puppies_in_Varanasi%2C_6_April_2019.jpg/1280px-Sleeping_puppies_in_Varanasi%2C_6_April_2019.jpg"
+  alt: "Street puppies sleeping on a riverside walkway"
+  caption: "Street puppies in Varanasi."
+  author: "Alexey Komarov"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Sleeping_puppies_in_Varanasi,_6_April_2019.jpg"
 ---
 
 ## How it works

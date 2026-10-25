@@ -12,6 +12,14 @@ whoIsDoingIt: "Food regulators. Chile was an early adopter, and India's FSSAI ha
 problems: ["ultra-processed-food"]
 resources: ["fop-labels-paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Nutrition_Facts_label_with_94%25_saturated_fat_per_serving.jpg/1280px-Nutrition_Facts_label_with_94%25_saturated_fat_per_serving.jpg"
+  alt: "A nutrition facts label on a snack wrapper"
+  caption: "A nutrition label on a packaged snack."
+  author: "B137"
+  license: "CC0"
+  licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Nutrition_Facts_label_with_94%25_saturated_fat_per_serving.jpg"
 ---
 
 ## How it works

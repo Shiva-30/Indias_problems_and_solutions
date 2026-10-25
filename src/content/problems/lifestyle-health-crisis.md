@@ -32,6 +32,14 @@ whatGovernmentCanDo:
   - { step: "Make healthy food affordable", how: "Support fruit, vegetables and millets, and tax sugary drinks." }
   - { step: "Screen early", how: "Offer free checks for diabetes and hypertension at local health centres." }
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Jalebi_Samosa_Shop.jpg/1280px-Jalebi_Samosa_Shop.jpg"
+  alt: "Cooks frying jalebis and samosas at a sweet shop counter"
+  caption: "A jalebi and samosa shop in Varanasi."
+  author: "Amol Sinha"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Jalebi_Samosa_Shop.jpg"
 ---
 
 ## Causes

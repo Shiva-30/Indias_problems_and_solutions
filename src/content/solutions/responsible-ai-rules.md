@@ -12,6 +12,14 @@ whoIsDoingIt: "The European Union, UNESCO member states, India's MeitY"
 problems: ["harmful-ai"]
 resources: ["eu-ai-act", "unesco-ai", "ai-ethics-paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Code_on_computer_monitor_%28Unsplash%29.jpg/1280px-Code_on_computer_monitor_%28Unsplash%29.jpg"
+  alt: "Lines of colourful program code on a monitor"
+  caption: "Software code on a screen."
+  author: "Markus Spiske"
+  license: "CC0"
+  licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg"
 ---
 
 ## How it works

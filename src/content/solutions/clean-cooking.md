@@ -12,6 +12,14 @@ whoIsDoingIt: "Pradhan Mantri Ujjwala Yojana"
 problems: ["air-pollution"]
 resources: ["ujjwala", "lpg_paper"]
 updated: 2026-10-25
+image:
+  src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Village_kitchen_in_Pune_district_%2C_India_2012_IMG_1583.jpg/1280px-Village_kitchen_in_Pune_district_%2C_India_2012_IMG_1583.jpg"
+  alt: "A woman cooking on a gas stove next to an LPG cylinder in a village kitchen"
+  caption: "A village kitchen with an LPG cylinder, Pune district, 2012."
+  author: "Shakher59"
+  license: "CC BY-SA 4.0"
+  licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0"
+  sourceUrl: "https://commons.wikimedia.org/wiki/File:Village_kitchen_in_Pune_district_,_India_2012_IMG_1583.jpg"
 ---
 
 ## How it works
