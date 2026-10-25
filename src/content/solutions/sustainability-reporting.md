@@ -1,6 +1,8 @@
 ---
 title: "Making companies report their impact"
-summary: "India's largest listed companies must publish what they do about emissions, waste, workers and communities, so investors and the public can hold them to account."
+summary: "India's 1,000 largest listed companies must publish a Business Responsibility and Sustainability Report each year, and a core set of figures must now be independently checked."
+summarySources:
+  - { source: "GreenSutra", url: "https://greensutra.in/question/brsr-mandatory-financial-year/" }
 categories: ["economy", "governance", "environment"]
 regions: ["in"]
 sdgs: [8, 12]
@@ -13,11 +15,11 @@ updated: 2026-10-25
 
 ## How it works
 
-1. Companies report on standard environmental and social measures
-2. Some data must be checked by auditors
-3. Investors use reports to compare companies
+1. The top 1,000 listed companies by market value must file the report, mandatory since 2022-23 after a voluntary year in 2021-22.[^gs]
+2. A core set of figures, BRSR Core, must be independently assured. This started with the top 150 companies in 2023-24 and widens to the top 1,000 by 2026-27.[^gs]
 
 ## Evidence so far
 
-- SEBI made Business Responsibility and Sustainability Reporting mandatory for the top 1,000 listed companies
-- Most small businesses are not covered
+- The rules cover only the 1,000 largest listed companies. Other businesses do not have to file these reports.[^gs]
+
+[^gs]: [From which financial year did BRSR reporting become mandatory?](https://greensutra.in/question/brsr-mandatory-financial-year/), GreenSutra, on SEBI's BRSR rules and its circular of July 2023.

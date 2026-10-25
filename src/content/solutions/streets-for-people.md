@@ -1,6 +1,8 @@
 ---
 title: "Streets built for people"
-summary: "Wide footpaths, cycle lanes, trees, seating and safe crossings turn roads into places where people can walk, play and meet."
+summary: "Cities redesign streets for walking and cycling, often testing changes cheaply with paint and traffic cones first. In 2020, over 40 Indian cities in the India Cycles4Change Challenge started work on about 3,900 km of cycle-friendly roads."
+summarySources:
+  - { source: "WION, June 2021, on an ITDP report", url: "https://www.wionews.com/india-news/40-indian-cities-initiated-work-towards-3900-km-of-cycle-friendly-roads-in-2020-report-390326/amp" }
 categories: ["urban", "health"]
 regions: ["in"]
 sdgs: [3, 11]
@@ -13,11 +15,13 @@ updated: 2026-10-25
 
 ## How it works
 
-1. Test changes cheaply with paint and planters
-2. Ask residents what they need
-3. Make successful changes permanent
+1. Cities test changes cheaply. Bhubaneswar, Surat, Kochi and Greater Warangal used traffic cones and paint to try out new cycle lanes.[^wion]
+2. The Smart Cities Mission trained and guided cities taking part.[^wion]
 
 ## Evidence so far
 
-- Many Indian cities have piloted pedestrian streets under the Streets for People Challenge
-- Better walking and cycling routes are linked to more physical activity and fewer road deaths
+- Over 40 cities started work on 400 km of main roads and 3,500 km of neighbourhood streets in 2020.[^wion]
+- The need is real: 32,825 pedestrians died on Indian roads in 2022, 12.7% more than in 2021.[^morth]
+
+[^wion]: [40 Indian cities initiated work towards 3,900 km of cycle-friendly roads in 2020](https://www.wionews.com/india-news/40-indian-cities-initiated-work-towards-3900-km-of-cycle-friendly-roads-in-2020-report-390326/amp), WION, June 2021, on a report by the Institute for Transportation and Development Policy.
+[^morth]: [Analysing the MoRTH road accidents report for 2022](https://opencity.in/analysing-the-morth-road-accidents-report-for-2022/), OpenCity.

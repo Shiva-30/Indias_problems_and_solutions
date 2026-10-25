@@ -1,6 +1,9 @@
 ---
 title: "Rooftop solar and clean electricity"
-summary: "Solar panels on homes, offices and farms generate clean electricity, cutting coal use and lowering power bills. A central scheme subsidises rooftop systems for households."
+summary: "PM Surya Ghar, launched in February 2024, subsidises rooftop solar for homes, aiming at 1 crore households and up to 300 units of free electricity a month each. Over 10 lakh systems were installed by March 2025."
+summarySources:
+  - { source: "Drishti IAS", url: "https://www.drishtiias.com/important-government-schemes/ministry-of-new-and-renewable-energy/pm-surya-ghar-muft-bijli-yojana-1/print_manually" }
+  - { source: "Energetica India, March 2025", url: "https://www.energetica-india.net/news/rooftop-solar-installations-under-pm-surya-ghar-yojana-crosses-10-lakh-milestone" }
 categories: ["environment", "economy"]
 regions: ["in"]
 sdgs: [7, 13]
@@ -13,11 +16,14 @@ updated: 2026-10-25
 
 ## How it works
 
-1. Household applies on the national portal
-2. Approved vendor installs panels and a net meter
-3. Extra power is fed to the grid and credited on the bill
+1. Households apply on a national portal.[^drishti]
+2. State electricity companies inspect the system, install a net meter and commission it.[^drishti]
+3. The subsidy ranges from ₹30,000 to ₹78,000 depending on system size and how much electricity the home uses.[^drishti]
 
 ## Evidence so far
 
-- India has expanded solar power rapidly over the last decade
-- Rooftop uptake depends on subsidies reaching households and on reliable net metering
+- The scheme has an outlay of ₹75,021 crore and aims to reach 1 crore households by March 2027.[^drishti]
+- 10.09 lakh systems were installed by March 10, 2025, and 6.13 lakh households had received ₹4,770 crore in subsidies.[^energetica]
+
+[^drishti]: [PM Surya Ghar: Muft Bijli Yojana](https://www.drishtiias.com/important-government-schemes/ministry-of-new-and-renewable-energy/pm-surya-ghar-muft-bijli-yojana-1/print_manually), Drishti IAS, January 2025.
+[^energetica]: [Rooftop solar installations under PM Surya Ghar Yojana cross 10 lakh milestone](https://www.energetica-india.net/news/rooftop-solar-installations-under-pm-surya-ghar-yojana-crosses-10-lakh-milestone), Energetica India, March 2025.

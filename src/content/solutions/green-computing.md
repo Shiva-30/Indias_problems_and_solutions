@@ -1,6 +1,8 @@
 ---
 title: "Clean, efficient data centres"
-summary: "Running data centres on renewable power, cooling them efficiently and using smaller AI models where they are good enough cuts the energy and water cost of AI."
+summary: "More efficient chips and AI models, and clean power for data centres, can cut AI's energy footprint. The IEA estimates that a high-efficiency path would leave data centre electricity demand 20% lower in 2035."
+summarySources:
+  - { source: "IEA, Energy and AI, 2025", url: "https://www.iea.org/reports/energy-and-ai/executive-summary" }
 categories: ["technology", "environment"]
 regions: ["world"]
 sdgs: [9, 13]
@@ -13,11 +15,14 @@ updated: 2026-10-25
 
 ## How it works
 
-1. Buy renewable power or build it on site
-2. Use efficient chips and cooling
-3. Report energy and water use publicly
+1. Data centres buy or build renewable power. The IEA expects renewables to meet about half of the extra demand from data centres up to 2035.[^iea]
+2. More efficient AI hardware and models do the same work with less electricity.[^iea]
 
 ## Evidence so far
 
-- Data centres are among the fastest-growing sources of electricity demand
-- Reporting on AI energy use is still voluntary in most countries
+- In the IEA's High Efficiency Case, data centre electricity demand is 20% lower in 2035 than in its base case.[^iea]
+- The IEA says there are still large uncertainties about how much electricity AI will use, and that missing data is a barrier.[^iea]
+- In India, analysts say data centre policy also needs to account for water use, since hubs like Mumbai and Chennai are water-stressed.[^macq]
+
+[^iea]: [Energy and AI: executive summary](https://www.iea.org/reports/energy-and-ai/executive-summary), International Energy Agency, 2025.
+[^macq]: [India's data centre capacity to double by 2027, rise 5x by 2030](https://www.business-standard.com/industry/news/india-s-data-centre-capacity-to-double-by-2027-rise-5x-by-2030-macquarie-125102801409_1.html), Business Standard, October 2025, reporting Macquarie Equity Research.
