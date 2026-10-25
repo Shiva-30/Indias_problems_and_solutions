@@ -1,0 +1,50 @@
+[
+  {
+    "id": "water",
+    "name": "Water",
+    "color": "#1f6fb2",
+    "colorDark": "#6aaee6"
+  },
+  {
+    "id": "environment",
+    "name": "Environment",
+    "color": "#3a7d35",
+    "colorDark": "#7fc177"
+  },
+  {
+    "id": "health",
+    "name": "Health",
+    "color": "#b23a5a",
+    "colorDark": "#e47e9a"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "color": "#7a55b0",
+    "colorDark": "#b498e3"
+  },
+  {
+    "id": "economy",
+    "name": "Economy & jobs",
+    "color": "#a8701a",
+    "colorDark": "#e0aa58"
+  },
+  {
+    "id": "urban",
+    "name": "Cities",
+    "color": "#4f6170",
+    "colorDark": "#9cb0bf"
+  },
+  {
+    "id": "agriculture",
+    "name": "Agriculture",
+    "color": "#6d7f1c",
+    "colorDark": "#b3c55b"
+  },
+  {
+    "id": "gender",
+    "name": "Gender",
+    "color": "#a14592",
+    "colorDark": "#dc8ccd"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "cgwb",
+    "title": "Dynamic Ground Water Resources of India (annual assessment)",
+    "type": "report",
+    "url": "https://cgwb.gov.in",
+    "source": "Central Ground Water Board",
+    "year": 2023
+  },
+  {
+    "id": "wb_gw",
+    "title": "Groundwater governance and depletion in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=groundwater%20depletion%20India%20governance",
+    "source": "Google Scholar search",
+    "year": 2020
+  },
+  {
+    "id": "gw_vid",
+    "title": "Why India's groundwater is running out",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=India%20groundwater%20crisis%20explained",
+    "source": "YouTube search",
+    "year": 2022
+  },
+  {
+    "id": "pmksy",
+    "title": "Pradhan Mantri Krishi Sinchayee Yojana: Per Drop More Crop",
+    "type": "report",
+    "url": "https://pmksy.gov.in",
+    "source": "Government of India",
+    "year": 2023
+  },
+  {
+    "id": "drip_paper",
+    "title": "Impact of drip irrigation on water use and farm income in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=drip%20irrigation%20India%20water%20saving%20farm%20income",
+    "source": "Google Scholar search",
+    "year": 2019
+  },
+  {
+    "id": "atal",
+    "title": "Atal Bhujal Yojana: community-led groundwater management",
+    "type": "article",
+    "url": "https://jalshakti-dowr.gov.in",
+    "source": "Ministry of Jal Shakti",
+    "year": 2022
+  },
+  {
+    "id": "iqair",
+    "title": "World Air Quality Report",
+    "type": "report",
+    "url": "https://www.iqair.com/world-air-quality-report",
+    "source": "IQAir",
+    "year": 2024
+  },
+  {
+    "id": "who_aq",
+    "title": "WHO global air quality guidelines",
+    "type": "report",
+    "url": "https://www.who.int/publications/i/item/9789240034228",
+    "source": "World Health Organization",
+    "year": 2021
+  },
+  {
+    "id": "aq_paper",
+    "title": "Burden of disease attributable to air pollution in India's states",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=air%20pollution%20burden%20of%20disease%20India%20states%20Lancet%20Planetary%20Health",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "aq_vid",
+    "title": "Stubble burning and Delhi's winter smog",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=stubble%20burning%20Delhi%20smog%20explained",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "ncap",
+    "title": "National Clean Air Programme",
+    "type": "report",
+    "url": "https://moef.gov.in",
+    "source": "Ministry of Environment, Forest and Climate Change",
+    "year": 2019
+  },
+  {
+    "id": "ujjwala",
+    "title": "Pradhan Mantri Ujjwala Yojana",
+    "type": "article",
+    "url": "https://pmuy.gov.in",
+    "source": "Ministry of Petroleum and Natural Gas",
+    "year": 2023
+  },
+  {
+    "id": "lpg_paper",
+    "title": "Sustained use of LPG among Ujjwala households",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Ujjwala%20LPG%20sustained%20use%20household%20air%20pollution",
+    "source": "Google Scholar search",
+    "year": 2020
+  },
+  {
+    "id": "nfhs",
+    "title": "National Family Health Survey (NFHS-5), 2019-21",
+    "type": "dataset",
+    "url": "https://rchiips.org/nfhs/",
+    "source": "Ministry of Health and Family Welfare / IIPS",
+    "year": 2021
+  },
+  {
+    "id": "stunt_paper",
+    "title": "Determinants of child stunting in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=determinants%20child%20stunting%20India%20NFHS",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "pmposhan",
+    "title": "PM POSHAN (school meals) scheme",
+    "type": "article",
+    "url": "https://pmposhan.education.gov.in",
+    "source": "Ministry of Education",
+    "year": 2022
+  },
+  {
+    "id": "meal_paper",
+    "title": "School meals and child learning and nutrition outcomes in India",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=midday%20meal%20India%20impact%20nutrition%20learning",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "aser",
+    "title": "Annual Status of Education Report (ASER) 2022",
+    "type": "report",
+    "url": "https://asercentre.org",
+    "source": "ASER Centre / Pratham",
+    "year": 2023
+  },
+  {
+    "id": "edu_vid",
+    "title": "India's learning crisis, explained",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=India%20learning%20crisis%20ASER%20explained",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "tarl",
+    "title": "Teaching at the Right Level",
+    "type": "article",
+    "url": "https://www.teachingattherightlevel.org",
+    "source": "TaRL Africa / Pratham",
+    "year": 2023
+  },
+  {
+    "id": "tarl_jpal",
+    "title": "Evaluations of Teaching at the Right Level in India",
+    "type": "paper",
+    "url": "https://www.povertyactionlab.org",
+    "source": "J-PAL",
+    "year": 2018
+  },
+  {
+    "id": "plfs",
+    "title": "Periodic Labour Force Survey annual report",
+    "type": "dataset",
+    "url": "https://mospi.gov.in",
+    "source": "Ministry of Statistics and Programme Implementation",
+    "year": 2023
+  },
+  {
+    "id": "flfp_paper",
+    "title": "Why is female labour force participation low in India?",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=female%20labour%20force%20participation%20India%20low%20reasons",
+    "source": "Google Scholar search",
+    "year": 2021
+  },
+  {
+    "id": "kudumbashree",
+    "title": "Kudumbashree: Kerala's women's self-help network",
+    "type": "article",
+    "url": "https://www.kudumbashree.org",
+    "source": "Kudumbashree Mission",
+    "year": 2023
+  },
+  {
+    "id": "shg_vid",
+    "title": "How self-help groups changed rural women's lives",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=self%20help%20groups%20India%20women%20NRLM%20documentary",
+    "source": "YouTube search",
+    "year": 2022
+  },
+  {
+    "id": "flood_paper",
+    "title": "Urban flooding in Indian cities: causes and planning failures",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=urban%20flooding%20India%20cities%20encroachment%20drainage",
+    "source": "Google Scholar search",
+    "year": 2022
+  },
+  {
+    "id": "flood_vid",
+    "title": "Why Indian cities flood every monsoon",
+    "type": "video",
+    "url": "https://www.youtube.com/results?search_query=why%20Indian%20cities%20flood%20every%20monsoon",
+    "source": "YouTube search",
+    "year": 2023
+  },
+  {
+    "id": "lakes_paper",
+    "title": "Lake restoration and urban flood resilience in Bengaluru",
+    "type": "paper",
+    "url": "https://scholar.google.com/scholar?q=Bengaluru%20lake%20restoration%20urban%20flood",
+    "source": "Google Scholar search",
+    "year": 2021
+  }
+]

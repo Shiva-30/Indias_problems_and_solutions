@@ -1,0 +1,57 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ProblemCard from '../components/ProblemCard.astro';
+import SolutionCard from '../components/SolutionCard.astro';
+import { byTitle } from '../lib/data';
+
+const problems = (await getCollection('problems')).sort(byTitle);
+const solutions = (await getCollection('solutions')).sort(byTitle);
+const resources = await getCollection('resources');
+const categories = await getCollection('categories');
+const count = (id: string, list: { data: { categories: { id: string }[] } }[]) =>
+  list.filter((e) => e.data.categories.some((c) => c.id === id)).length;
+const latest = <T extends { data: { updated: Date } }>(list: T[]) =>
+  [...list].sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime()).slice(0, 3);
+---
+<Base title="Problem Atlas">
+  <div class="stack">
+    <section class="hero">
+      <div>
+        <h1>India's hardest problems, the evidence behind them, and what is working.</h1>
+        <p class="lede">Every problem links to research, reports and videos, and to the solutions being tried across the country.</p>
+        <form class="search" action="/search/" role="search">
+          <input name="q" type="search" placeholder="Search problems, solutions, sources" aria-label="Search" />
+          <button class="button" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="ledger" aria-label="Site contents">
+        <div><b>{problems.length}</b><span>Problems</span></div>
+        <div><b>{solutions.length}</b><span>Solutions</span></div>
+        <div><b>{resources.length}</b><span>Resources</span></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Browse by category</h2><p>Problems · solutions in each</p></div>
+      <div class="cats">
+        {categories.map((c) => (
+          <a class={`cat c-${c.id}`} href={`/categories/${c.id}/`}>
+            <strong>{c.data.name}</strong>
+            <small>{count(c.id, problems)} problems · {count(c.id, solutions)} solutions</small>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Problems</h2><a href="/problems/">See all {problems.length}</a></div>
+      <div class="cards">{latest(problems).map((p) => <ProblemCard problem={p} />)}</div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Solutions that are working</h2><a href="/solutions/">See all {solutions.length}</a></div>
+      <div class="cards">{latest(solutions).map((s) => <SolutionCard solution={s} />)}</div>
+    </section>
+  </div>
+</Base>

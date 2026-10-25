@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import SolutionCard from '../../components/SolutionCard.astro';
+import { byTitle } from '../../lib/data';
+
+const solutions = (await getCollection('solutions')).sort(byTitle);
+---
+<Base title="Solutions">
+  <div class="stack">
+    <div class="detail-head">
+      <h1>Solutions</h1>
+      <p class="summary">Programmes, policies and ideas tackling these problems, with the evidence on whether they work.</p>
+    </div>
+    <div class="cards">{solutions.map((s) => <SolutionCard solution={s} />)}</div>
+  </div>
+</Base>

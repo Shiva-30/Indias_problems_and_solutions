@@ -1,0 +1,42 @@
+---
+import { getCollection, getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProblemCard from '../../components/ProblemCard.astro';
+import SolutionCard from '../../components/SolutionCard.astro';
+import { byTitle, inRegions, regionAndDescendants } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const regions = await getCollection('regions');
+  return regions.map((region) => ({ params: { id: region.id }, props: { region } }));
+}
+
+const { region } = Astro.props;
+// A country page includes everything tagged with any of its states.
+const ids = await regionAndDescendants(region.id);
+const problems = (await getCollection('problems')).filter((p) => inRegions(p, ids)).sort(byTitle);
+const solutions = (await getCollection('solutions')).filter((s) => inRegions(s, ids)).sort(byTitle);
+const parent = region.data.parent ? await getEntry('regions', region.data.parent) : undefined;
+const children = (await getCollection('regions')).filter((r) => r.data.parent === region.id).sort((a, b) => a.data.name.localeCompare(b.data.name));
+---
+<Base title={region.data.name}>
+  <div class="stack">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      {parent && <><a href={`/regions/${parent.id}/`}>{parent.data.name}</a><span>/</span></>}
+      <span>{region.data.name}</span>
+    </nav>
+    <div class="detail-head">
+      <h1>{region.data.name}</h1>
+      {children.length > 0 && (
+        <div class="tags">{children.map((c) => <a class="tag" href={`/regions/${c.id}/`}>{c.data.name}</a>)}</div>
+      )}
+    </div>
+    <section>
+      <div class="section-head"><h2>Problems</h2><p>{problems.length}</p></div>
+      {problems.length ? <div class="cards">{problems.map((p) => <ProblemCard problem={p} />)}</div> : <p class="empty">None yet.</p>}
+    </section>
+    <section>
+      <div class="section-head"><h2>Solutions</h2><p>{solutions.length}</p></div>
+      {solutions.length ? <div class="cards">{solutions.map((s) => <SolutionCard solution={s} />)}</div> : <p class="empty">None yet.</p>}
+    </section>
+  </div>
+</Base>

@@ -1,0 +1,17 @@
+---
+import { getEntries, type CollectionEntry } from 'astro:content';
+import { SDG_NAMES } from '../lib/data';
+
+interface Props {
+  kind: 'problem' | 'solution';
+  categories: CollectionEntry<'problems'>['data']['categories'];
+  sdgs?: number[];
+}
+const { kind, categories, sdgs = [] } = Astro.props;
+const cats = await getEntries(categories);
+---
+<div class="tags">
+  <span class={`tag kind-${kind}`}>{kind === 'problem' ? 'Problem' : 'Solution'}</span>
+  {cats.map((c) => <a class={`tag cat-tag c-${c.id}`} href={`/categories/${c.id}/`}>{c.data.name}</a>)}
+  {sdgs.map((n) => <span class="tag sdg" title={`UN Sustainable Development Goal ${n}: ${SDG_NAMES[n]}`}>SDG {n}</span>)}
+</div>

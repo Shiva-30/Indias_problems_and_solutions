@@ -1,0 +1,15 @@
+[
+  { "id": "world", "name": "World", "type": "world" },
+  { "id": "in", "name": "India", "type": "country", "parent": "world" },
+  { "id": "in-bihar", "name": "Bihar", "type": "state", "parent": "in" },
+  { "id": "in-delhi", "name": "Delhi", "type": "state", "parent": "in" },
+  { "id": "in-haryana", "name": "Haryana", "type": "state", "parent": "in" },
+  { "id": "in-jharkhand", "name": "Jharkhand", "type": "state", "parent": "in" },
+  { "id": "in-karnataka", "name": "Karnataka", "type": "state", "parent": "in" },
+  { "id": "in-kerala", "name": "Kerala", "type": "state", "parent": "in" },
+  { "id": "in-maharashtra", "name": "Maharashtra", "type": "state", "parent": "in" },
+  { "id": "in-punjab", "name": "Punjab", "type": "state", "parent": "in" },
+  { "id": "in-rajasthan", "name": "Rajasthan", "type": "state", "parent": "in" },
+  { "id": "in-tamil-nadu", "name": "Tamil Nadu", "type": "state", "parent": "in" },
+  { "id": "in-uttar-pradesh", "name": "Uttar Pradesh", "type": "state", "parent": "in" }
+]

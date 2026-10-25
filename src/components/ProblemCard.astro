@@ -1,0 +1,17 @@
+---
+import type { Problem } from '../lib/data';
+import CategoryTags from './CategoryTags.astro';
+
+interface Props { problem: Problem }
+const { problem } = Astro.props;
+const { title, summary, categories, solutions, resources } = problem.data;
+---
+<article class="card">
+  <CategoryTags kind="problem" categories={categories} />
+  <h3><a href={`/problems/${problem.id}/`}>{title}</a></h3>
+  <p>{summary}</p>
+  <div class="foot">
+    <span>{solutions.length} {solutions.length === 1 ? 'solution' : 'solutions'}</span>
+    <span>{resources.length} resources</span>
+  </div>
+</article>

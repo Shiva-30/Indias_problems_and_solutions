@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ResourceRow from '../components/ResourceRow.astro';
+import { RESOURCE_TYPES, resourceCategories } from '../lib/data';
+
+const resources = (await getCollection('resources')).sort((a, b) => b.data.year - a.data.year);
+const categories = await getCollection('categories');
+const catsOf = await resourceCategories();
+---
+<Base title="Resources">
+  <div class="stack">
+    <div class="detail-head">
+      <h1>Resources library</h1>
+      <p class="summary">Every source on the site in one place, newest first.</p>
+    </div>
+    <section>
+      <div class="filters">
+        <label for="fType">Type
+          <select id="fType"><option value="">All</option>{Object.entries(RESOURCE_TYPES).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+        </label>
+        <label for="fCat">Category
+          <select id="fCat"><option value="">All</option>{categories.map((c) => <option value={c.id}>{c.data.name}</option>)}</select>
+        </label>
+        <label for="fText">Search <input id="fText" type="search" placeholder="Title or publisher" /></label>
+      </div>
+      <div class="res-list" id="library">
+        {resources.map((r) => <ResourceRow resource={r} categories={[...(catsOf.get(r.id) ?? [])]} />)}
+      </div>
+      <p class="empty" id="noMatch" hidden>No resources match these filters.</p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const type = document.getElementById('fType') as HTMLSelectElement;
+  const cat = document.getElementById('fCat') as HTMLSelectElement;
+  const text = document.getElementById('fText') as HTMLInputElement;
+  const rows = document.querySelectorAll<HTMLElement>('#library .res');
+  const noMatch = document.getElementById('noMatch')!;
+  function apply() {
+    const q = text.value.trim().toLowerCase();
+    let shown = 0;
+    rows.forEach((row) => {
+      const ok =
+        (!type.value || row.dataset.type === type.value) &&
+        (!cat.value || (row.dataset.cats ?? '').split(' ').includes(cat.value)) &&
+        (!q || (row.dataset.text ?? '').includes(q));
+      row.hidden = !ok;
+      if (ok) shown++;
+    });
+    noMatch.hidden = shown > 0;
+  }
+  [type, cat, text].forEach((el) => el.addEventListener('input', apply));
+</script>

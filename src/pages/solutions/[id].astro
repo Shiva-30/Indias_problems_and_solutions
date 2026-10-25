@@ -1,0 +1,49 @@
+---
+import { getCollection, getEntries, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CategoryTags from '../../components/CategoryTags.astro';
+import ProblemCard from '../../components/ProblemCard.astro';
+import ResourceSection from '../../components/ResourceSection.astro';
+import { resourcesFor, type Solution } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const solutions = await getCollection('solutions');
+  return solutions.map((solution) => ({ params: { id: solution.id }, props: { solution } }));
+}
+
+const { solution } = Astro.props as { solution: Solution };
+const { title, summary, categories, sdgs, approach, whoIsDoingIt } = solution.data;
+const { Content } = await render(solution);
+const regions = await getEntries(solution.data.regions);
+const resources = await resourcesFor(solution);
+
+// A solution lists its problems, and problems list their solutions. Show both directions so a link added on either side appears.
+const problems = (await getCollection('problems')).filter(
+  (p) => solution.data.problems.some((r) => r.id === p.id) || p.data.solutions.some((s) => s.id === solution.id),
+);
+---
+<Base title={title} description={summary}>
+  <div class="stack">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/solutions/">Solutions</a><span>/</span><span>{title}</span></nav>
+    <div class="detail-head">
+      <CategoryTags kind="solution" categories={categories} sdgs={sdgs} />
+      <h1>{title}</h1>
+      <p class="summary">{summary}</p>
+      <p class="where">Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}</p>
+    </div>
+
+    <section class="stats">
+      <div class="stat sol"><span><strong>Approach</strong></span><small>{approach}</small></div>
+      <div class="stat sol"><span><strong>Who is doing it</strong></span><small>{whoIsDoingIt}</small></div>
+    </section>
+
+    <section class="prose"><Content /></section>
+
+    <section>
+      <div class="section-head"><h2>Problems it tackles</h2></div>
+      <div class="cards">{problems.map((p) => <ProblemCard problem={p} />)}</div>
+    </section>
+
+    <ResourceSection resources={resources} />
+  </div>
+</Base>

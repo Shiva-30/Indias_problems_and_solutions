@@ -1,0 +1,64 @@
+---
+import { getCollection, getEntries, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CategoryTags from '../../components/CategoryTags.astro';
+import SolutionCard from '../../components/SolutionCard.astro';
+import ProblemCard from '../../components/ProblemCard.astro';
+import ResourceSection from '../../components/ResourceSection.astro';
+import { resourcesFor, type Problem } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const problems = await getCollection('problems');
+  return problems.map((problem) => ({ params: { id: problem.id }, props: { problem } }));
+}
+
+const { problem } = Astro.props as { problem: Problem };
+const { title, summary, categories, sdgs, keyStats, regionNote } = problem.data;
+const { Content } = await render(problem);
+const regions = await getEntries(problem.data.regions);
+// Problems list their solutions, and solutions list their problems. Show both directions.
+const solutions = (await getCollection('solutions')).filter(
+  (s) => problem.data.solutions.some((r) => r.id === s.id) || s.data.problems.some((r) => r.id === problem.id),
+);
+const resources = await resourcesFor(problem);
+const catIds = new Set(categories.map((c) => c.id));
+const related = (await getCollection('problems')).filter(
+  (p) => p.id !== problem.id && p.data.categories.some((c) => catIds.has(c.id)),
+);
+---
+<Base title={title} description={summary}>
+  <div class="stack">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/problems/">Problems</a><span>/</span><span>{title}</span></nav>
+    <div class="detail-head">
+      <CategoryTags kind="problem" categories={categories} sdgs={sdgs} />
+      <h1>{title}</h1>
+      <p class="summary">{summary}</p>
+      <p class="where">
+        Where: {regions.map((r, i) => <>{i > 0 && ', '}<a href={`/regions/${r.id}/`}>{r.data.name}</a></>)}
+        {regionNote && <> · {regionNote}</>}
+      </p>
+    </div>
+
+    {keyStats.length > 0 && (
+      <section class="stats" aria-label="Key numbers">
+        {keyStats.map((s) => <div class="stat"><b>{s.value}</b><span>{s.label}</span><small>Source: {s.source}</small></div>)}
+      </section>
+    )}
+
+    <section class="prose"><Content /></section>
+
+    <section>
+      <div class="section-head"><h2>Solutions for this problem</h2><p>{solutions.length}</p></div>
+      {solutions.length ? <div class="cards">{solutions.map((s) => <SolutionCard solution={s} />)}</div> : <p class="empty">No solutions added yet.</p>}
+    </section>
+
+    <ResourceSection resources={resources} />
+
+    {related.length > 0 && (
+      <section>
+        <div class="section-head"><h2>Related problems</h2></div>
+        <div class="cards">{related.map((p) => <ProblemCard problem={p} />)}</div>
+      </section>
+    )}
+  </div>
+</Base>

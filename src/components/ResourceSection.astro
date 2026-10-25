@@ -1,0 +1,37 @@
+---
+import { RESOURCE_TYPES, type Resource } from '../lib/data';
+import ResourceRow from './ResourceRow.astro';
+
+interface Props { resources: Resource[] }
+const { resources } = Astro.props;
+const types = Object.keys(RESOURCE_TYPES).filter((t) => resources.some((r) => r.data.type === t));
+---
+<section class="resource-section">
+  <div class="section-head"><h2>Resources</h2><p>{resources.length} sources</p></div>
+  {resources.length === 0 ? (
+    <p class="empty">No resources yet.</p>
+  ) : (
+    <>
+      <div class="tabs" role="group" aria-label="Filter resources by type">
+        <button type="button" data-rtype="all" aria-pressed="true">All</button>
+        {types.map((t) => <button type="button" data-rtype={t} aria-pressed="false">{RESOURCE_TYPES[t]}</button>)}
+      </div>
+      <div class="res-list">
+        {resources.map((r) => <ResourceRow resource={r} />)}
+      </div>
+    </>
+  )}
+</section>
+
+<script>
+  for (const section of document.querySelectorAll<HTMLElement>('.resource-section')) {
+    const buttons = section.querySelectorAll<HTMLButtonElement>('[data-rtype]');
+    const rows = section.querySelectorAll<HTMLElement>('.res');
+    buttons.forEach((b) =>
+      b.addEventListener('click', () => {
+        buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        rows.forEach((row) => (row.hidden = b.dataset.rtype !== 'all' && row.dataset.type !== b.dataset.rtype));
+      }),
+    );
+  }
+</script>

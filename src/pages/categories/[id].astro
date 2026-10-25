@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProblemCard from '../../components/ProblemCard.astro';
+import SolutionCard from '../../components/SolutionCard.astro';
+import { byTitle } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const categories = await getCollection('categories');
+  return categories.map((category) => ({ params: { id: category.id }, props: { category } }));
+}
+
+const { category } = Astro.props;
+const has = (e: { data: { categories: { id: string }[] } }) => e.data.categories.some((c) => c.id === category.id);
+const problems = (await getCollection('problems')).filter(has).sort(byTitle);
+const solutions = (await getCollection('solutions')).filter(has).sort(byTitle);
+---
+<Base title={category.data.name}>
+  <div class="stack">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>{category.data.name}</span></nav>
+    <div class="detail-head">
+      <div class="tags"><span class={`tag cat-tag c-${category.id}`}>Category</span></div>
+      <h1>{category.data.name}</h1>
+    </div>
+    <section>
+      <div class="section-head"><h2>Problems</h2><p>{problems.length}</p></div>
+      {problems.length ? <div class="cards">{problems.map((p) => <ProblemCard problem={p} />)}</div> : <p class="empty">None yet.</p>}
+    </section>
+    <section>
+      <div class="section-head"><h2>Solutions</h2><p>{solutions.length}</p></div>
+      {solutions.length ? <div class="cards">{solutions.map((s) => <SolutionCard solution={s} />)}</div> : <p class="empty">None yet.</p>}
+    </section>
+  </div>
+</Base>

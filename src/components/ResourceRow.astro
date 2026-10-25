@@ -1,0 +1,15 @@
+---
+import type { Resource } from '../lib/data';
+
+interface Props { resource: Resource; categories?: string[] }
+const { resource, categories = [] } = Astro.props;
+const { title, type, url, source, year } = resource.data;
+---
+<div class="res" data-type={type} data-cats={categories.join(' ')} data-text={`${title} ${source}`.toLowerCase()}>
+  <span class="type">{type}</span>
+  <div style="min-width:0">
+    <a href={url} target="_blank" rel="noopener">{title}</a>
+    <div class="src">{source}</div>
+  </div>
+  <span class="yr">{year}</span>
+</div>
