@@ -97,4 +97,19 @@ const solutions = defineCollection({
   }),
 });
 
-export const collections = { categories, regions, resources, problems, solutions };
+// Harmful practices at celebrations, for the "Celebrating without harm" guide. Every reason must cite a checked source.
+const practices = defineCollection({
+  loader: file('src/data/practices.json'),
+  schema: z.object({
+    order: z.number().int(),
+    practice: z.string(),
+    harms: z.array(z.enum(['air', 'noise', 'water', 'waste', 'climate', 'animals', 'gender', 'caste', 'health'])).min(1),
+    occasions: z.array(z.string()).min(1),
+    // True for practices that happen every day, not only at celebrations.
+    everyday: z.boolean().default(false),
+    why: z.array(z.object({ text: z.string(), source: z.string(), url: z.string().url() })).min(1),
+    instead: z.array(z.string()).min(1),
+  }),
+});
+
+export const collections = { categories, regions, resources, problems, solutions, practices };

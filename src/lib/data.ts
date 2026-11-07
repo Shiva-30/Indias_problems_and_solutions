@@ -14,6 +14,11 @@ export const RESOURCE_TYPES: Record<string, string> = {
   website: 'Official sites',
 };
 
+export const HARMS: Record<string, string> = {
+  air: 'Air pollution', noise: 'Noise', water: 'Water pollution', waste: 'Waste', climate: 'Climate',
+  animals: 'Animals', gender: 'Gender', caste: 'Caste', health: 'Health',
+};
+
 export const SDG_NAMES: Record<number, string> = {
   1: 'No poverty', 2: 'Zero hunger', 3: 'Good health and well-being', 4: 'Quality education',
   5: 'Gender equality', 6: 'Clean water and sanitation', 7: 'Affordable and clean energy',

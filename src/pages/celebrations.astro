@@ -1,0 +1,117 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import CategoryIcon from '../components/CategoryIcon.astro';
+import { HARMS } from '../lib/data';
+
+// One entry per harmful practice, listing every occasion where it happens, so the same standard applies to all.
+const practices = (await getCollection('practices')).sort((a, b) => a.data.order - b.data.order);
+const occasions = [...new Set(practices.flatMap((p) => p.data.occasions))].sort((a, b) => a.localeCompare(b));
+const questions = [
+  { group: 'Environment', items: ['Does it pollute the air or make loud noise?', 'Does it pollute rivers, lakes or the sea?', 'Does it leave plastic or other waste behind?', 'Does it waste water, electricity, fuel or food?'] },
+  { group: 'Animals', items: ['Are animals killed, hurt or frightened for it?', 'Are animals used for show, rides or contests?', 'Does it harm birds, fish or street animals?'] },
+  { group: 'People', items: ['Does it treat women and girls unequally?', 'Does it shut anyone out because of caste, religion or colour?', 'Is anyone pressured or forced to take part, or to pay?', 'Does it put children, older people or the sick at risk?'] },
+];
+---
+<Base title="Celebrating without harm" description="Harmful practices at festivals and celebrations of every religion and none, why they cause harm, and what to do instead.">
+  <div class="stack">
+    <header class="page-hero c-animals">
+      <div class="detail-head">
+        <span class="tag kind-problem">Guide</span>
+        <h1>Celebrating without harm</h1>
+        <p class="summary">If a practice causes unnecessary harm, we question it, whoever does it, whichever religion it belongs to and whatever the occasion. This guide lists harmful practices one by one, with every festival and celebration where they happen, why they cause harm, and what to do instead.</p>
+        <p class="where">It questions practices, not religions or the people who follow them. Most festivals can be celebrated in many ways, and many people already celebrate without these practices.</p>
+      </div>
+      <div class="hero-art"><CategoryIcon category="animals" size={72} /></div>
+    </header>
+
+    <section class="principle">
+      <h2>No double standards</h2>
+      <ul>
+        <li>Firecrackers pollute the air on Diwali, New Year's Eve, at weddings and after cricket and election wins alike.</li>
+        <li>If killing animals at a festival raises concern, so does killing them for everyday food.</li>
+        <li>Plastic waste harms rivers after a festival just as it does after a birthday, wedding or office party.</li>
+        <li>Discrimination against women or by caste is wrong in every community, including our own.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Practices to question</h2><p id="pCount">{practices.length} practices</p></div>
+      <div class="filters">
+        <label for="fHarm">Harm
+          <select id="fHarm"><option value="">All</option>{Object.entries(HARMS).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+        </label>
+        <label for="fOcc">Occasion
+          <select id="fOcc"><option value="">All</option>{occasions.map((o) => <option value={o}>{o}</option>)}</select>
+        </label>
+      </div>
+      <div class="practices" id="practices">
+        {practices.map((p) => (
+          <article class="practice" id={p.id} data-harms={p.data.harms.join(' ')} data-occ={p.data.occasions.join('|')}>
+            <h3>{p.data.practice}</h3>
+            <div class="tags">{p.data.harms.map((h) => <span class="tag harm">{HARMS[h]}</span>)}</div>
+            <p class="occ"><strong>{p.data.everyday ? 'Where it happens:' : 'Occasions:'}</strong> {p.data.occasions.join(', ')}</p>
+            <div class="why">
+              <h4>Why question it</h4>
+              <ul>{p.data.why.map((w) => <li>{w.text} <a class="src-link" href={w.url} target="_blank" rel="noopener">{w.source}</a></li>)}</ul>
+            </div>
+            <div class="instead">
+              <h4>Do this instead</h4>
+              <ul>{p.data.instead.map((i) => <li>{i}</li>)}</ul>
+            </div>
+          </article>
+        ))}
+      </div>
+      <p class="empty" id="noMatch" hidden>No practices match these filters.</p>
+    </section>
+
+    <section class="checklist">
+      <div class="section-head"><h2>Questions to ask about any celebration</h2><p>Use them for a festival, a wedding or a party</p></div>
+      <div class="q-grid">
+        {questions.map((g) => (
+          <div class="q-card">
+            <h3>{g.group}</h3>
+            <ul>{g.items.map((q) => <li>{q}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="principle">
+      <h2>Share this guide</h2>
+      <p>Keep the joy, food, music and togetherness. Drop only the parts that hurt people, animals or the planet. Compassion should not be seasonal, and equality should not depend on religion.</p>
+      <p><button class="button" id="share" type="button">Copy link to share</button> <span id="shareMsg" aria-live="polite"></span></p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const harm = document.getElementById('fHarm') as HTMLSelectElement;
+  const occ = document.getElementById('fOcc') as HTMLSelectElement;
+  const cards = document.querySelectorAll<HTMLElement>('#practices .practice');
+  const count = document.getElementById('pCount')!;
+  const noMatch = document.getElementById('noMatch')!;
+  function apply() {
+    let shown = 0;
+    cards.forEach((c) => {
+      const ok =
+        (!harm.value || (c.dataset.harms ?? '').split(' ').includes(harm.value)) &&
+        (!occ.value || (c.dataset.occ ?? '').split('|').includes(occ.value));
+      c.hidden = !ok;
+      if (ok) shown++;
+    });
+    count.textContent = `${shown} practice${shown === 1 ? '' : 's'}`;
+    noMatch.hidden = shown > 0;
+  }
+  [harm, occ].forEach((el) => el.addEventListener('input', apply));
+
+  const share = document.getElementById('share')!;
+  const msg = document.getElementById('shareMsg')!;
+  share.addEventListener('click', async () => {
+    const url = location.href.split('#')[0];
+    try {
+      if (navigator.share) await navigator.share({ title: document.title, url });
+      else { await navigator.clipboard.writeText(url); msg.textContent = 'Link copied'; }
+    } catch {}
+  });
+</script>
