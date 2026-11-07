@@ -26,7 +26,7 @@ charts:
     note: "Usual status (principal and subsidiary), rural and urban combined."
     source: "MoSPI, PLFS annual report 2023-24"
     sourceUrl: "https://mospi.gov.in/sites/default/files/press_release/Press_note_AR_PLFS_2023_24_22092024.pdf"
-resources: ["plfs", "flfp_paper", "yt-e-ywovo-6xg"]
+resources: ["plfs", "flfp_paper", "transport-women-work-paper", "yt-e-ywovo-6xg"]
 whatYouCanDo:
   - { step: "Share the housework", how: "At home, split cooking, cleaning and childcare so women have time for paid work." }
   - { step: "Buy from women-led businesses", how: "Choose self-help group products and women-run local shops." }
@@ -36,13 +36,14 @@ whatGovernmentCanDo:
   - { step: "Fund childcare", how: "Open quality creches near workplaces and expand anganwadi hours." }
   - { step: "Make cities safe", how: "Improve street lighting, public toilets and safe transport for women." }
   - { step: "Create jobs near home", how: "Support women's enterprises and jobs in small towns." }
-updated: 2026-10-25
+updated: 2026-11-07
 ---
 
 ## Causes
 
 - Women who do unpaid housework spend 289 minutes a day on it, against 88 minutes for men.[^tus]
 - Women aged 15 to 59 who give care spend about 140 minutes a day on it, against 74 minutes for men.[^tus]
+- Purdah and ghoonghat restrict where women can go, which makes it harder for them to work outside the home.[^purdah]
 
 ## Impact
 
@@ -51,3 +52,4 @@ updated: 2026-10-25
 
 [^tus]: [Time Use Survey: women take on most of household and caregiving work](https://www.businesstoday.in/india/story/time-use-survey-women-take-on-most-of-household-and-caregiving-work-465946-2025-02-25), Business Today, February 2025, reporting MoSPI's Time Use Survey 2024. Minutes are per person taking part in the activity.
 [^mgi]: [India could boost its GDP by $770 billion by treating women better](https://www.weforum.org/stories/2018/07/india-could-boost-its-gdp-by-770-billion-by-just-treating-women-better/), World Economic Forum, July 2018, reporting McKinsey Global Institute.
+[^purdah]: [The Impact of Transportation Infrastructure on Women's Employment in India](https://pmc.ncbi.nlm.nih.gov/articles/PMC6871646/), Feminist Economics, 2019.

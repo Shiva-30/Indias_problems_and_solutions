@@ -9,7 +9,7 @@ categories: ["environment", "animals", "gender", "society"]
 regions: ["in"]
 regionNote: "Many of these practices happen worldwide."
 sdgs: [3, 5, 10, 12, 15]
-resources: ["diwali-lucknow-paper", "dogs-fireworks-paper", "idol-immersion-paper", "holi-colours-paper", "manjha-paper", "woah-slaughter", "menstrual-exclusion-paper", "unicef-child-marriage"]
+resources: ["diwali-lucknow-paper", "dogs-fireworks-paper", "idol-immersion-paper", "holi-colours-paper", "manjha-paper", "woah-slaughter", "menstrual-exclusion-paper", "unicef-child-marriage", "rituals-infection-paper", "who-fgm", "triple-talaq-paper", "who-alcohol", "festive-food-waste-paper"]
 solutions: ["waste-segregation", "gender-equality-classes", "atrocities-act"]
 related: ["air-pollution", "animal-cruelty", "restrictive-social-norms", "waste-management", "caste-and-religious-discrimination"]
 whatYouCanDo:
@@ -31,6 +31,7 @@ updated: 2026-11-07
 
 - Practices pass down unquestioned, and pointing out harm at one festival is often met with "what about the others?" The answer is to question them all equally. See the full list in [Celebrating without harm](/celebrations/).
 - Cheap modern materials replaced older ones: synthetic Holi colours replaced flower colours,[^holi] and synthetic or glass-coated kite string replaced cotton.[^manjha]
+- Feasts at Christmas, Easter and other religious celebrations lead households to buy and cook more food than they need.[^food]
 - Concern for animals is often limited to one occasion, though the same welfare risks apply at slaughter every day.[^woah]
 
 ## Impact
@@ -39,6 +40,8 @@ updated: 2026-11-07
 - After idol immersion, heavy metals in three Nagpur lakes and their fish rose above safe limits.[^idol]
 - Kite string injures and kills people and maims birds during Makar Sankranti, Basant Panchami and Independence Day.[^manjha]
 - At least 1.5 million girls under 18 are married in India each year.[^unicef]
+- More than 230 million girls and women alive today have undergone genital cutting, a practice with no health benefits.[^fgm]
+- Bloody self-flagellation, practised by some Shia Muslims at Muharram and some Christian groups, has been linked to HTLV-1 and hepatitis C infections.[^rituals]
 
 [^holi]: [A study of the levels of some toxic substances present in dry Holi colours in Kolkata](https://pmc.ncbi.nlm.nih.gov/articles/PMC8994014/), Indian Journal of Clinical Biochemistry, 2021.
 [^manjha]: [Deadly threads in the sky: kite string-related injuries and fatalities in northern India](https://pmc.ncbi.nlm.nih.gov/articles/PMC12527049/), Cureus, 2025.
@@ -46,3 +49,6 @@ updated: 2026-11-07
 [^lucknow]: [Chemical characterization of PM10 and PM2.5 combusted firecracker particles during Diwali of Lucknow City](https://pmc.ncbi.nlm.nih.gov/articles/PMC9281250/), Environmental Science and Pollution Research, 2022.
 [^idol]: [Effect of idol immersion on water quality and Tilapia fish in Futala, Gandhisagar and Ambazari lakes of Nagpur](https://pmc.ncbi.nlm.nih.gov/articles/PMC4234744/), SpringerPlus, 2014.
 [^unicef]: [End child marriage](https://www.unicef.org/india/what-we-do/end-child-marriage), UNICEF India.
+[^fgm]: [Female genital mutilation](https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation), World Health Organization, 2025.
+[^rituals]: [A Review of Infectious Diseases Associated with Religious and Nonreligious Rituals](https://pmc.ncbi.nlm.nih.gov/articles/PMC8668350/), Interdisciplinary Perspectives on Infectious Diseases, 2021.
+[^food]: [Opportunities, challenges and trade-offs with decreasing avoidable food waste in the UK](https://pmc.ncbi.nlm.nih.gov/articles/PMC7924102/), Waste Management & Research, 2021.

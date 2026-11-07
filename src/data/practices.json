@@ -148,8 +148,60 @@
     ]
   },
   {
-    "id": "idol-immersion",
+    "id": "food-waste",
     "order": 5,
+    "practice": "Cooking far more food than people can eat",
+    "harms": [
+      "waste"
+    ],
+    "occasions": [
+      "Christmas",
+      "Easter",
+      "Eid feasts",
+      "Festival feasts of every religion"
+    ],
+    "why": [
+      {
+        "text": "Christmas, Easter, other religious celebrations and holidays make households buy and cook more food than they need, which adds to avoidable food waste.",
+        "source": "Waste Management & Research (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7924102/"
+      }
+    ],
+    "instead": [
+      "Plan the menu for the number of guests who confirm.",
+      "Serve smaller portions and let people come back for more.",
+      "Share leftovers with neighbours, workers and food banks the same day."
+    ]
+  },
+  {
+    "id": "heavy-drinking",
+    "order": 6,
+    "practice": "Heavy drinking at celebrations",
+    "harms": [
+      "health"
+    ],
+    "occasions": [
+      "Christmas",
+      "New Year's Eve",
+      "Weddings and baraats",
+      "House and office parties"
+    ],
+    "why": [
+      {
+        "text": "Alcohol caused about 2.6 million deaths worldwide in 2019, including 700,000 from injuries such as road crashes and violence.",
+        "source": "World Health Organization (2024)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol"
+      }
+    ],
+    "instead": [
+      "Host alcohol-free celebrations, or keep good soft drinks for everyone.",
+      "Never pressure a guest to drink.",
+      "Never drive after drinking; plan a sober driver or a cab."
+    ]
+  },
+  {
+    "id": "idol-immersion",
+    "order": 7,
     "practice": "Immersing plaster or painted idols in lakes, rivers and the sea",
     "harms": [
       "water",
@@ -177,7 +229,7 @@
   },
   {
     "id": "synthetic-colours",
-    "order": 6,
+    "order": 8,
     "practice": "Synthetic and chemical colours",
     "harms": [
       "health",
@@ -203,7 +255,7 @@
   },
   {
     "id": "manjha",
-    "order": 7,
+    "order": 9,
     "practice": "Glass-coated and synthetic kite string (manjha)",
     "harms": [
       "animals",
@@ -234,10 +286,11 @@
   },
   {
     "id": "animal-sacrifice",
-    "order": 8,
+    "order": 10,
     "practice": "Killing animals as a religious offering",
     "harms": [
-      "animals"
+      "animals",
+      "health"
     ],
     "occasions": [
       "Eid al-Adha (Bakrid)",
@@ -250,6 +303,11 @@
         "text": "The world animal health body lists the welfare risks animals face around slaughter: rough handling, unfamiliar noise and surroundings, forced movement, crowding, and stunning or bleeding that is not done properly.",
         "source": "World Organisation for Animal Health",
         "url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm"
+      },
+      {
+        "text": "A review of rituals and infection links ritual animal sacrifice to diseases that pass from animals to people, including brucellosis, cutaneous anthrax, orf and bovine tuberculosis.",
+        "source": "Interdisciplinary Perspectives on Infectious Diseases (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8668350/"
       }
     ],
     "instead": [
@@ -260,7 +318,7 @@
   },
   {
     "id": "animal-contests",
-    "order": 9,
+    "order": 11,
     "practice": "Bull taming, races and other animal contests",
     "harms": [
       "animals",
@@ -286,7 +344,7 @@
   },
   {
     "id": "animal-products",
-    "order": 10,
+    "order": 12,
     "practice": "Eating meat, dairy and eggs every day",
     "harms": [
       "animals",
@@ -323,8 +381,37 @@
     ]
   },
   {
+    "id": "self-harm-rituals",
+    "order": 13,
+    "practice": "Whipping or cutting your own body in rituals",
+    "harms": [
+      "health"
+    ],
+    "occasions": [
+      "Muharram processions (some Shia groups)",
+      "Some Christian penance practices"
+    ],
+    "why": [
+      {
+        "text": "Self-flagellation with sharp instruments draws blood. It is practised by some Shia Muslims at Muharram and by some Christian groups, and has been linked to HTLV-1 and hepatitis C infections.",
+        "source": "Interdisciplinary Perspectives on Infectious Diseases (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8668350/"
+      },
+      {
+        "text": "Ten men in the UK caught HTLV-1, a virus that can lead to leukaemia, with self-flagellation the only risk factor found; the virus then passed to partners.",
+        "source": "Emerging Infectious Diseases (2019)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6433044/"
+      }
+    ],
+    "instead": [
+      "Mourn and remember through prayer, recitation and processions without blades.",
+      "Organise a blood donation camp, so the blood given saves lives.",
+      "Never share blades or chains."
+    ]
+  },
+  {
     "id": "child-marriage",
-    "order": 11,
+    "order": 14,
     "practice": "Marrying children",
     "harms": [
       "gender",
@@ -353,7 +440,7 @@
   },
   {
     "id": "dowry",
-    "order": 12,
+    "order": 15,
     "practice": "Dowry and costly wedding demands",
     "harms": [
       "gender",
@@ -380,8 +467,60 @@
     ]
   },
   {
+    "id": "instant-divorce",
+    "order": 16,
+    "practice": "Ending a marriage by saying talaq three times",
+    "harms": [
+      "gender"
+    ],
+    "occasions": [
+      "Marriage and divorce customs"
+    ],
+    "why": [
+      {
+        "text": "With instant triple talaq a husband can end the marriage on his own, with no legal process and no say for the wife, and women, especially poorer women, suffer most.",
+        "source": "Asian Journal of Research in Social Sciences and Humanities (2017)",
+        "url": "https://indianjournals.com/article/ajrssh-7-8-022"
+      }
+    ],
+    "instead": [
+      "Give husband and wife the same rights and process to end a marriage.",
+      "Try counselling and family mediation first.",
+      "Make sure maintenance and custody are settled fairly."
+    ]
+  },
+  {
+    "id": "fgm",
+    "order": 17,
+    "practice": "Cutting girls' genitals (khatna)",
+    "harms": [
+      "gender",
+      "health"
+    ],
+    "occasions": [
+      "Childhood rites in some communities"
+    ],
+    "why": [
+      {
+        "text": "More than 230 million girls and women alive today have undergone genital cutting. It has no health benefits and can cause severe bleeding, infections and problems in childbirth, and it violates girls' human rights.",
+        "source": "World Health Organization (2025)",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation"
+      },
+      {
+        "text": "In South Asia it is known as khatna or sunna. A study in Sri Lanka, which included Dawoodi Bohra and other Muslim communities, found it is mostly done by older women using blades, and sometimes secretly by doctors.",
+        "source": "Reproductive Health (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7916294/"
+      }
+    ],
+    "instead": [
+      "Leave girls' bodies uncut.",
+      "Mark a child's birth or coming of age with a prayer, a meal or a gift.",
+      "Talk to a doctor, and support community members who speak against it."
+    ]
+  },
+  {
     "id": "menstrual-exclusion",
-    "order": 13,
+    "order": 18,
     "practice": "Keeping women out during menstruation",
     "harms": [
       "gender",
@@ -406,8 +545,43 @@
     ]
   },
   {
+    "id": "forced-veiling",
+    "order": 19,
+    "practice": "Forcing women to cover up or stay out of sight (purdah, ghoonghat, burqa)",
+    "harms": [
+      "gender"
+    ],
+    "occasions": [
+      "Everyday household rules in many communities",
+      "Family and religious gatherings"
+    ],
+    "everyday": true,
+    "why": [
+      {
+        "text": "Purdah or ghoonghat cuts across religions in India: a burqa or headscarf is most common among Muslims, and covering the face with a sari or dupatta among Hindus and others. Both bring similar restrictions, and the practice marks women's lack of power.",
+        "source": "Sociology of Development (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10448906/"
+      },
+      {
+        "text": "Purdah and ghoonghat restrict where women can go and make it harder for them to work outside the home.",
+        "source": "Feminist Economics (2019)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6871646/"
+      },
+      {
+        "text": "In north Karnataka, families placed new rules on girls' dress and movement after puberty, and fear over their 'purity' made some girls leave school.",
+        "source": "PLOS ONE (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124724/"
+      }
+    ],
+    "instead": [
+      "Let every woman and girl choose what she wears, with no pressure either way.",
+      "Judge a woman by what she does, not by what she wears or where she goes.",
+      "Keep girls in school after puberty, and make the way to school safe."
+    ]
+  },
+  {
     "id": "caste-exclusion",
-    "order": 14,
+    "order": 20,
     "practice": "Shutting people out because of caste",
     "harms": [
       "caste"
@@ -416,7 +590,8 @@
       "Village festivals and processions",
       "Places of worship",
       "Weddings and baraats",
-      "Community meals"
+      "Community meals",
+      "Communities of every religion"
     ],
     "why": [
       {
@@ -428,6 +603,11 @@
         "text": "64% of Indians said it is very important to stop women in their community marrying into another caste.",
         "source": "Pew Research Center (2021)",
         "url": "https://www.pewresearch.org/short-reads/2021/06/29/key-findings-about-religion-in-india/"
+      },
+      {
+        "text": "Caste discrimination in India crosses religious lines. Dalit Christians and Dalit Muslims face severe social disadvantage and are left out of Scheduled Caste benefits.",
+        "source": "Dialogues in Health (2024)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11344008/"
       }
     ],
     "instead": [
