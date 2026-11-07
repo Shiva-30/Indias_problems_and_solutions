@@ -1,0 +1,439 @@
+[
+  {
+    "id": "firecrackers",
+    "order": 1,
+    "practice": "Bursting firecrackers",
+    "harms": [
+      "air",
+      "noise",
+      "animals",
+      "health"
+    ],
+    "occasions": [
+      "Diwali",
+      "New Year's Eve",
+      "Christmas",
+      "Weddings and baraats",
+      "Cricket and sports wins",
+      "Election wins",
+      "Lunar New Year"
+    ],
+    "why": [
+      {
+        "text": "In Lucknow on Diwali night 2020, fine particles (PM2.5) reached 352 µg/m³, about 3.5 times the level on the night before, and carried metals such as lead, cadmium and arsenic.",
+        "source": "Environmental Science and Pollution Research (2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9281250/"
+      },
+      {
+        "text": "A study of Delhi's air from 2013 to 2017 found that Diwali firecrackers cause a small but statistically significant rise in PM2.5, on top of winter smog from other sources.",
+        "source": "PLoS ONE (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6089419/"
+      },
+      {
+        "text": "Videos of pet dogs on New Year's Eve showed clear fear during fireworks: ears pulled back, pacing and panting.",
+        "source": "Scientific Reports (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7525486/"
+      },
+      {
+        "text": "In a survey of 13,700 dogs, sensitivity to noise such as fireworks was the most common anxiety, affecting 32%.",
+        "source": "Scientific Reports (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7058607/"
+      }
+    ],
+    "instead": [
+      "Light lamps and candles, and decorate with flowers and rangoli.",
+      "Go to one shared, short community display instead of many private ones, or skip fireworks entirely.",
+      "Celebrate a win with music at a safe volume, food and a gathering.",
+      "Keep pets indoors and calm, and check on older neighbours and people with asthma."
+    ]
+  },
+  {
+    "id": "loud-music",
+    "order": 2,
+    "practice": "Very loud music, DJs and loudspeakers",
+    "harms": [
+      "noise",
+      "health",
+      "animals"
+    ],
+    "occasions": [
+      "Weddings and baraats",
+      "Religious processions of every faith",
+      "Festival pandals and gatherings",
+      "Political rallies",
+      "New Year's Eve",
+      "House and office parties"
+    ],
+    "why": [
+      {
+        "text": "The WHO lists exposure to loud sounds among the preventable causes of hearing loss, and says over 1 billion young adults risk permanent, avoidable hearing loss from unsafe listening.",
+        "source": "World Health Organization",
+        "url": "https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"
+      },
+      {
+        "text": "Sensitivity to noise is the most common anxiety in pet dogs, affecting about a third of them.",
+        "source": "Scientific Reports (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7058607/"
+      }
+    ],
+    "instead": [
+      "Keep the volume at a level where people can still talk.",
+      "Point speakers away from homes, hospitals and schools, and stop at night.",
+      "Choose live, acoustic music for processions."
+    ]
+  },
+  {
+    "id": "balloons",
+    "order": 3,
+    "practice": "Balloons and balloon releases",
+    "harms": [
+      "waste",
+      "animals"
+    ],
+    "occasions": [
+      "Birthdays",
+      "Weddings and baraats",
+      "Baby showers and naming ceremonies",
+      "New Year's Eve",
+      "Shop and office openings",
+      "Political rallies"
+    ],
+    "why": [
+      {
+        "text": "In a study of 1,733 dead seabirds, balloons were the deadliest debris they swallowed: 32 times more likely to kill than hard plastic.",
+        "source": "Scientific Reports (2019)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6397299/"
+      }
+    ],
+    "instead": [
+      "Decorate with paper, cloth, flowers or lights you can reuse.",
+      "Never release balloons into the sky.",
+      "Blow bubbles or plant a tree to mark the day."
+    ]
+  },
+  {
+    "id": "plastic-disposables",
+    "order": 4,
+    "practice": "Single-use plastic plates, decorations and packaging",
+    "harms": [
+      "waste",
+      "water",
+      "animals"
+    ],
+    "occasions": [
+      "Festivals of every religion",
+      "Weddings and baraats",
+      "Birthdays",
+      "Christmas",
+      "Community meals and processions",
+      "House and office parties",
+      "Gift-giving seasons"
+    ],
+    "why": [
+      {
+        "text": "India generated over 34 lakh tonnes of plastic waste in 2019-20.",
+        "source": "Deccan Herald, citing government data",
+        "url": "https://www.deccanherald.com/national/over-34-lakh-tonnes-of-plastic-waste-generated-in-fy-2019-20-1010477.html"
+      },
+      {
+        "text": "World plastic production has more than doubled in two decades, and plastic pollution depends mostly on how waste is handled.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/plastic-pollution"
+      }
+    ],
+    "instead": [
+      "Use steel plates, leaf plates or washable crockery, and ask guests to bring a bottle.",
+      "Reuse decorations every year.",
+      "Give gifts without plastic wrapping, or give an experience instead of a thing."
+    ]
+  },
+  {
+    "id": "idol-immersion",
+    "order": 5,
+    "practice": "Immersing plaster or painted idols in lakes, rivers and the sea",
+    "harms": [
+      "water",
+      "animals"
+    ],
+    "occasions": [
+      "Ganesh Chaturthi",
+      "Durga Puja",
+      "Saraswati Puja",
+      "Vishwakarma Puja",
+      "Other festivals that end with immersion"
+    ],
+    "why": [
+      {
+        "text": "After idol immersion in three Nagpur lakes, lead, cadmium, copper, iron and manganese in the water and in tilapia fish rose above safe limits, making the fish unsafe to eat.",
+        "source": "SpringerPlus (2014)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234744/"
+      }
+    ],
+    "instead": [
+      "Choose an unpainted idol of natural clay, or one coloured with natural dyes.",
+      "Immerse it in a bucket or a city's artificial tank, and use the clay in a garden.",
+      "Keep a metal or stone idol and worship it every year."
+    ]
+  },
+  {
+    "id": "synthetic-colours",
+    "order": 6,
+    "practice": "Synthetic and chemical colours",
+    "harms": [
+      "health",
+      "water"
+    ],
+    "occasions": [
+      "Holi",
+      "Rang Panchami",
+      "Colour runs and parties"
+    ],
+    "why": [
+      {
+        "text": "Holi powders bought in Kolkata had about twice the lead allowed in cosmetics, and endotoxin levels about 35 times the safe reference. Such powders are often sold as herbal, with no checks on what they contain.",
+        "source": "Indian Journal of Clinical Biochemistry (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8994014/"
+      }
+    ],
+    "instead": [
+      "Use colours made from flowers, turmeric, beetroot or spinach.",
+      "Play a dry Holi to save water.",
+      "Only put colour on people who say yes, and never on animals."
+    ]
+  },
+  {
+    "id": "manjha",
+    "order": 7,
+    "practice": "Glass-coated and synthetic kite string (manjha)",
+    "harms": [
+      "animals",
+      "health"
+    ],
+    "occasions": [
+      "Makar Sankranti and Uttarayan",
+      "Basant Panchami",
+      "Independence Day kite flying"
+    ],
+    "why": [
+      {
+        "text": "Doctors in northern India recorded 26 kite-string injuries in two years, some of them fatal cuts to the neck and face. They note that birds, especially raptors and pigeons, are often caught and maimed or killed.",
+        "source": "Cureus (2025)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12527049/"
+      },
+      {
+        "text": "The same study notes that a 2017 National Green Tribunal order told every state to ban synthetic and glass-coated manjha.",
+        "source": "Cureus (2025)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12527049/"
+      }
+    ],
+    "instead": [
+      "Fly kites only with plain cotton thread.",
+      "Avoid flying early in the morning and at dusk, when birds are most active.",
+      "Collect broken string from trees and roofs, and call a bird rescue group for injured birds."
+    ]
+  },
+  {
+    "id": "animal-sacrifice",
+    "order": 8,
+    "practice": "Killing animals as a religious offering",
+    "harms": [
+      "animals"
+    ],
+    "occasions": [
+      "Eid al-Adha (Bakrid)",
+      "Some Durga Puja and Kali Puja observances",
+      "Some temple and village deity festivals",
+      "Some family and community rituals"
+    ],
+    "why": [
+      {
+        "text": "The world animal health body lists the welfare risks animals face around slaughter: rough handling, unfamiliar noise and surroundings, forced movement, crowding, and stunning or bleeding that is not done properly.",
+        "source": "World Organisation for Animal Health",
+        "url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm"
+      }
+    ],
+    "instead": [
+      "Give the value of the animal to people in need, in money or food.",
+      "Share a plant-based feast with family, neighbours and the poor.",
+      "Make a symbolic offering, such as a coconut, fruit or sweets."
+    ]
+  },
+  {
+    "id": "animal-contests",
+    "order": 9,
+    "practice": "Bull taming, races and other animal contests",
+    "harms": [
+      "animals",
+      "health"
+    ],
+    "occasions": [
+      "Jallikattu at Pongal",
+      "Bullock-cart races",
+      "Kambala buffalo races",
+      "Other festival animal contests"
+    ],
+    "why": [
+      {
+        "text": "At one Madurai hospital, 42 people came in with bull injuries in under two years; 59% were hurt while taking part in sporting events such as Jallikattu, most of them with penetrating wounds.",
+        "source": "Western Journal of Emergency Medicine (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7673870/"
+      }
+    ],
+    "instead": [
+      "Honour cattle by caring for them: feeding, rest and vet care.",
+      "Hold contests between people, such as races and games, not with animals."
+    ]
+  },
+  {
+    "id": "animal-products",
+    "order": 10,
+    "practice": "Eating meat, dairy and eggs every day",
+    "harms": [
+      "animals",
+      "climate"
+    ],
+    "everyday": true,
+    "occasions": [
+      "Daily meals",
+      "Restaurants and takeaway",
+      "Weddings and baraats",
+      "Festival feasts of every religion"
+    ],
+    "why": [
+      {
+        "text": "Livestock supply chains produce 14.5% of all human-caused greenhouse gases.",
+        "source": "Food and Agriculture Organization (UN)",
+        "url": "https://www.fao.org/newsroom/detail/Major-cuts-of-greenhouse-gas-emissions-from-livestock-within-reach/en"
+      },
+      {
+        "text": "Nearly all beef and lamb has a higher carbon footprint than plant-based alternatives, even from the lowest-impact farms.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/faqs-environmental-impacts-food"
+      },
+      {
+        "text": "The welfare risks animals face at slaughter are the same whether the meat is for a festival or an ordinary day.",
+        "source": "World Organisation for Animal Health",
+        "url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm"
+      }
+    ],
+    "instead": [
+      "Make more meals plant-based: dal, beans, vegetables, grains and nuts.",
+      "Try plant milks and dairy-free sweets.",
+      "Choose a vegetarian or vegan menu for weddings and parties."
+    ]
+  },
+  {
+    "id": "child-marriage",
+    "order": 11,
+    "practice": "Marrying children",
+    "harms": [
+      "gender",
+      "health"
+    ],
+    "occasions": [
+      "Weddings and baraats",
+      "Mass weddings on auspicious days"
+    ],
+    "why": [
+      {
+        "text": "At least 1.5 million girls under 18 are married in India each year. A child bride is more likely to face domestic violence and to die from complications of pregnancy and childbirth.",
+        "source": "UNICEF India",
+        "url": "https://www.unicef.org/india/what-we-do/end-child-marriage"
+      },
+      {
+        "text": "23% of women aged 20 to 24 were married before 18 in 2019-21.",
+        "source": "NFHS-5, via Drishti IAS",
+        "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/women-related-data-nfhs-5/print_manually"
+      }
+    ],
+    "instead": [
+      "Keep girls in school, and wait until both people are adults and choose to marry.",
+      "Report a child marriage to Childline on 1098."
+    ]
+  },
+  {
+    "id": "dowry",
+    "order": 12,
+    "practice": "Dowry and costly wedding demands",
+    "harms": [
+      "gender",
+      "health"
+    ],
+    "occasions": [
+      "Weddings and baraats"
+    ],
+    "why": [
+      {
+        "text": "Dowry was banned in 1961 but is still widely paid: a survey of 5,206 married adolescent girls in Uttar Pradesh and Bihar found it still prevalent.",
+        "source": "PLoS ONE (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8519446/"
+      },
+      {
+        "text": "In a national study of 23,785 women, districts where dowry became more common saw women's health get worse.",
+        "source": "Journal of Biosocial Science (2020)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10865775/"
+      }
+    ],
+    "instead": [
+      "Refuse to give or take dowry, and say so openly.",
+      "Have a simple wedding, with costs shared equally by both families."
+    ]
+  },
+  {
+    "id": "menstrual-exclusion",
+    "order": 13,
+    "practice": "Keeping women out during menstruation",
+    "harms": [
+      "gender",
+      "health"
+    ],
+    "occasions": [
+      "Temple and other places of worship",
+      "Festival rituals and cooking",
+      "Everyday household rules in many communities"
+    ],
+    "why": [
+      {
+        "text": "A study of women of different religions in Jammu and Kashmir found menstruation is still treated as unclean, and that isolating women and limiting them at home harms their emotional and physical wellbeing.",
+        "source": "Journal of Exclusion Studies (2024)",
+        "url": "https://indianjournals.com/article/jes-14-1-002"
+      }
+    ],
+    "instead": [
+      "Treat periods as a normal part of health.",
+      "Let women decide for themselves whether to take part in rituals and cooking.",
+      "Talk about periods openly with boys and girls."
+    ]
+  },
+  {
+    "id": "caste-exclusion",
+    "order": 14,
+    "practice": "Shutting people out because of caste",
+    "harms": [
+      "caste"
+    ],
+    "occasions": [
+      "Village festivals and processions",
+      "Places of worship",
+      "Weddings and baraats",
+      "Community meals"
+    ],
+    "why": [
+      {
+        "text": "30% of rural and 20% of urban households said they practise untouchability in some form.",
+        "source": "India Human Development Survey, via NCAER",
+        "url": "https://www.ncaer.org/news/just-5-of-indian-marriages-are-inter-caste-survey"
+      },
+      {
+        "text": "64% of Indians said it is very important to stop women in their community marrying into another caste.",
+        "source": "Pew Research Center (2021)",
+        "url": "https://www.pewresearch.org/short-reads/2021/06/29/key-findings-about-religion-in-india/"
+      }
+    ],
+    "instead": [
+      "Invite everyone and sit together at every meal and event.",
+      "Support couples who marry across caste and religion.",
+      "Speak up and report caste discrimination; it is a crime."
+    ]
+  }
+]

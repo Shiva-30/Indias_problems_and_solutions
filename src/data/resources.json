@@ -1210,5 +1210,68 @@
     "type": "video",
     "url": "https://www.youtube.com/watch?v=nYWgFE5X4yM",
     "source": "Down To Earth on YouTube"
+  },
+  {
+    "id": "diwali-lucknow-paper",
+    "title": "Chemical characterization of PM10 and PM2.5 firecracker particles during Diwali in Lucknow",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9281250/",
+    "source": "Environmental Science and Pollution Research",
+    "year": 2022
+  },
+  {
+    "id": "dogs-fireworks-paper",
+    "title": "Fear expressions of dogs during New Year fireworks: a video analysis",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7525486/",
+    "source": "Scientific Reports",
+    "year": 2020
+  },
+  {
+    "id": "idol-immersion-paper",
+    "title": "Effect of idol immersion on water quality and tilapia fish in three Nagpur lakes",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4234744/",
+    "source": "SpringerPlus",
+    "year": 2014
+  },
+  {
+    "id": "holi-colours-paper",
+    "title": "Levels of toxic substances in dry Holi colours in Kolkata",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8994014/",
+    "source": "Indian Journal of Clinical Biochemistry",
+    "year": 2021
+  },
+  {
+    "id": "manjha-paper",
+    "title": "Deadly threads in the sky: kite string injuries and deaths in northern India",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12527049/",
+    "source": "Cureus",
+    "year": 2025
+  },
+  {
+    "id": "woah-slaughter",
+    "title": "Terrestrial Animal Health Code: welfare of animals during slaughter",
+    "type": "report",
+    "url": "https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_aw_slaughter.htm",
+    "source": "World Organisation for Animal Health",
+    "year": 2024
+  },
+  {
+    "id": "menstrual-exclusion-paper",
+    "title": "Exploring social exclusion of women in religious contexts due to menstruation",
+    "type": "paper",
+    "url": "https://indianjournals.com/article/jes-14-1-002",
+    "source": "Journal of Exclusion Studies",
+    "year": 2024
+  },
+  {
+    "id": "unicef-child-marriage",
+    "title": "End child marriage",
+    "type": "website",
+    "url": "https://www.unicef.org/india/what-we-do/end-child-marriage",
+    "source": "UNICEF India"
   }
 ]

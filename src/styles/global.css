@@ -220,3 +220,21 @@ footer .wrap { padding-block: 20px; }
 .photo img { display: block; width: 100%; max-height: 420px; object-fit: cover; border-radius: 16px; background: var(--tint); }
 .photo figcaption { margin-top: 8px; font-size: .85rem; color: var(--muted); }
 .photo figcaption .cite { margin-top: 0; }
+
+/* Celebrating without harm guide */
+.principle { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 18px 20px; display: grid; gap: 10px; max-width: 760px; }
+.principle ul { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.practices { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 14px; }
+.practice { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; align-content: start; min-width: 0; scroll-margin-top: 16px; }
+.practice:target { border-color: var(--accent); }
+.practice h4 { font-family: var(--mono); font-size: .74rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 4px; }
+.practice ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: .92rem; }
+.practice .occ { font-size: .9rem; }
+.tag.harm { color: var(--problem); border-color: var(--problem-soft); background: var(--problem-soft); }
+.src-link { font-size: .8rem; color: var(--muted); overflow-wrap: anywhere; }
+.src-link::before { content: "Source: "; }
+.q-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.q-card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 8px; align-content: start; }
+.q-card ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: .92rem; }
+.page-hero .tag { justify-self: start; }
+#fOcc, #fHarm { max-width: 62vw; }
