@@ -545,8 +545,43 @@
     ]
   },
   {
-    "id": "caste-exclusion",
+    "id": "forced-veiling",
     "order": 19,
+    "practice": "Forcing women to cover up or stay out of sight (purdah, ghoonghat, burqa)",
+    "harms": [
+      "gender"
+    ],
+    "occasions": [
+      "Everyday household rules in many communities",
+      "Family and religious gatherings"
+    ],
+    "everyday": true,
+    "why": [
+      {
+        "text": "Purdah or ghoonghat cuts across religions in India: a burqa or headscarf is most common among Muslims, and covering the face with a sari or dupatta among Hindus and others. Both bring similar restrictions, and the practice marks women's lack of power.",
+        "source": "Sociology of Development (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10448906/"
+      },
+      {
+        "text": "Purdah and ghoonghat restrict where women can go and make it harder for them to work outside the home.",
+        "source": "Feminist Economics (2019)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6871646/"
+      },
+      {
+        "text": "In north Karnataka, families placed new rules on girls' dress and movement after puberty, and fear over their 'purity' made some girls leave school.",
+        "source": "PLOS ONE (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6124724/"
+      }
+    ],
+    "instead": [
+      "Let every woman and girl choose what she wears, with no pressure either way.",
+      "Judge a woman by what she does, not by what she wears or where she goes.",
+      "Keep girls in school after puberty, and make the way to school safe."
+    ]
+  },
+  {
+    "id": "caste-exclusion",
+    "order": 20,
     "practice": "Shutting people out because of caste",
     "harms": [
       "caste"
