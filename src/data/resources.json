@@ -1273,5 +1273,61 @@
     "type": "website",
     "url": "https://www.unicef.org/india/what-we-do/end-child-marriage",
     "source": "UNICEF India"
+  },
+  {
+    "id": "rituals-infection-paper",
+    "title": "A Review of Infectious Diseases Associated with Religious and Nonreligious Rituals",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8668350/",
+    "source": "Interdisciplinary Perspectives on Infectious Diseases",
+    "year": 2021
+  },
+  {
+    "id": "self-flagellation-htlv-paper",
+    "title": "Self-Flagellation as Possible Route of Human T-Cell Lymphotropic Virus Type-1 Transmission",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6433044/",
+    "source": "Emerging Infectious Diseases",
+    "year": 2019
+  },
+  {
+    "id": "who-fgm",
+    "title": "Female genital mutilation fact sheet",
+    "type": "report",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation",
+    "source": "World Health Organization",
+    "year": 2025
+  },
+  {
+    "id": "fgm-srilanka-paper",
+    "title": "Insights into preventing female genital mutilation/cutting in Sri Lanka: a qualitative interpretative study",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7916294/",
+    "source": "Reproductive Health",
+    "year": 2021
+  },
+  {
+    "id": "triple-talaq-paper",
+    "title": "Triple Talaq: A Distress to Muslim Women in India",
+    "type": "paper",
+    "url": "https://indianjournals.com/article/ajrssh-7-8-022",
+    "source": "Asian Journal of Research in Social Sciences and Humanities",
+    "year": 2017
+  },
+  {
+    "id": "who-alcohol",
+    "title": "Alcohol fact sheet",
+    "type": "report",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/alcohol",
+    "source": "World Health Organization",
+    "year": 2024
+  },
+  {
+    "id": "festive-food-waste-paper",
+    "title": "Opportunities, challenges and trade-offs with decreasing avoidable food waste in the UK",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7924102/",
+    "source": "Waste Management & Research",
+    "year": 2021
   }
 ]
