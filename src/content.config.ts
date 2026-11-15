@@ -112,4 +112,25 @@ const practices = defineCollection({
   }),
 });
 
-export const collections = { categories, regions, resources, problems, solutions, practices };
+// Everyday habits of needless consumption, for the "Living with less" guide. Every figure must cite a checked source.
+const habits = defineCollection({
+  loader: file('src/data/habits.json'),
+  schema: z.object({
+    order: z.number().int(),
+    area: z.enum(['clothing', 'electronics', 'food', 'electricity', 'transport', 'water', 'beauty', 'accessories', 'shopping']),
+    habit: z.string(),
+    // What is fine, and what goes beyond need, so the guide questions excess and not basic use.
+    fine: z.string(),
+    excess: z.string(),
+    impacts: z.array(z.enum(['climate', 'water', 'land', 'minerals', 'pollution', 'waste', 'air', 'health'])).min(1),
+    figures: z.array(z.object({ value: z.string(), label: z.string(), source: z.string(), url: z.string().url() })).default([]),
+    why: z.array(z.object({ text: z.string(), source: z.string(), url: z.string().url() })).min(1),
+    instead: z.array(z.string()).min(1),
+    // A rough worked estimate of what one change saves, built only from the sourced figures above.
+    estimate: z
+      .object({ change: z.string(), person: z.string(), household: z.string(), society: z.string(), method: z.string() })
+      .optional(),
+  }),
+});
+
+export const collections = { categories, regions, resources, problems, solutions, practices, habits };

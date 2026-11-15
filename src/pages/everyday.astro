@@ -1,0 +1,139 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import CategoryIcon from '../components/CategoryIcon.astro';
+import { AREAS, IMPACTS } from '../lib/data';
+
+// One card per everyday habit of needless consumption. It questions the excess, not basic needs.
+const habits = (await getCollection('habits')).sort((a, b) => a.data.order - b.data.order);
+const areas = Object.keys(AREAS).filter((a) => habits.some((h) => h.data.area === a));
+const questions = [
+  'Do I need it, or do I just want something new?',
+  'Do I already have something that does the job?',
+  'Can I repair, borrow, rent or buy it second-hand?',
+  'How long will I use it, and what happens to it after?',
+  'Is there a lower-impact way, such as walking, a fan or a home-cooked meal?',
+];
+---
+<Base title="Living with less" description="Everyday habits of needless consumption, what they cost the planet across their whole life cycle, and what to do instead.">
+  <div class="stack">
+    <header class="page-hero c-consumption">
+      <div class="detail-head">
+        <span class="tag kind-problem">Guide</span>
+        <h1>Living with less</h1>
+        <p class="summary">Much of what we buy and use has become normal, even when we could live comfortably with less. This guide lists everyday habits of needless consumption, what they cost the planet from start to finish, and what to do instead.</p>
+        <p class="where">It questions the extra, not basic needs. One working phone is fine; a new phone every two years while the old one works is the question.</p>
+      </div>
+      <div class="hero-art"><CategoryIcon category="consumption" size={72} /></div>
+    </header>
+
+    <section class="principle">
+      <h2>Count the whole life cycle</h2>
+      <ul>
+        <li>For a mobile phone, mining materials and manufacturing cause about 74% of its lifetime CO₂, far more than charging it. <a class="src-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13070977/" target="_blank" rel="noopener">Journal of Industrial Ecology (2017)</a></li>
+        <li>For most foods, land use and farming cause more than 80% of the footprint, and transport less than 10%. <a class="src-link" href="https://ourworldindata.org/food-choice-vs-eating-local" target="_blank" rel="noopener">Our World in Data</a></li>
+        <li>So the biggest saving often comes from not buying or making something we don't need.</li>
+        <li>Where a card shows what one change saves, it is a rough estimate worked out only from the sourced figures on that card, using global or UK averages unless it says India. Open "How we worked it out" to check the sum.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>Habits to question</h2><p id="hCount">{habits.length} habits</p></div>
+      <div class="filters">
+        <label for="fArea">Area
+          <select id="fArea"><option value="">All</option>{areas.map((a) => <option value={a}>{AREAS[a]}</option>)}</select>
+        </label>
+        <label for="fImpact">Impact
+          <select id="fImpact"><option value="">All</option>{Object.entries(IMPACTS).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+        </label>
+      </div>
+      <div class="practices" id="habits">
+        {habits.map((h) => (
+          <article class="practice" id={h.id} data-area={h.data.area} data-impacts={h.data.impacts.join(' ')}>
+            <p class="area">{AREAS[h.data.area]}</p>
+            <h3>{h.data.habit}</h3>
+            <div class="tags">{h.data.impacts.map((i) => <span class="tag harm">{IMPACTS[i]}</span>)}</div>
+            <dl class="need">
+              <dt>Fine</dt><dd>{h.data.fine}</dd>
+              <dt>Question</dt><dd>{h.data.excess}</dd>
+            </dl>
+            {h.data.figures.length > 0 && (
+              <ul class="figures">
+                {h.data.figures.map((f) => (
+                  <li><strong>{f.value}</strong> <span>{f.label}</span> <a class="src-link" href={f.url} target="_blank" rel="noopener">{f.source}</a></li>
+                ))}
+              </ul>
+            )}
+            <div class="why">
+              <h4>What it costs</h4>
+              <ul>{h.data.why.map((w) => <li>{w.text} <a class="src-link" href={w.url} target="_blank" rel="noopener">{w.source}</a></li>)}</ul>
+            </div>
+            <div class="instead">
+              <h4>Do this instead</h4>
+              <ul>{h.data.instead.map((i) => <li>{i}</li>)}</ul>
+            </div>
+            {h.data.estimate && (
+              <div class="estimate">
+                <h4>What one change saves</h4>
+                <p class="change">{h.data.estimate.change}</p>
+                <dl>
+                  <dt>You</dt><dd>{h.data.estimate.person}</dd>
+                  <dt>Your home</dt><dd>{h.data.estimate.household}</dd>
+                  <dt>Society</dt><dd>{h.data.estimate.society}</dd>
+                </dl>
+                <details><summary>How we worked it out</summary><p>{h.data.estimate.method}</p></details>
+              </div>
+            )}
+          </article>
+        ))}
+      </div>
+      <p class="empty" id="noMatch" hidden>No habits match these filters.</p>
+    </section>
+
+    <section class="checklist">
+      <div class="section-head"><h2>Questions to ask before you buy or use</h2><p>Five seconds that save resources</p></div>
+      <div class="q-grid">
+        <div class="q-card">
+          <ul>{questions.map((q) => <li>{q}</li>)}</ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="principle">
+      <h2>Share this guide</h2>
+      <p>Living with less is not about going without what you need. It is about noticing what we use out of habit, advertising or status, and choosing better. Read more in <a href="/problems/overconsumption/">Excessive consumption</a>.</p>
+      <p><button class="button" id="share" type="button">Copy link to share</button> <span id="shareMsg" aria-live="polite"></span></p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const area = document.getElementById('fArea') as HTMLSelectElement;
+  const impact = document.getElementById('fImpact') as HTMLSelectElement;
+  const cards = document.querySelectorAll<HTMLElement>('#habits .practice');
+  const count = document.getElementById('hCount')!;
+  const noMatch = document.getElementById('noMatch')!;
+  function apply() {
+    let shown = 0;
+    cards.forEach((c) => {
+      const ok =
+        (!area.value || c.dataset.area === area.value) &&
+        (!impact.value || (c.dataset.impacts ?? '').split(' ').includes(impact.value));
+      c.hidden = !ok;
+      if (ok) shown++;
+    });
+    count.textContent = `${shown} habit${shown === 1 ? '' : 's'}`;
+    noMatch.hidden = shown > 0;
+  }
+  [area, impact].forEach((el) => el.addEventListener('input', apply));
+
+  const share = document.getElementById('share')!;
+  const msg = document.getElementById('shareMsg')!;
+  share.addEventListener('click', async () => {
+    const url = location.href.split('#')[0];
+    try {
+      if (navigator.share) await navigator.share({ title: document.title, url });
+      else { await navigator.clipboard.writeText(url); msg.textContent = 'Link copied'; }
+    } catch {}
+  });
+</script>

@@ -238,3 +238,21 @@ footer .wrap { padding-block: 20px; }
 .q-card ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; font-size: .92rem; }
 .page-hero .tag { justify-self: start; }
 #fOcc, #fHarm { max-width: 62vw; }
+
+/* Living with less guide */
+.practice .area { font-family: var(--mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--c, var(--muted)); margin: 0; }
+.practice .need { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; margin: 0; font-size: .9rem; }
+.practice .need dt { font-weight: 700; }
+.practice .need dd { margin: 0; }
+.practice .figures { list-style: none; padding: 0; display: grid; gap: 8px; }
+.practice .figures li { background: var(--accent-soft); border-radius: 8px; padding: 8px 10px; }
+.practice .figures strong { font-family: var(--display); font-size: 1.25rem; display: block; color: var(--accent); }
+.practice .figures .src-link { display: block; font-size: .8rem; }
+.practice .estimate { border-top: 1px dashed var(--line); padding-top: 10px; display: grid; gap: 6px; }
+.practice .estimate .change { margin: 0; font-weight: 700; }
+.practice .estimate dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; margin: 0; font-size: .9rem; }
+.practice .estimate dt { color: var(--muted); }
+.practice .estimate dd { margin: 0; }
+.practice .estimate details { font-size: .85rem; color: var(--muted); }
+.practice .estimate summary { cursor: pointer; }
+.practice .estimate details p { margin: 6px 0 0; }

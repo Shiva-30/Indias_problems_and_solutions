@@ -19,6 +19,14 @@ export const HARMS: Record<string, string> = {
   animals: 'Animals', gender: 'Gender', caste: 'Caste', health: 'Health',
 };
 
+export const AREAS: Record<string, string> = {
+  clothing: 'Clothing', electronics: 'Electronics', food: 'Food', electricity: 'Electricity', transport: 'Transport', water: 'Water', beauty: 'Beauty and grooming', accessories: 'Jewellery and accessories', shopping: 'Shopping and packaging',
+};
+
+export const IMPACTS: Record<string, string> = {
+  climate: 'Climate', water: 'Water', land: 'Land', minerals: 'Minerals', pollution: 'Pollution', waste: 'Waste', air: 'Air pollution', health: 'Health',
+};
+
 export const SDG_NAMES: Record<number, string> = {
   1: 'No poverty', 2: 'Zero hunger', 3: 'Good health and well-being', 4: 'Quality education',
   5: 'Gender equality', 6: 'Clean water and sanitation', 7: 'Affordable and clean energy',
