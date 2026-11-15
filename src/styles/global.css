@@ -256,3 +256,11 @@ footer .wrap { padding-block: 20px; }
 .practice .estimate details { font-size: .85rem; color: var(--muted); }
 .practice .estimate summary { cursor: pointer; }
 .practice .estimate details p { margin: 6px 0 0; }
+
+/* Hindi pages and the language switch */
+:root:lang(hi) { --body: "Noto Sans Devanagari", "Atkinson Hyperlegible", system-ui, sans-serif; --display: "Noto Sans Devanagari", "Bricolage Grotesque", system-ui, sans-serif; }
+:lang(hi) body { line-height: 1.7; }
+.lang-switch { margin-left: auto; font-size: .9rem; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 999px; padding: 4px 12px; text-decoration: none; }
+.lang-switch:hover { background: var(--accent-soft); }
+.lang-note { font-size: .88rem; color: var(--muted); }
+html[lang="hi"] .src-link::before { content: "स्रोत: "; }

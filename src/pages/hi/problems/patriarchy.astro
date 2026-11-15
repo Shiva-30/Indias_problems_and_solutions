@@ -1,0 +1,92 @@
+---
+import Base from '../../../layouts/Base.astro';
+import CategoryIcon from '../../../components/CategoryIcon.astro';
+import { T } from '../../../i18n/ui';
+
+// Hindi version of /problems/patriarchy/. Keep it in step with src/content/problems/patriarchy.md.
+const sources = [
+  { title: 'Spatial non-stationarity in son preference: a district-level geographically weighted regression analysis of NFHS-5 in India', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13536809/', note: 'International Journal of Health Geographics, 2026, NFHS-5 की 1,02,045 महिलाओं के आँकड़ों पर।' },
+  { title: "The Gender System and Class Mobility: How Wealth and Community Veiling Shape Women's Autonomy in India", url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10448906/', note: 'Sociology of Development, 2021, India Human Development Survey के आँकड़ों पर।' },
+  { title: "The Impact of Transportation Infrastructure on Women's Employment in India", url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6871646/', note: 'Feminist Economics, 2019।' },
+  { title: 'Education, poverty and "purity" in the context of adolescent girls\' secondary school retention and dropout', url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC6124724/', note: 'PLOS ONE, 2018, बागलकोट और विजयपुरा की 36 लड़कियों का अध्ययन।' },
+  { title: 'Exploring social exclusion of women in religious contexts due to menstruation', url: 'https://indianjournals.com/article/jes-14-1-002', note: 'Journal of Exclusion Studies, 2024।' },
+  { title: 'Triple Talaq: A Distress to Muslim Women in India', url: 'https://indianjournals.com/article/ajrssh-7-8-022', note: 'Asian Journal of Research in Social Sciences and Humanities, 2017।' },
+  { title: 'Female genital mutilation', url: 'https://www.who.int/news-room/fact-sheets/detail/female-genital-mutilation', note: 'World Health Organization, 2025।' },
+];
+// Each point cites sources by number (1-based) from the list above.
+const causes: [string, number[]][] = [
+  ['बेटों से उम्मीद की जाती है कि वे परिवार का नाम आगे बढ़ाएँ, बुढ़ापे में माता-पिता का सहारा बनें, ज़मीन के वारिस बनें और, ख़ासकर हिंदुओं में, अंतिम संस्कार करें, जबकि दहेज के कारण बेटियाँ बोझ जैसी लगती हैं।', [1]],
+  ['परिवार की इज़्ज़त महिलाओं के व्यवहार से जोड़ी जाती है, इसलिए परिवार महिलाओं के आने-जाने पर रोक लगाते हैं। जिन गाँवों में कम महिलाएँ पर्दा करती हैं, वहाँ अमीर होते परिवार अक्सर ऊँची हैसियत दिखाने के लिए महिलाओं पर और रोक लगाते हैं।', [2]],
+  ['महिलाओं को अलग रखना (पर्दा या घूँघट) हर धर्म में है। मुसलमानों में बुर्का या सिर ढकना सबसे आम है, और हिंदुओं और दूसरों में साड़ी या दुपट्टे से चेहरा ढकना। दोनों में एक जैसी पाबंदियाँ होती हैं।', [2]],
+];
+const impact: [string, number[]][] = [
+  ['विवाहित महिलाओं में बेटे की चाह ज़िलों के हिसाब से 8.2% से 42.3% तक है, और उत्तर और मध्य भारत में सबसे ज़्यादा है।', [1]],
+  ['पर्दा और घूँघट महिलाओं के आने-जाने को सीमित करते हैं, जिससे उनके लिए घर से बाहर काम करना मुश्किल होता है।', [3]],
+  ['उत्तर कर्नाटक में किशोरावस्था के बाद लड़कियों की "पवित्रता" के डर से परिवारों ने उनके आने-जाने पर रोक लगाई, और कुछ लड़कियों ने स्कूल छोड़ दिया।', [4]],
+  ['जम्मू-कश्मीर में अलग-अलग धर्मों की महिलाओं को माहवारी के दौरान अब भी अलग रखा जाता है, जिससे उनके मानसिक और शारीरिक स्वास्थ्य को नुक़सान होता है।', [5]],
+  ['दूसरे रिवाज भी महिलाओं से असमान व्यवहार करते हैं: दहेज, तुरंत तीन तलाक़ और लड़कियों के जननांग काटना (ख़तना)। इनके और दूसरी प्रथाओं के बारे में स्रोतों के साथ यह गाइड देखें: ', [6, 7]],
+];
+const you = [
+  ['एक ही पैमाना रखें', 'महिलाओं के लिए अनुचित नियमों पर पहले अपने धर्म और संस्कृति में सवाल उठाएँ, फिर दूसरों में।'],
+  ['बेटियों और बेटों को बराबर मानें', 'बेटियों को बेटों जैसी पढ़ाई, आज़ादी, विरासत और देखभाल दें।'],
+  ['महिलाओं को ख़ुद चुनने दें', 'कपड़े, पढ़ाई, काम, यात्रा और शादी के फ़ैसले महिला पर छोड़ें।'],
+  ['घर का काम बाँटें', 'पुरुष और लड़के भी खाना बना सकते हैं, सफ़ाई कर सकते हैं, और बच्चों और बुज़ुर्गों की देखभाल कर सकते हैं।'],
+  ['दहेज से मना करें', 'दहेज न दें, न लें, और शादियों में यह खुलकर कहें।'],
+];
+const government = [
+  ['सबके लिए बराबर क़ानून लागू करें', 'दहेज, बाल विवाह और हिंसा के ख़िलाफ़ क़ानूनों पर कार्रवाई करें, समुदाय कोई भी हो।'],
+  ['लड़कियों को स्कूल में बनाए रखें', 'प्रोत्साहन, सुरक्षित परिवहन और लड़कियों के शौचालय दें, ताकि लड़कियाँ पढ़ाई पूरी करें।'],
+  ['जल्दी बराबरी सिखाएँ', 'प्राथमिक कक्षाओं से ही स्कूल के पाठों में लैंगिक बराबरी शामिल करें।'],
+];
+const title = 'हर धर्म और संस्कृति में पितृसत्ता';
+const summary = 'पुरुषों को महिलाओं से ज़्यादा ताक़त देने वाले रिवाज भारत के हर धर्म और संस्कृति में हैं। वे तय करते हैं कि कौन-सा बच्चा चाहिए, पैसा किसके हाथ में होगा, महिलाएँ कहाँ जा सकती हैं और क्या पहन सकती हैं। समुदायों में बारीकियाँ अलग हैं, लेकिन ढर्रा एक ही है।';
+---
+<Base title={title} description={summary} lang="hi">
+  <div class="stack">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/problems/" lang="en">Problems</a><span>/</span><span>{title}</span></nav>
+    <header class="page-hero c-gender">
+      <div class="detail-head">
+        <span class="tag kind-problem">समस्या</span>
+        <h1>{title}</h1>
+        <p class="summary">{summary}</p>
+        <p class="cite">स्रोत: <a href={sources[1].url} target="_blank" rel="noopener" lang="en">Sociology of Development (2021)</a>, <a href={sources[0].url} target="_blank" rel="noopener" lang="en">International Journal of Health Geographics (2026)</a></p>
+        <p class="where">कहाँ: पूरा भारत · सभी राज्य, उत्तर और मध्य भारत में सबसे ज़्यादा</p>
+        <p class="lang-note">{T.hi.sourcesNote} समाधान, संसाधन और जुड़ी समस्याएँ <a href="/problems/patriarchy/" lang="en">English page</a> पर देखें।</p>
+      </div>
+      <div class="hero-art"><CategoryIcon category="gender" size={72} /></div>
+    </header>
+
+    <section class="prose">
+      <h2>कारण</h2>
+      <ul>{causes.map(([t, s]) => <li>{t}{s.map((n) => <sup><a href={`#src-${n}`}>[{n}]</a></sup>)}</li>)}</ul>
+      <h2>असर</h2>
+      <ul>
+        {impact.map(([t, s], i) => (
+          <li>{t}{i === impact.length - 1 && <a href="/hi/celebrations/">बिना नुक़सान के उत्सव</a>}{s.map((n) => <sup><a href={`#src-${n}`}>[{n}]</a></sup>)}</li>
+        ))}
+      </ul>
+      <section class="footnotes">
+        <h2>स्रोत</h2>
+        <ol>
+          {sources.map((s, i) => (
+            <li id={`src-${i + 1}`}><a href={s.url} target="_blank" rel="noopener" lang="en">{s.title}</a>, <span>{s.note}</span></li>
+          ))}
+        </ol>
+      </section>
+    </section>
+
+    <section class="take-action" id="take-action">
+      <div class="section-head"><h2>क़दम उठाएँ</h2><p>कोई भी अपना सकता है, और सरकार क्या कर सकती है</p></div>
+      <div class="action-grid">
+        <div class="action-card you">
+          <div class="action-card-head"><h3>आप क्या कर सकते हैं</h3></div>
+          <ol class="steps">{you.map(([s, h]) => <li><span><strong>{s}</strong><span class="how">{h}</span></span></li>)}</ol>
+        </div>
+        <div class="action-card gov">
+          <div class="action-card-head"><h3>सरकार क्या कर सकती है</h3></div>
+          <ol class="steps">{government.map(([s, h]) => <li><span><strong>{s}</strong><span class="how">{h}</span></span></li>)}</ol>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>

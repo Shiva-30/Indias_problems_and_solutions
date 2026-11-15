@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CategoryIcon from '../../components/CategoryIcon.astro';
+
+// Hindi home page. It points to the pages that have a Hindi version, and to the English site for everything else.
+const problems = await getCollection('problems');
+const solutions = await getCollection('solutions');
+const resources = await getCollection('resources');
+const pages = [
+  { href: '/hi/celebrations/', cat: 'animals', title: 'बिना नुक़सान के उत्सव', text: 'हर धर्म के त्योहारों और उत्सवों की नुक़सानदेह प्रथाएँ, वे क्यों नुक़सान करती हैं, और उनकी जगह क्या करें।' },
+  { href: '/hi/everyday/', cat: 'consumption', title: 'कम में जीना', text: 'बेवजह की खपत की रोज़ की आदतें, धरती पर उनका असर, और एक बदलाव से कितनी बचत होती है।' },
+  { href: '/hi/problems/patriarchy/', cat: 'gender', title: 'हर धर्म और संस्कृति में पितृसत्ता', text: 'बेटे की चाह, पर्दा, लड़कियों की पढ़ाई और दूसरे रिवाज जो महिलाओं से असमान व्यवहार करते हैं।' },
+];
+---
+<Base title="Problem Atlas" description="भारत की सबसे बड़ी समस्याएँ, उनके पीछे के सबूत, और क्या काम कर रहा है।" lang="hi">
+  <div class="stack">
+    <section class="hero">
+      <div>
+        <h1>भारत की सबसे कठिन समस्याएँ, उनके पीछे के सबूत, और क्या काम कर रहा है।</h1>
+        <p class="lede">हर समस्या शोध, रिपोर्टों और वीडियो से जुड़ी है, देश भर में आज़माए जा रहे समाधानों से, और उन आसान क़दमों से जो आप ख़ुद उठा सकते हैं।</p>
+        <p class="lang-note">ये पन्ने अभी हिंदी में हैं। बाक़ी साइट अंग्रेज़ी में है, और धीरे-धीरे और पन्ने हिंदी में आएँगे। स्रोत अंग्रेज़ी में हैं, क्योंकि मूल अध्ययन और रिपोर्ट अंग्रेज़ी में हैं।</p>
+      </div>
+      <div class="ledger-row" aria-label="साइट में क्या है">
+        <div><b>{problems.length}</b><span>समस्याएँ</span></div>
+        <div><b>{solutions.length}</b><span>समाधान</span></div>
+        <div><b>{resources.length}</b><span>स्रोत</span></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>हिंदी में पढ़ें</h2><p>शेयर करने के लिए सबसे अच्छे पन्ने</p></div>
+      <div class="cards">
+        {pages.map((p) => (
+          <article class={`card c-${p.cat}`}>
+            <div class="card-top"><span class="tag kind-problem">गाइड</span><span class="icon-chip"><CategoryIcon category={p.cat} /></span></div>
+            <h3><a href={p.href}>{p.title}</a></h3>
+            <p>{p.text}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="principle">
+      <h2>अंग्रेज़ी में पूरी साइट</h2>
+      <p>सभी {problems.length} समस्याएँ और {solutions.length} समाधान अभी अंग्रेज़ी में हैं। अपने ब्राउज़र के अनुवाद विकल्प से भी आप उन्हें हिंदी में पढ़ सकते हैं।</p>
+      <p><a class="button" href="/problems/" lang="en">All problems (English)</a> <a class="button" href="/solutions/" lang="en">All solutions (English)</a></p>
+    </section>
+  </div>
+</Base>
