@@ -1,0 +1,185 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import CategoryIcon from './CategoryIcon.astro';
+import { HARMS } from '../lib/data';
+import { HARMS_HI, T, type Lang } from '../i18n/ui';
+import practicesHi from '../i18n/hi/practices.json';
+
+// One entry per harmful practice, listing every occasion where it happens, so the same standard applies to all.
+interface Props { lang?: Lang }
+const { lang = 'en' } = Astro.props;
+const hi = lang === 'hi';
+const tr = practicesHi as Record<string, { practice: string; occasions: string[]; why: string[]; instead: string[] }>;
+
+const practices = (await getCollection('practices'))
+  .sort((a, b) => a.data.order - b.data.order)
+  .map((p) => {
+    const h = hi ? tr[p.id] : undefined;
+    return {
+      id: p.id,
+      harms: p.data.harms,
+      everyday: p.data.everyday,
+      practice: h?.practice ?? p.data.practice,
+      occasions: h?.occasions ?? p.data.occasions,
+      why: p.data.why.map((w, i) => ({ ...w, text: h?.why[i] ?? w.text })),
+      instead: h?.instead ?? p.data.instead,
+    };
+  });
+const harmLabels = hi ? HARMS_HI : HARMS;
+const occasions = [...new Set(practices.flatMap((p) => p.occasions))].sort((a, b) => a.localeCompare(b, lang));
+const t = T[lang];
+
+const text = {
+  en: {
+    title: 'Celebrating without harm',
+    description: 'Harmful practices at festivals and celebrations of every religion and none, why they cause harm, and what to do instead.',
+    summary: 'If a practice causes unnecessary harm, we question it, whoever does it, whichever religion it belongs to and whatever the occasion. This guide lists harmful practices one by one, with every festival and celebration where they happen, why they cause harm, and what to do instead.',
+    where: 'It questions practices, not religions or the people who follow them. Most festivals can be celebrated in many ways, and many people already celebrate without these practices.',
+    principleTitle: 'No double standards',
+    principles: [
+      "Firecrackers pollute the air on Diwali, New Year's Eve, at weddings and after cricket and election wins alike.",
+      'If killing animals at a festival raises concern, so does killing them for everyday food.',
+      'Plastic waste harms rivers after a festival just as it does after a birthday, wedding or office party.',
+      'Discrimination against women or by caste is wrong in every community, including our own.',
+    ],
+    listTitle: 'Practices to question',
+    count: (n: number) => `${n} practice${n === 1 ? '' : 's'}`,
+    harm: 'Harm', occasion: 'Occasion', occasions: 'Occasions:', whereHappens: 'Where it happens:',
+    why: 'Why question it', instead: 'Do this instead', noMatch: 'No practices match these filters.',
+    qTitle: 'Questions to ask about any celebration', qSub: 'Use them for a festival, a wedding or a party',
+    questions: [
+      { group: 'Environment', items: ['Does it pollute the air or make loud noise?', 'Does it pollute rivers, lakes or the sea?', 'Does it leave plastic or other waste behind?', 'Does it waste water, electricity, fuel or food?'] },
+      { group: 'Animals', items: ['Are animals killed, hurt or frightened for it?', 'Are animals used for show, rides or contests?', 'Does it harm birds, fish or street animals?'] },
+      { group: 'People', items: ['Does it treat women and girls unequally?', 'Does it shut anyone out because of caste, religion or colour?', 'Is anyone pressured or forced to take part, or to pay?', 'Does it put children, older people or the sick at risk?'] },
+    ],
+    shareTitle: 'Share this guide',
+    shareText: 'Keep the joy, food, music and togetherness. Drop only the parts that hurt people, animals or the planet. Compassion should not be seasonal, and equality should not depend on religion.',
+  },
+  hi: {
+    title: 'बिना नुक़सान के उत्सव',
+    description: 'हर धर्म और बिना धर्म के त्योहारों और उत्सवों की नुक़सानदेह प्रथाएँ, वे नुक़सान क्यों करती हैं, और उनकी जगह क्या करें।',
+    summary: 'अगर कोई प्रथा बेवजह नुक़सान करती है, तो हम उस पर सवाल उठाते हैं, चाहे उसे कोई भी करे, वह किसी भी धर्म की हो और मौक़ा कोई भी हो। यह गाइड नुक़सानदेह प्रथाओं को एक-एक करके बताती है: वे किन त्योहारों और उत्सवों में होती हैं, क्यों नुक़सान करती हैं, और उनकी जगह क्या करें।',
+    where: 'यह प्रथाओं पर सवाल उठाती है, धर्मों या उन्हें मानने वालों पर नहीं। ज़्यादातर त्योहार कई तरह से मनाए जा सकते हैं, और बहुत से लोग पहले से ही इन प्रथाओं के बिना मनाते हैं।',
+    principleTitle: 'दोहरे मापदंड नहीं',
+    principles: [
+      'पटाखे दिवाली, नए साल की रात, शादियों और क्रिकेट या चुनाव की जीत के बाद, सब पर एक जैसी हवा प्रदूषित करते हैं।',
+      'अगर त्योहार पर जानवरों को मारना चिंता की बात है, तो रोज़ के खाने के लिए उन्हें मारना भी है।',
+      'प्लास्टिक कचरा त्योहार के बाद नदियों को उतना ही नुक़सान करता है जितना जन्मदिन, शादी या दफ़्तर की पार्टी के बाद।',
+      'महिलाओं के साथ या जाति के आधार पर भेदभाव हर समुदाय में ग़लत है, हमारे अपने समुदाय में भी।',
+    ],
+    listTitle: 'सवाल उठाने लायक़ प्रथाएँ',
+    count: (n: number) => `${n} प्रथाएँ`,
+    harm: 'नुक़सान', occasion: 'मौक़ा', occasions: 'मौक़े:', whereHappens: 'कहाँ होता है:',
+    why: 'सवाल क्यों उठाएँ', instead: 'इसकी जगह यह करें', noMatch: 'इन फ़िल्टर से कोई प्रथा नहीं मिली।',
+    qTitle: 'किसी भी उत्सव के बारे में पूछने लायक़ सवाल', qSub: 'त्योहार, शादी या पार्टी, सब पर लागू करें',
+    questions: [
+      { group: 'पर्यावरण', items: ['क्या इससे हवा प्रदूषित होती है या तेज़ शोर होता है?', 'क्या इससे नदियाँ, झीलें या समुद्र प्रदूषित होते हैं?', 'क्या इससे प्लास्टिक या दूसरा कचरा पीछे छूटता है?', 'क्या इसमें पानी, बिजली, ईंधन या खाना बर्बाद होता है?'] },
+      { group: 'जानवर', items: ['क्या इसके लिए जानवरों को मारा, घायल किया या डराया जाता है?', 'क्या जानवरों को दिखावे, सवारी या प्रतियोगिता के लिए इस्तेमाल किया जाता है?', 'क्या इससे पक्षियों, मछलियों या सड़क के जानवरों को नुक़सान होता है?'] },
+      { group: 'लोग', items: ['क्या इसमें महिलाओं और लड़कियों से असमान व्यवहार होता है?', 'क्या इसमें जाति, धर्म या रंग के कारण किसी को बाहर रखा जाता है?', 'क्या किसी पर हिस्सा लेने या पैसे देने का दबाव डाला जाता है?', 'क्या इससे बच्चों, बुज़ुर्गों या बीमारों को ख़तरा होता है?'] },
+    ],
+    shareTitle: 'यह गाइड शेयर करें',
+    shareText: 'ख़ुशी, खाना, संगीत और साथ बनाए रखें। सिर्फ़ वे हिस्से छोड़ें जो लोगों, जानवरों या धरती को चोट पहुँचाते हैं। करुणा मौसमी नहीं होनी चाहिए, और बराबरी धर्म पर निर्भर नहीं होनी चाहिए।',
+  },
+}[lang];
+---
+<Base title={text.title} description={text.description} lang={lang}>
+  <div class="stack">
+    <header class="page-hero c-animals">
+      <div class="detail-head">
+        <span class="tag kind-problem">{t.guide}</span>
+        <h1>{text.title}</h1>
+        <p class="summary">{text.summary}</p>
+        <p class="where">{text.where}</p>
+        {t.sourcesNote && <p class="lang-note">{t.sourcesNote}</p>}
+      </div>
+      <div class="hero-art"><CategoryIcon category="animals" size={72} /></div>
+    </header>
+
+    <section class="principle">
+      <h2>{text.principleTitle}</h2>
+      <ul>{text.principles.map((p) => <li>{p}</li>)}</ul>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>{text.listTitle}</h2><p id="pCount">{text.count(practices.length)}</p></div>
+      <div class="filters">
+        <label for="fHarm">{text.harm}
+          <select id="fHarm"><option value="">{t.all}</option>{Object.entries(harmLabels).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+        </label>
+        <label for="fOcc">{text.occasion}
+          <select id="fOcc"><option value="">{t.all}</option>{occasions.map((o) => <option value={o}>{o}</option>)}</select>
+        </label>
+      </div>
+      <div class="practices" id="practices" data-lang={lang}>
+        {practices.map((p) => (
+          <article class="practice" id={p.id} data-harms={p.harms.join(' ')} data-occ={p.occasions.join('|')}>
+            <h3>{p.practice}</h3>
+            <div class="tags">{p.harms.map((h) => <span class="tag harm">{harmLabels[h]}</span>)}</div>
+            <p class="occ"><strong>{p.everyday ? text.whereHappens : text.occasions}</strong> {p.occasions.join(', ')}</p>
+            <div class="why">
+              <h4>{text.why}</h4>
+              <ul>{p.why.map((w) => <li>{w.text} <a class="src-link" href={w.url} target="_blank" rel="noopener" lang="en">{w.source}</a></li>)}</ul>
+            </div>
+            <div class="instead">
+              <h4>{text.instead}</h4>
+              <ul>{p.instead.map((i) => <li>{i}</li>)}</ul>
+            </div>
+          </article>
+        ))}
+      </div>
+      <p class="empty" id="noMatch" hidden>{text.noMatch}</p>
+    </section>
+
+    <section class="checklist">
+      <div class="section-head"><h2>{text.qTitle}</h2><p>{text.qSub}</p></div>
+      <div class="q-grid">
+        {text.questions.map((g) => (
+          <div class="q-card">
+            <h3>{g.group}</h3>
+            <ul>{g.items.map((q) => <li>{q}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="principle">
+      <h2>{text.shareTitle}</h2>
+      <p>{text.shareText}</p>
+      <p><button class="button" id="share" type="button" data-copied={t.copied}>{t.share}</button> <span id="shareMsg" aria-live="polite"></span></p>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const harm = document.getElementById('fHarm') as HTMLSelectElement;
+  const occ = document.getElementById('fOcc') as HTMLSelectElement;
+  const list = document.getElementById('practices')!;
+  const cards = list.querySelectorAll<HTMLElement>('.practice');
+  const count = document.getElementById('pCount')!;
+  const noMatch = document.getElementById('noMatch')!;
+  const hi = list.dataset.lang === 'hi';
+  function apply() {
+    let shown = 0;
+    cards.forEach((c) => {
+      const ok =
+        (!harm.value || (c.dataset.harms ?? '').split(' ').includes(harm.value)) &&
+        (!occ.value || (c.dataset.occ ?? '').split('|').includes(occ.value));
+      c.hidden = !ok;
+      if (ok) shown++;
+    });
+    count.textContent = hi ? `${shown} प्रथाएँ` : `${shown} practice${shown === 1 ? '' : 's'}`;
+    noMatch.hidden = shown > 0;
+  }
+  [harm, occ].forEach((el) => el.addEventListener('input', apply));
+
+  const share = document.getElementById('share')!;
+  const msg = document.getElementById('shareMsg')!;
+  share.addEventListener('click', async () => {
+    const url = location.href.split('#')[0];
+    try {
+      if (navigator.share) await navigator.share({ title: document.title, url });
+      else { await navigator.clipboard.writeText(url); msg.textContent = share.dataset.copied ?? ''; }
+    } catch {}
+  });
+</script>

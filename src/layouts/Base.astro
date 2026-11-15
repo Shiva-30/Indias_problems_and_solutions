@@ -2,30 +2,28 @@
 import { getCollection } from 'astro:content';
 import '../styles/global.css';
 
+import { NAV, HINDI_PAGES, T, type Lang } from '../i18n/ui';
+
 interface Props {
   title: string;
   description?: string;
+  lang?: Lang;
 }
-const { title, description = 'The evidence on India\'s biggest problems, and the solutions being tried.' } = Astro.props;
+const { title, description = 'The evidence on India\'s biggest problems, and the solutions being tried.', lang = 'en' } = Astro.props;
 const path = Astro.url.pathname;
-const nav = [
-  ['/', 'Home'],
-  ['/problems/', 'Problems'],
-  ['/solutions/', 'Solutions'],
-  ['/celebrations/', 'Celebrations'],
-  ['/everyday/', 'Living with less'],
-  ['/resources/', 'Resources'],
-  ['/search/', 'Search'],
-  ['/about/', 'About'],
-];
-const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+const nav = NAV[lang];
+// Link to the same page in the other language, when one exists.
+const hindiToEnglish = Object.fromEntries(Object.entries(HINDI_PAGES).map(([en, hi]) => [hi, en]));
+const altHref = lang === 'en' ? HINDI_PAGES[path] : hindiToEnglish[path];
+const isHome = (href: string) => href === '/' || href === '/hi/';
+const isCurrent = (href: string) => (isHome(href) ? path === href : path.startsWith(href));
 
 // Each category gets a CSS class that sets its colour, e.g. .c-water
 const cats = await getCollection('categories');
 const catCss = cats.map((c) => `.c-${c.id}{--c:${c.data.color}}`).join('');
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -34,23 +32,24 @@ const catCss = cats.map((c) => `.c-${c.id}{--c:${c.data.color}}`).join('');
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@500&family=Noto+Sans+Devanagari:wght@400;700&display=swap" />
     <style set:html={catCss}></style>
   </head>
   <body>
     <header class="top">
       <div class="wrap">
-        <a class="brand" href="/"><span class="dot" aria-hidden="true"></span>Problem Atlas</a>
+        <a class="brand" href={lang === 'hi' ? '/hi/' : '/'}><span class="dot" aria-hidden="true"></span>Problem Atlas</a>
         <nav class="main" aria-label="Main">
           {nav.map(([href, label]) => <a href={href} aria-current={isCurrent(href) ? 'page' : undefined}>{label}</a>)}
         </nav>
+        {altHref && <a class="lang-switch" href={altHref} hreflang={T[lang].switchLang} lang={T[lang].switchLang}>{T[lang].switchTo}</a>}
       </div>
     </header>
     <main class="wrap" data-pagefind-body>
       <slot />
     </main>
     <footer>
-      <div class="wrap">Problem Atlas · Starting with India, built to grow to every country.</div>
+      <div class="wrap">{lang === 'hi' ? 'Problem Atlas · भारत से शुरुआत, हर देश तक पहुँचने के लिए।' : 'Problem Atlas · Starting with India, built to grow to every country.'}</div>
     </footer>
   </body>
 </html>
