@@ -48,7 +48,14 @@
       "Repair, alter or pass on clothes instead of throwing them away.",
       "Swap, borrow or buy second-hand for one-off occasions.",
       "Before buying, ask: will I wear this at least 30 times?"
-    ]
+    ],
+    "estimate": {
+      "change": "Buy 5 fewer T-shirts a year",
+      "person": "About 13,500 litres of water",
+      "household": "About 54,000 litres for a family of four",
+      "society": "About 1.35 billion litres if 1 lakh people do it",
+      "method": "5 T-shirts × 2,700 litres of water each (Fashion and Textiles, 2023). Water used to make clothes, not tap water at home."
+    }
   },
   {
     "id": "phone-upgrades",
@@ -98,7 +105,14 @@
       "Replace the battery or screen at a repair shop instead of buying new.",
       "Buy refurbished, and use a cover and screen guard.",
       "Give old devices to an authorised e-waste recycler, not the dustbin."
-    ]
+    ],
+    "estimate": {
+      "change": "Keep your phone 4 years instead of 2",
+      "person": "2 phones instead of 4 over 8 years",
+      "household": "8 fewer phones over 8 years for a family of four",
+      "society": "25,000 fewer new phones a year among 1 lakh people",
+      "method": "Simple arithmetic on replacement cycles. Because about 74% of a phone's lifetime CO₂ comes from making it, each phone not made avoids most of its footprint."
+    }
   },
   {
     "id": "meat-dairy",
@@ -124,6 +138,12 @@
         "label": "of global greenhouse gas emissions come from food",
         "source": "Our World in Data",
         "url": "https://ourworldindata.org/environmental-impacts-of-food"
+      },
+      {
+        "value": "9.9 kg",
+        "label": "of greenhouse gases per kg of poultry meat, against 1.8 kg for pulses",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/grapher/ghg-per-kg-poore"
       }
     ],
     "why": [
@@ -147,7 +167,14 @@
       "Make dal, beans, chana, rajma and vegetables the centre of most meals.",
       "Try plant-based milk, curd or paneer alternatives some days.",
       "Eat seasonal food, but focus first on what you eat, not how far it came."
-    ]
+    ],
+    "estimate": {
+      "change": "Swap 250 g of chicken a week for dal or other pulses",
+      "person": "About 105 kg CO₂e a year",
+      "household": "About 420 kg CO₂e a year for a family of four",
+      "society": "About 10,500 tonnes CO₂e a year if 1 lakh people do it",
+      "method": "(9.87 − 1.79 kg CO₂e per kg) × 0.25 kg × 52 weeks, using global averages from Poore and Nemecek (2018) via Our World in Data."
+    }
   },
   {
     "id": "food-waste",
@@ -237,6 +264,12 @@
         "label": "of extra CO₂ a year in India by 2050 from more AC, with today's power mix",
         "source": "Scientific Reports (2023)",
         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023814/"
+      },
+      {
+        "value": "670 g",
+        "label": "of CO₂ per kWh of electricity in India in 2025",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/grapher/carbon-intensity-electricity"
       }
     ],
     "why": [
@@ -256,7 +289,14 @@
       "Switch off the AC, lights and fans when you leave the room.",
       "Use curtains, shade and cross-ventilation to keep rooms cool.",
       "When buying, choose a high star-rated model."
-    ]
+    ],
+    "estimate": {
+      "change": "Set the AC warmer and use a fan, in a home that cools a lot",
+      "person": "About 60–72 kg CO₂ a year",
+      "household": "About 240–290 kg CO₂ a year for a family of four",
+      "society": "About 6,000–7,200 tonnes CO₂ a year if 1 lakh people do it",
+      "method": "50–60% of the 178 kWh per person per year that the highest-income homes use for AC (89–107 kWh), × 0.67 kg CO₂ per kWh for India's grid in 2025."
+    }
   },
   {
     "id": "short-car-trips",
@@ -281,6 +321,12 @@
         "label": "less by taking a train instead of a car over medium distances",
         "source": "Our World in Data",
         "url": "https://ourworldindata.org/travel-carbon-footprint"
+      },
+      {
+        "value": "114 g",
+        "label": "of CO₂e per km by motorbike, and 170 g by petrol car (UK factors)",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/grapher/carbon-footprint-travel-mode"
       }
     ],
     "why": [
@@ -299,7 +345,14 @@
       "Walk or cycle for trips under 2–3 km.",
       "Use the bus, metro or train for longer trips.",
       "Share rides with colleagues or neighbours."
-    ]
+    ],
+    "estimate": {
+      "change": "Walk or cycle a 5 km commute instead of riding a motorbike",
+      "person": "About 285 kg CO₂e a year",
+      "household": "About 570 kg CO₂e a year if two people in the home do it",
+      "society": "About 28,500 tonnes CO₂e a year if 1 lakh people do it",
+      "method": "10 km a day × 250 working days × 0.114 kg CO₂e per km for a motorbike (UK factors via Our World in Data). Indian bikes may differ."
+    }
   },
   {
     "id": "short-flights",
@@ -317,6 +370,12 @@
         "label": "less emissions by taking a train instead of a domestic flight",
         "source": "Our World in Data",
         "url": "https://ourworldindata.org/travel-carbon-footprint"
+      },
+      {
+        "value": "246 g",
+        "label": "of CO₂e per passenger-km for a domestic flight, against 35 g by train (UK factors)",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/grapher/carbon-footprint-travel-mode"
       }
     ],
     "why": [
@@ -329,11 +388,131 @@
     "instead": [
       "Take the train for journeys you can do overnight or in a day.",
       "Combine trips, and use video calls for meetings."
+    ],
+    "estimate": {
+      "change": "Take the train for one 1,000 km trip instead of flying",
+      "person": "About 210 kg CO₂e saved per one-way trip",
+      "household": "About 840 kg CO₂e for a family of four",
+      "society": "About 21,000 tonnes CO₂e if 1 lakh people do it once",
+      "method": "1,000 km × (0.246 − 0.035 kg CO₂e per km), UK factors via Our World in Data. Indian trains and planes may differ."
+    }
+  },
+  {
+    "id": "running-water",
+    "order": 9,
+    "area": "water",
+    "habit": "Letting taps run and using more water than we need",
+    "fine": "Enough clean water to drink, cook, bathe and keep the home clean.",
+    "excess": "Taps left running while brushing or washing, long showers, and hosing cars or floors.",
+    "impacts": [
+      "water"
+    ],
+    "figures": [
+      {
+        "value": "80%+",
+        "label": "of India's drinking and household water comes from groundwater",
+        "source": "World Bank (2018)",
+        "url": "https://www.worldbank.org/en/news/press-release/2018/06/05/world-bank-board-approves-usd450-million-improve-groundwater-management-select-states-india"
+      }
+    ],
+    "why": [
+      {
+        "text": "In 2024, 751 of India's groundwater assessment units (11.13%) were over-exploited, drawing more water than is recharged.",
+        "source": "Factly, reporting CGWB (2024)",
+        "url": "https://factly.in/data-marginal-decrease-in-annual-ground-water-recharge-in-2024-with-minimal-increase-in-extraction"
+      },
+      {
+        "text": "Water is unequal: in a Mumbai slum of 12,000 people, the price of water was the factor most strongly linked to households using 20 litres or less per person a day.",
+        "source": "PLoS ONE (2015)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4511227/"
+      }
+    ],
+    "instead": [
+      "Turn off the tap while brushing, shaving or soaping.",
+      "Use a bucket instead of a long shower or a hose.",
+      "Fix leaking taps and toilets quickly.",
+      "Reuse water from washing vegetables or RO waste for plants and mopping."
+    ]
+  },
+  {
+    "id": "beauty-products",
+    "order": 10,
+    "area": "beauty",
+    "habit": "Buying more beauty and grooming products than we use",
+    "fine": "A few products you actually use up, such as soap, toothpaste and sunscreen.",
+    "excess": "Shelves of half-used creams, scrubs, wipes and perfumes bought on impulse or for trends.",
+    "impacts": [
+      "pollution",
+      "waste",
+      "health"
+    ],
+    "figures": [
+      {
+        "value": "90%+",
+        "label": "of personal care products contain micro- or nanoplastics",
+        "source": "Journal of the European Academy of Dermatology and Venereology (2025)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12466091/"
+      }
+    ],
+    "why": [
+      {
+        "text": "Shower gels, face cleansers and toothpaste can contain plastic microbeads, and flushing wipes down toilets also adds microplastics to wastewater.",
+        "source": "Environmental Science and Pollution Research (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10154189/"
+      },
+      {
+        "text": "Micro- and nanoplastics have been found in the womb, absorbed through skin, and in the lungs and gut. Global plastic production is over 450 million tonnes a year and is projected to triple by 2060.",
+        "source": "Journal of the European Academy of Dermatology and Venereology (2025)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12466091/"
+      }
+    ],
+    "instead": [
+      "Finish what you have before buying more.",
+      "Choose simple products, bar soaps and refills with less packaging.",
+      "Avoid scrubs with plastic beads and never flush wipes."
+    ]
+  },
+  {
+    "id": "jewellery-accessories",
+    "order": 11,
+    "area": "accessories",
+    "habit": "Buying new jewellery and accessories for every occasion",
+    "fine": "A few pieces you treasure and wear for years, or pass down.",
+    "excess": "New gold, watches and accessories for each event, mostly kept in a drawer.",
+    "impacts": [
+      "minerals",
+      "pollution",
+      "health"
+    ],
+    "figures": [
+      {
+        "value": "37%",
+        "label": "of global mercury emissions come from small-scale gold mining",
+        "source": "Chemistry: A European Journal (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5969110/"
+      }
+    ],
+    "why": [
+      {
+        "text": "Small-scale gold mining, which produces about 15 to 25% of the world's gold, is the largest source of mercury pollution on Earth. It releases more than 1,000 tonnes of mercury a year.",
+        "source": "Chemistry: A European Journal (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5969110/"
+      },
+      {
+        "text": "10 to 15 million people in 70 countries work in this trade, including children. Mercury exposure can damage the brain, memory and mood.",
+        "source": "Environmental Health Perspectives (2012)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3556620/"
+      }
+    ],
+    "instead": [
+      "Re-wear, remake or exchange old jewellery instead of buying new.",
+      "Borrow or rent accessories for one-off events.",
+      "If you buy gold, choose recycled gold where you can."
     ]
   },
   {
     "id": "online-packaging",
-    "order": 9,
+    "order": 12,
     "area": "shopping",
     "habit": "Ordering small items online, one parcel at a time",
     "fine": "Buying online what you can't easily find nearby.",

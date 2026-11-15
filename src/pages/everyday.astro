@@ -33,6 +33,7 @@ const questions = [
         <li>For a mobile phone, mining materials and manufacturing cause about 74% of its lifetime CO₂, far more than charging it. <a class="src-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13070977/" target="_blank" rel="noopener">Journal of Industrial Ecology (2017)</a></li>
         <li>For most foods, land use and farming cause more than 80% of the footprint, and transport less than 10%. <a class="src-link" href="https://ourworldindata.org/food-choice-vs-eating-local" target="_blank" rel="noopener">Our World in Data</a></li>
         <li>So the biggest saving often comes from not buying or making something we don't need.</li>
+        <li>Where a card shows what one change saves, it is a rough estimate worked out only from the sourced figures on that card, using global or UK averages unless it says India. Open "How we worked it out" to check the sum.</li>
       </ul>
     </section>
 
@@ -71,6 +72,18 @@ const questions = [
               <h4>Do this instead</h4>
               <ul>{h.data.instead.map((i) => <li>{i}</li>)}</ul>
             </div>
+            {h.data.estimate && (
+              <div class="estimate">
+                <h4>What one change saves</h4>
+                <p class="change">{h.data.estimate.change}</p>
+                <dl>
+                  <dt>You</dt><dd>{h.data.estimate.person}</dd>
+                  <dt>Your home</dt><dd>{h.data.estimate.household}</dd>
+                  <dt>Society</dt><dd>{h.data.estimate.society}</dd>
+                </dl>
+                <details><summary>How we worked it out</summary><p>{h.data.estimate.method}</p></details>
+              </div>
+            )}
           </article>
         ))}
       </div>

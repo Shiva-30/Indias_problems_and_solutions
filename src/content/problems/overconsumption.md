@@ -8,7 +8,7 @@ summarySources:
 categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
-resources: ["unep-consumption", "consumption-paper", "fast-fashion-paper", "smartphone-durability-paper", "owid-food-impacts", "owid-travel-footprint", "ac-electricity-paper", "yt-tlfnud0-8ts"]
+resources: ["unep-consumption", "consumption-paper", "fast-fashion-paper", "smartphone-durability-paper", "owid-food-impacts", "owid-travel-footprint", "ac-electricity-paper", "plastics-dermatology-paper", "gold-mercury-paper", "yt-tlfnud0-8ts"]
 related: ["unsustainable-packaging", "irresponsible-business"]
 whatYouCanDo:
   - { step: "Use the full guide", how: "Open Living with less to see what everyday habits cost the planet, with sources, and what to do instead." }

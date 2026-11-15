@@ -20,7 +20,7 @@ export const HARMS: Record<string, string> = {
 };
 
 export const AREAS: Record<string, string> = {
-  clothing: 'Clothing', electronics: 'Electronics', food: 'Food', electricity: 'Electricity', transport: 'Transport', shopping: 'Shopping and packaging',
+  clothing: 'Clothing', electronics: 'Electronics', food: 'Food', electricity: 'Electricity', transport: 'Transport', water: 'Water', beauty: 'Beauty and grooming', accessories: 'Jewellery and accessories', shopping: 'Shopping and packaging',
 };
 
 export const IMPACTS: Record<string, string> = {

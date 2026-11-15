@@ -117,7 +117,7 @@ const habits = defineCollection({
   loader: file('src/data/habits.json'),
   schema: z.object({
     order: z.number().int(),
-    area: z.enum(['clothing', 'electronics', 'food', 'electricity', 'transport', 'shopping']),
+    area: z.enum(['clothing', 'electronics', 'food', 'electricity', 'transport', 'water', 'beauty', 'accessories', 'shopping']),
     habit: z.string(),
     // What is fine, and what goes beyond need, so the guide questions excess and not basic use.
     fine: z.string(),
@@ -126,6 +126,10 @@ const habits = defineCollection({
     figures: z.array(z.object({ value: z.string(), label: z.string(), source: z.string(), url: z.string().url() })).default([]),
     why: z.array(z.object({ text: z.string(), source: z.string(), url: z.string().url() })).min(1),
     instead: z.array(z.string()).min(1),
+    // A rough worked estimate of what one change saves, built only from the sourced figures above.
+    estimate: z
+      .object({ change: z.string(), person: z.string(), household: z.string(), society: z.string(), method: z.string() })
+      .optional(),
   }),
 });
 
