@@ -1361,5 +1361,45 @@
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536809/",
     "source": "International Journal of Health Geographics",
     "year": 2026
+  },
+  {
+    "id": "owid-food-impacts",
+    "title": "Environmental Impacts of Food Production",
+    "type": "dataset",
+    "url": "https://ourworldindata.org/environmental-impacts-of-food",
+    "source": "Our World in Data",
+    "year": 2022
+  },
+  {
+    "id": "owid-travel-footprint",
+    "title": "Which form of transport has the smallest carbon footprint?",
+    "type": "article",
+    "url": "https://ourworldindata.org/travel-carbon-footprint",
+    "source": "Our World in Data",
+    "year": 2023
+  },
+  {
+    "id": "fast-fashion-paper",
+    "title": "The global environmental injustice of fast fashion",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6307129/",
+    "source": "Environmental Health",
+    "year": 2018
+  },
+  {
+    "id": "smartphone-durability-paper",
+    "title": "Durability of smartphones: A technical analysis of reliability and repairability aspects",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871336/",
+    "source": "Journal of Cleaner Production",
+    "year": 2021
+  },
+  {
+    "id": "ac-electricity-paper",
+    "title": "Air-conditioning adoption and electricity demand highlight climate change mitigation–adaptation tradeoffs",
+    "type": "paper",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023814/",
+    "source": "Scientific Reports",
+    "year": 2023
   }
 ]

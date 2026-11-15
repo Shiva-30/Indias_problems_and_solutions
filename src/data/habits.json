@@ -1,0 +1,371 @@
+[
+  {
+    "id": "clothes-rarely-worn",
+    "order": 1,
+    "area": "clothing",
+    "habit": "Buying clothes we rarely wear",
+    "fine": "Enough clothes for the weather, work and a few occasions, worn until they wear out.",
+    "excess": "New outfits for every event or trend, and clothes that sit unworn.",
+    "impacts": [
+      "water",
+      "pollution",
+      "waste",
+      "climate"
+    ],
+    "figures": [
+      {
+        "value": "2,700 L",
+        "label": "of water to make one T-shirt",
+        "source": "Fashion and Textiles (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10208688/"
+      },
+      {
+        "value": "80 billion",
+        "label": "new pieces of clothing bought worldwide each year",
+        "source": "Environmental Health (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6307129/"
+      }
+    ],
+    "why": [
+      {
+        "text": "Clothing production almost doubled in 15 years. Textile dyeing and finishing cause 20% of global water pollution, and washing synthetic clothes puts 0.5 million tonnes of microplastics into the oceans each year.",
+        "source": "Fashion and Textiles (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10208688/"
+      },
+      {
+        "text": "Cotton needs large amounts of water and pesticides, polyester is made from oil, and untreated dye wastewater releases heavy metals near factories.",
+        "source": "Environmental Health (2018)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6307129/"
+      },
+      {
+        "text": "About half (51%) of India's textile waste is clothes and fabric thrown out by Indian consumers.",
+        "source": "Fashion for Good (2022)",
+        "url": "https://fashionforgood.com/our_news/wealth-in-waste-indias-potential-to-lead-circular-textile-sourcing"
+      }
+    ],
+    "instead": [
+      "Wear what you already have, and re-wear outfits at events.",
+      "Repair, alter or pass on clothes instead of throwing them away.",
+      "Swap, borrow or buy second-hand for one-off occasions.",
+      "Before buying, ask: will I wear this at least 30 times?"
+    ]
+  },
+  {
+    "id": "phone-upgrades",
+    "order": 2,
+    "area": "electronics",
+    "habit": "Replacing a working phone every two or three years",
+    "fine": "One phone, used until it can no longer be repaired.",
+    "excess": "Upgrading because a new model is out, while the old one still works.",
+    "impacts": [
+      "minerals",
+      "climate",
+      "waste"
+    ],
+    "figures": [
+      {
+        "value": "74%",
+        "label": "of a phone's lifetime CO₂ comes from mining materials and manufacturing",
+        "source": "Journal of Industrial Ecology (2017)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13070977/"
+      },
+      {
+        "value": "57%",
+        "label": "of India's e-waste in 2023-24 was not processed",
+        "source": "Down To Earth (2024)",
+        "url": "https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years"
+      }
+    ],
+    "why": [
+      {
+        "text": "Because most of a smartphone's footprint comes from making it, using it longer is the best way to reduce that footprint. Most studies assume phones are used for only about 2 years.",
+        "source": "Patterns (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8441580/"
+      },
+      {
+        "text": "Phone replacement cycles have become shorter than two years on average. The most common problem is the battery (42% of reported problems), which can often be replaced.",
+        "source": "Journal of Cleaner Production (2021)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7871336/"
+      },
+      {
+        "text": "India's e-waste grew from 1.01 million tonnes in 2019-20 to 1.751 million tonnes in 2023-24.",
+        "source": "Down To Earth (2024)",
+        "url": "https://www.downtoearth.org.in/amp/story/waste/indias-e-waste-surges-by-73-in-5-years"
+      }
+    ],
+    "instead": [
+      "Keep your phone until it truly stops working.",
+      "Replace the battery or screen at a repair shop instead of buying new.",
+      "Buy refurbished, and use a cover and screen guard.",
+      "Give old devices to an authorised e-waste recycler, not the dustbin."
+    ]
+  },
+  {
+    "id": "meat-dairy",
+    "order": 3,
+    "area": "food",
+    "habit": "Eating meat and dairy every day",
+    "fine": "Enough nutritious food for every meal.",
+    "excess": "High-footprint animal foods at most meals, when plant foods would do.",
+    "impacts": [
+      "climate",
+      "land",
+      "water"
+    ],
+    "figures": [
+      {
+        "value": "60 kg",
+        "label": "of greenhouse gases to produce 1 kg of beef, against 1 kg for peas",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/food-choice-vs-eating-local"
+      },
+      {
+        "value": "26%",
+        "label": "of global greenhouse gas emissions come from food",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/environmental-impacts-of-food"
+      }
+    ],
+    "why": [
+      {
+        "text": "Animal foods tend to have a higher footprint than plant foods: lamb and cheese both emit more than 20 kg of CO₂-equivalent per kg.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/food-choice-vs-eating-local"
+      },
+      {
+        "text": "Half the world's habitable land is used for farming, and agriculture uses 70% of global freshwater withdrawals.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/environmental-impacts-of-food"
+      },
+      {
+        "text": "What you eat matters far more than how far it travelled: transport is under 10% of the footprint for most foods.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/food-choice-vs-eating-local"
+      }
+    ],
+    "instead": [
+      "Make dal, beans, chana, rajma and vegetables the centre of most meals.",
+      "Try plant-based milk, curd or paneer alternatives some days.",
+      "Eat seasonal food, but focus first on what you eat, not how far it came."
+    ]
+  },
+  {
+    "id": "food-waste",
+    "order": 4,
+    "area": "food",
+    "habit": "Cooking or ordering more food than we eat",
+    "fine": "Cooking what the household will eat, with a little to spare.",
+    "excess": "Food that goes off in the fridge or into the bin.",
+    "impacts": [
+      "climate",
+      "land",
+      "water",
+      "waste"
+    ],
+    "figures": [
+      {
+        "value": "6%",
+        "label": "of global greenhouse gas emissions come from food that is lost or wasted",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/food-waste-emissions"
+      }
+    ],
+    "why": [
+      {
+        "text": "Food waste causes about a quarter of the greenhouse gas emissions from food.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/food-waste-emissions"
+      }
+    ],
+    "instead": [
+      "Plan meals and shop with a list.",
+      "Cook smaller amounts, and use leftovers for the next meal.",
+      "Share extra food with neighbours, workers or food banks.",
+      "Compost what can't be eaten."
+    ]
+  },
+  {
+    "id": "food-delivery",
+    "order": 5,
+    "area": "food",
+    "habit": "Ordering food delivery out of habit",
+    "fine": "An occasional order, or when cooking is not possible.",
+    "excess": "Daily orders when food is available at home, each with its own plastic and cutlery.",
+    "impacts": [
+      "waste",
+      "climate",
+      "health"
+    ],
+    "why": [
+      {
+        "text": "Food delivery adds packaging waste and carbon emissions. When one Chinese platform let customers skip cutlery, 1.1 billion orders went without it and saved 58,000 tonnes of CO₂.",
+        "source": "Current Obesity Reports (2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13719793/"
+      },
+      {
+        "text": "Studies in Kochi and Ahmedabad found that frequent delivery use was linked to preferring unhealthy food, larger portions and noticeable changes in body weight among working professionals.",
+        "source": "Current Obesity Reports (2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13719793/"
+      }
+    ],
+    "instead": [
+      "Cook simple meals at home, or carry a tiffin.",
+      "When you do order, tick 'no cutlery' and choose places near you.",
+      "Eat at the restaurant, or pick up in your own container."
+    ]
+  },
+  {
+    "id": "ac-overuse",
+    "order": 6,
+    "area": "electricity",
+    "habit": "Running the AC very cold, or in empty rooms",
+    "fine": "Cooling to stay safe and sleep in extreme heat.",
+    "excess": "Very low temperature settings, and AC running when nobody is in the room.",
+    "impacts": [
+      "climate",
+      "air"
+    ],
+    "figures": [
+      {
+        "value": "50–60%",
+        "label": "less household electricity in India by setting the AC warmer and using fans",
+        "source": "Scientific Reports (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023814/"
+      },
+      {
+        "value": "120 Mt",
+        "label": "of extra CO₂ a year in India by 2050 from more AC, with today's power mix",
+        "source": "Scientific Reports (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023814/"
+      }
+    ],
+    "why": [
+      {
+        "text": "With strong warming, AC use in India could grow fourfold by 2050, adding 168 TWh of electricity demand a year, about 15% of today's use.",
+        "source": "Scientific Reports (2023)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10023814/"
+      },
+      {
+        "text": "Use is very unequal: the richest homes use 178 kWh more electricity per person each year for AC than homes without cooling, and middle-income homes use 56% less than that.",
+        "source": "Environmental Science & Technology (2026)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13738697/"
+      }
+    ],
+    "instead": [
+      "Set the AC to 24–26°C and run a fan with it.",
+      "Switch off the AC, lights and fans when you leave the room.",
+      "Use curtains, shade and cross-ventilation to keep rooms cool.",
+      "When buying, choose a high star-rated model."
+    ]
+  },
+  {
+    "id": "short-car-trips",
+    "order": 7,
+    "area": "transport",
+    "habit": "Driving or riding alone for short trips",
+    "fine": "A vehicle when there is no safe walking, cycling or public transport option.",
+    "excess": "Taking the car or bike for a short trip that is easy to walk or cycle.",
+    "impacts": [
+      "climate",
+      "air"
+    ],
+    "figures": [
+      {
+        "value": "75%",
+        "label": "less travel emissions by cycling instead of driving for short trips",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      },
+      {
+        "value": "80%",
+        "label": "less by taking a train instead of a car over medium distances",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      }
+    ],
+    "why": [
+      {
+        "text": "Over short and medium distances, walking or cycling is nearly always the lowest-carbon way to travel. Cycling emits about 16 to 50 g of CO₂-equivalent per km, depending on how you cycle and what you eat. These are UK figures, but the ranking of modes is likely similar elsewhere.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      },
+      {
+        "text": "If you must drive, sharing the car massively reduces each person's footprint, and also cuts air pollution and traffic.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      }
+    ],
+    "instead": [
+      "Walk or cycle for trips under 2–3 km.",
+      "Use the bus, metro or train for longer trips.",
+      "Share rides with colleagues or neighbours."
+    ]
+  },
+  {
+    "id": "short-flights",
+    "order": 8,
+    "area": "transport",
+    "habit": "Flying when a train will do",
+    "fine": "Flying for long distances or emergencies.",
+    "excess": "Short domestic flights on routes with a good train.",
+    "impacts": [
+      "climate"
+    ],
+    "figures": [
+      {
+        "value": "86%",
+        "label": "less emissions by taking a train instead of a domestic flight",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      }
+    ],
+    "why": [
+      {
+        "text": "Domestic flights emit more CO₂ per passenger-km than long-haul flights, and for domestic travel even driving alone is usually better than flying.",
+        "source": "Our World in Data",
+        "url": "https://ourworldindata.org/travel-carbon-footprint"
+      }
+    ],
+    "instead": [
+      "Take the train for journeys you can do overnight or in a day.",
+      "Combine trips, and use video calls for meetings."
+    ]
+  },
+  {
+    "id": "online-packaging",
+    "order": 9,
+    "area": "shopping",
+    "habit": "Ordering small items online, one parcel at a time",
+    "fine": "Buying online what you can't easily find nearby.",
+    "excess": "Many small orders, each wrapped in layers that go straight into the bin.",
+    "impacts": [
+      "waste",
+      "climate"
+    ],
+    "figures": [
+      {
+        "value": "7",
+        "label": "different packaging materials can be used for a single parcel",
+        "source": "Circular Economy and Sustainability (2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9685062/"
+      }
+    ],
+    "why": [
+      {
+        "text": "In an Indian survey of 285 people, orders per month rose after the pandemic, and most households threw packaging out with household waste instead of reusing or recycling it.",
+        "source": "Circular Economy and Sustainability (2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9685062/"
+      },
+      {
+        "text": "Mixed e-commerce packaging waste produces about 2,706 kg of CO₂-equivalent per tonne.",
+        "source": "Circular Economy and Sustainability (2022)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9685062/"
+      }
+    ],
+    "instead": [
+      "Buy from local shops when you can, and carry your own bag.",
+      "Combine orders into one delivery, and choose minimal packaging where offered.",
+      "Reuse boxes and give clean packaging to waste pickers or recyclers."
+    ]
+  }
+]

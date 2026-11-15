@@ -8,9 +8,10 @@ summarySources:
 categories: ["consumption", "environment"]
 regions: ["in"]
 sdgs: [12]
-resources: ["unep-consumption", "consumption-paper", "yt-tlfnud0-8ts"]
+resources: ["unep-consumption", "consumption-paper", "fast-fashion-paper", "smartphone-durability-paper", "owid-food-impacts", "owid-travel-footprint", "ac-electricity-paper", "yt-tlfnud0-8ts"]
 related: ["unsustainable-packaging", "irresponsible-business"]
 whatYouCanDo:
+  - { step: "Use the full guide", how: "Open Living with less to see what everyday habits cost the planet, with sources, and what to do instead." }
   - { step: "Pause before you buy", how: "Wait 30 days before buying anything you don't need right away." }
   - { step: "Repair and reuse", how: "Fix things before replacing them, and use local repair shops." }
   - { step: "Buy second-hand or borrow", how: "Swap clothes, borrow tools, and buy pre-owned when you can." }
@@ -19,11 +20,12 @@ whatGovernmentCanDo:
   - { step: "Enforce the right to repair", how: "Require spare parts and repair manuals for phones, appliances and vehicles." }
   - { step: "Label durability", how: "Show how long a product will last and how repairable it is." }
   - { step: "Curb misleading ads", how: "Act against advertising that pushes needless buying through false claims." }
-updated: 2026-10-25
+updated: 2026-11-15
 ---
 
 ## Causes
 
+- For everyday habits that go beyond need, what they cost the planet and what to do instead, see [Living with less](/everyday/).
 - More borrowing goes to spending. Loans other than home loans, for personal consumption, vehicles and consumer goods, made up 58.4% of household debt, up from about 50% in 2019-20.[^bt]
 - About half of India's textile waste (51%) is clothes and fabric thrown out by Indian consumers.[^ffg]
 
